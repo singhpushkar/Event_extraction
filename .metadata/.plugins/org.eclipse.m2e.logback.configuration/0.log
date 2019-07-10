@@ -6736,3 +6736,7 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2019-07-10 14:41:50,185 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/pushkar/Desktop/stuffie_new/query_handle/src/main/resources
 2019-07-10 14:41:50,187 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-07-10 14:41:50,187 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/pushkar/Desktop/stuffie_new/query_handle/src/test/resources
+2019-07-10 14:54:59,527 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-10 14:54:59,528 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/pushkar/Desktop/stuffie_new/query_handle/src/main/resources
+2019-07-10 14:54:59,529 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-10 14:54:59,529 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/pushkar/Desktop/stuffie_new/query_handle/src/test/resources

@@ -727,3 +727,15 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-10 14:41:50.187
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-07-10 14:48:42.283
+!MESSAGE No repository found at http://download.eclipse.org/windowbuilder/WB/integration/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2019-07-10 14:48:51.372
+!MESSAGE No repository found at https://www.eclipse.org/windowbuilder/download.php.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-10 14:54:59.528
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-07-10 14:54:59.529
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
