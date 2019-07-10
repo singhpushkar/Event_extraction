@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- 
+<h2>Grouping Form Data with Fieldset</h2>
+<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+ -->
+
+<!-- <form action="/action_page.php"> -->
+  <fieldset>
+    <legend>Search an event:</legend>
+    Location:<br>
+    <input type="text" id="location">
+    <br>
+    Start time:<br>
+    <input type="date" name="start" id="startdate">
+    <br>
+    End time:<br>
+    <input type="date" name="end" id="enddate">
+    <br>
+    Events Keywords:<br>
+    <input type="text" id="event">
+    <h1 id="output"></h1> 
+    <br>
+
+   <button onclick="loadDoc()" > Find Events </button>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+
+        window.onload = function() {
+            
+            var cur = Date.now();
+            // document.getElementById('output').innerHTML = cur;
+            var dt = new Date(cur);                        
+            var dat=dt.getDate();
+            var mn=dt.getMonth();
+            mn++;
+            var yy=dt.getFullYear();
+            var final_mn = "";
+            var final_date = "";
+            if (mn<10) {
+                 final_mn = "0"+mn;  
+            }
+            else{
+                final_mn = mn;
+            }
+
+            if (dat<10) {
+                 final_dat = "0"+dat;  
+            }
+            else{
+                final_dat = dat;
+            }
+            // document.getElementById('output').innerHTML = yy+"-"+final_mn+"-"+final_dat;
+            document.getElementById("startdate").value = yy+"-"+final_mn+"-"+final_dat;
+            document.getElementById("enddate").value = yy+"-"+final_mn+"-"+final_dat;
+
+        }
+
+        function loadDoc() {
+
+            var location = document.getElementById('location').value;
+            var startdate = document.getElementById("startdate").value;            
+            var enddate = document.getElementById("enddate").value;
+            var event = document.getElementById('event').value;
+            //var send_string = "{\
+                //\"startdate\":"+startdate+",\
+                //\"enddate\":"+enddate+",\
+                //\"event\":"+event+",\
+              //  \"location\":"+location+"\
+            //}"
+            // document.getElementById('output').innerHTML = send_string;
+
+            var xhttp = new XMLHttpRequest();
+            
+            xhttp.open("POST", "http://10.194.32.206:8080/query_handle/loginServlet", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send("fname=Henry&lname=Ford");
+            
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                  document.getElementById("output").innerHTML = this.responseText;
+                }
+              };
+          //xhttp.open("POST", "localhost:8080/query_handle/loginServlet", false);
+          // xhttp.open("GET", "http://10.194.32.206:8080/query_handle/loginServlet?info='kay'", false);
+          //xhttp.setRequestHeader( 'Access-Control-Allow-Origin', '*');
+          //xhttp.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+          //xhttp.send(send_string);
+          // console.log("info",xhttp.responseText);
+         /* /* /*  //alert("after",send_string); */ */ */
+          
+        }
+
+    </script>
+
+  </fieldset>
+
+
+<!-- </form> -->
+
+
+</body>
+</html>

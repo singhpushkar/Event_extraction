@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="vis.min.js"></script>
+		<link href="vis.min.css" rel="stylesheet" type="text/css" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+		<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+		<style type="text/css">
+
+			#map {
+				height: 100%;
+			}
+
+			html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			#floating-panel-bottom {
+				position: absolute;
+				bottom: 20px;
+				width: 95%;
+				z-index: 5;
+				background-color: #fff;
+				padding: 5px;
+				border: 1px solid #999;
+				text-align: center;
+				font-family: 'Roboto','sans-serif';
+				line-height: 30px;
+				padding-left: 10px;
+			}
+
+
+			#start{
+				text-align: center;
+			}
+			#end {
+				position: absolute;
+				top: 0%;
+				/*padding-right: 1%;*/
+				/*padding-left: 1%;*/
+				/*bottom: 88%;*/
+				/*bottom: 0rem;*/
+				width: 100%;
+				height: 14%;
+			    background-color: #FFFFFF;
+			    background: #FFFFFF;
+			    }
+
+			/* Always set the map height explicitly to define the size of the div
+			* element that contains the map. */
+			#slider-range{
+			left: 10%;
+			width: 80%;
+			background: #FFFFFF	;				
+			}
+
+			input{
+				padding-left: 5%;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="floating-panel-bottom">
+			<div id="visualization" style="border: 1px solid black"></div>
+		</div>
+
+		<div id="map"></div>
+
+		<script>
+			var temp = document.location.href;
+	        var output_str = decodeURIComponent(temp.split('?')[1].split('=')[1]);           
+           	var events = JSON.parse(output_str);	
+
+           	//stores marker objects [id,marker,infowindow]		
+			var markers = [];
+
+			//array of [id,bool], keeps track of clicks on timeline events, used for toggling infoWindow
+			var clicked = [];
+
+			//global map variable
+			var map;
+
+			//for debugging, use it to find type of variable
+			var toType = function(obj) {
+				return ({}).toString.call(obj).match(/\s([a-zA-Z]+)/)[1].toLowerCase()
+			}
+
+			// var events = [ 	{ location:"Srinagar", 	date:"2019-04-25", 	info:"Event1" },
+			// 				{ location:"Leh", 		date:"2019-05-05", 	info:"Event2" },
+			// 				{ location:
+			// 					var temp = document.location.href;
+	  //       var output_str = decodeURIComponent(temp.split('?')[1].split('=')[1]);
+   //         "Gulmarg", 	date:"2018-06-20", 	info:"Event3" },
+			// 				{ location:"Kargil", 	date:"2019-07-15", 	info:"Event4" },
+			// 				{ location:"Jammu", 	date:"2019-08-10", 	info:"Event5" }
+			// 					];
+				// alert(events[0].location);
+
+			// DOM element where the Timeline will be attached
+			var container = document.getElementById('visualization');
+
+			// Create a DataSet (allows two way data-binding)
+			var items = createItems(events);
+
+			// Configuration for the Timeline
+			var options = {
+				width: '100%',
+				margin: {
+					item: 20
+				}};
+
+			// Create a Timeline
+			var timeline = new vis.Timeline(container, items, options);
+
+			//Event listeners on timeline, toggles infoWindow
+			timeline.on('click', function (properties) {
+				var markerElem = getMarkerByID(markers,properties.item);
+				toggleClicked(true,properties.item,clicked);
+				if (markerElem != null){
+					infowindowElem = markerElem[2];
+					infowindowElem.open(map, markerElem[1]);
+				}
+			});
+			timeline.on('itemover', function (properties) {
+				var markerElem = getMarkerByID(markers,properties.item);
+				if (markerElem != null){
+					infowindowElem = markerElem[2];
+					if(isInfoWindowOpen(infowindowElem)) toggleClicked(true,properties.item,clicked);
+					else toggleClicked(false,properties.item,clicked);
+					infowindowElem.open(map, markerElem[1]);
+				}
+			});
+			timeline.on('itemout', function (properties) {
+				var markerElem = getMarkerByID(markers,properties.item);
+				if (markerElem != null){
+					infowindowElem = markerElem[2];
+					if(!checkClicked(properties.item,clicked)) infowindowElem.close();
+				}
+			});
+			
+			//Map centers in this location		
+			var JnK = {lat: 32.75, lng: 77.0 };
+			//initialize map
+			function initMap() {
+				map = new google.maps.Map(document.getElementById('map'),{
+					zoom:4,
+					center: JnK			
+				});
+
+				var geocoder = new google.maps.Geocoder();
+				for (var i=0 ; i < events.length; i++){
+					var contentStr = infoTempelate(events[i]["location"], events[i]["date"], events[i]["info"]);
+					geocodeAddress(events[i]["id"],contentStr,events[i]["location"],geocoder,map, function(retElem){
+						markers.push(retElem); clicked.push([retElem[0] , false]);
+					});
+				}
+
+				//can cause problem with Async call of geocoder
+				/*for (var i = events.length - 1; i >= 0; i--) {
+							if(events[i]["date"] == "1-1-2017"){
+								var temp_marker = getMarkerByID(events[i]["id"]);
+								alert(temp_marker.length);
+								(temp_marker[1]).setVisible(false);
+							}
+						}*/
+			}
+
+			function geocodeAddress(id,contentStr,address,geocoder,map,callback) {
+				var marker;
+				var infowindow;
+				geocoder.geocode({'address': address}, function(results, status) {
+					if (status === 'OK') {
+						infowindow = new google.maps.InfoWindow({
+							content: contentStr
+						});
+						marker = new google.maps.Marker({
+							map: map,
+							position: results[0].geometry.location
+						});
+						marker.addListener('click', function() {
+							infowindow.open(map, marker);
+						});
+						var retElem = [id, marker, infowindow];
+						callback(retElem);
+					} else {
+						alert('Geocode was not successful for the following reason: ' + status);
+					}
+				});
+
+			}
+
+			function infoTempelate (place,date,info) {
+				return '<div id="content">'+
+				'<div id="info">'+
+				'</div>'+
+				'<h1 id="firstHeading" class="firstHeading">'+ place +'</h1>'+
+				'<div id="bodyContent">'+
+				'<p>'+ date +'</p>'+
+				'<p>'+ info +'</p>'+
+				'</div>'+
+				'</div>';
+			}
+
+
+			function createItems(events) {
+				var elemArr = []
+				for (var i = 0; i < events.length; i++) {
+					var elem = {id: events[i]["id"], content: 'event'+events[i]["id"], start: events[i]["date"]};
+					elemArr.push(elem);
+				}
+				return new vis.DataSet(elemArr);
+			}
+
+			function getMarkerByID(markers,id){
+				for (var i = markers.length - 1; i >= 0; i--) {
+					if(markers[i][0] == id) return markers[i];
+				}
+				return null;
+			}
+
+			//helper function
+			function checkClicked(id,clicked) {
+				for (var i = 0; i < clicked.length; i++) {
+					if (clicked[i][0] == id) return clicked[i][1];
+				}
+			}
+			//helper function
+			function toggleClicked(val,id,clicked) {
+				for (var i = 0; i < clicked.length; i++) {
+					if (clicked[i][0] == id) clicked[i][1] = val;
+				}
+			}
+			//helper function
+			function isInfoWindowOpen(infoWindow){
+			    var map = infoWindow.getMap();
+			    return (map !== null && typeof map !== "undefined");
+			}
+
+			//slider code
+			//slider code
+			function returnDateString(cur){
+			            // document.getElementById('output').innerHTML = cur;
+			            var dt = new Date(cur);                        
+			            var dat=dt.getDate();
+			            var mn=dt.getMonth();
+			            mn++;
+			            var yy=dt.getFullYear();
+			            var final_mn = "";
+			            var final_date = "";
+			           if (mn<10) {
+			                final_mn = "0"+mn;  
+			           }
+			           else{
+			               final_mn = mn;
+			           }
+			           if (dat<10) {
+			                 final_dat = "0"+dat;  
+			            }
+			            else{
+			                final_dat = dat;
+			            }
+			            return yy+"-"+ final_mn +"-"+final_dat;
+			            // return yy+"-"+ months[mn] +"-"+final_dat;
+			}
+
+			function changeMonthToInt(str){
+			    var dt = new Date(str);                        
+			    var dat=dt.getDate();
+			    var mn=dt.getMonth();
+			    mn++;
+			    var yy=dt.getFullYear();
+			    var final_mn = "";
+			    var final_date = "";
+			    if (mn<10) {
+			         final_mn = "0"+mn;  
+			    }
+			    else{
+			        final_mn = mn;
+			    }
+
+			    if (dat<10) {
+			         final_dat = "0"+dat;  
+			    }
+			    else{
+			        final_dat = dat;
+			    }
+			    return yy+"-"+final_mn+"-"+final_dat;
+			}
+
+				function changeDates(markers,items,dt1, dt2){
+						for (var i = events.length - 1; i >= 0; i--) {
+							var d_i = new Date(dt1);
+							var d_f = new Date(dt2);
+							var itr = new Date(events[i]["date"]);
+
+							if( d_i<=itr && itr<=d_f ){
+								var temp_marker = getMarkerByID(markers,events[i]["id"]);
+								//remove from map
+								temp_marker[1].setVisible(true);
+								//remove from timeline
+
+								if( items.get(events[i]["id"]) === null ){
+									// alert("check true");
+									var elem = {id: events[i]["id"], content: 'event'+events[i]["id"], start: events[i]["date"]};
+									items.add( [elem] );
+								}																
+							}
+							else{
+								var temp_marker = getMarkerByID(markers,events[i]["id"]);
+								//remove from map
+								temp_marker[1].setVisible(false);
+								//remove from timeline		
+								if( items.get(events[i]["id"]) === null ){									
+								}								
+								else {
+									items.remove(events[i]["id"]);
+								}						
+								// items.remove(events[i]["id"]);	
+							}
+						}
+				}
+			
+				
+					$(function() {
+				    $( "#slider-range" ).slider({
+				    //need to have dates sorted before sending t
+				      range: true,
+				      min: new Date( events[0]["date"] ).getTime() / 1000,
+				      max: new Date(events[events.length -1]["date"]).getTime() / 1000,
+				      step: 86400,
+				      values: [ new Date( events[0]["date"] ).getTime() / 1000, new Date(events[events.length -1]["date"]).getTime() / 1000],
+				      slide: function( event, ui ) {
+						if( document.getElementById("startdate_picker").value != returnDateString(ui.values[ 0 ] *1000)  ||  document.getElementById("enddate_picker").value != returnDateString(ui.values[ 1 ] *1000)){
+												changeDates(markers,items, returnDateString(ui.values[ 0 ] *1000) ,  returnDateString(ui.values[1] *1000) );
+											}
+						$( "#startdate_picker" ).val( printDateString(ui.values[ 0 ] *1000) );
+				        $( "#enddate_picker" ).val( printDateString(ui.values[ 1 ] *1000) );
+				      }
+				    });
+				     $( "#startdate_picker" ).val(printDateString($( "#slider-range" ).slider( "values", 0 )*1000) );
+				     $( "#enddate_picker" ).val(printDateString($( "#slider-range" ).slider( "values", 1 )*1000) );
+
+				  });
+
+			//testing code to check how adding and removing elements from map and timeline works
+			function disappear(markers,items) {
+				for (var i = events.length - 1; i >= 0; i--) {
+							if(events[i]["date"] == "1-1-2017"){
+								var temp_marker = getMarkerByID(markers,events[i]["id"]);
+								//remove from map
+								temp_marker[1].setVisible(false);
+								//remove from timeline
+								items.remove(events[i]["id"]);
+							}
+				}
+			}
+			function appear(markers,items) {
+				for (var i = events.length - 1; i >= 0; i--) {
+							if(events[i]["date"] == "1-1-2017"){
+								var temp_marker = getMarkerByID(markers,events[i]["id"]);
+								//add to map
+								temp_marker[1].setVisible(true);
+								//add to timeline
+								var elem = {id: events[i]["id"], content: 'event'+events[i]["id"], start: events[i]["date"]};
+								items.add( [elem] );
+							}
+				}
+			}
+
+			function printDateString(cur){
+			          // document.getElementById('output').innerHTML = cur;
+			          var dt = new Date(cur);                        
+			          var dat=dt.getDate();
+			          var mn=dt.getMonth();
+			          // mn++;
+			          var yy=dt.getFullYear();
+			          var final_mn = "";
+			          var final_date = "";
+			          var months = [ "January", "February", "March", "April", "May", "June", 
+			         "July", "August", "September", "October", "November", "December" ];
+			          if (dat<10) {
+			               final_dat = "0"+dat;  
+			          }
+			          else{
+			              final_dat = dat;
+			          }
+			          return yy+"-"+ months[mn] +"-"+final_dat;
+			}
+
+			function submitFunction() {
+				  var location = document.getElementById('location').value;
+				  var startdate = new Date(document.getElementById("startdate_picker").value);            
+				  var enddate = document.getElementById("enddate_picker").value;
+				  var event = document.getElementById('event').value;
+				  var send_string = "{\
+				      \"startdate\":"+changeMonthToInt(startdate)+",\
+				      \"enddate\":"+changeMonthToInt(enddate)+",\
+				      \"event\":"+event+",\
+				      \"location\":"+location+"\
+				  }"
+				  
+				  // document.getElementById('output').innerHTML = send_string;
+
+				// var xhttp = new XMLHttpRequest();          
+				// alert("here");
+
+				// xhttp.open("POST", "http://10.194.32.206:8080/query_handle/loginServlet", false);
+				// // xhttp.open("GET", "http://10.194.32.206:8080/query_handle/loginServlet?info='kay'", false);
+				// xhttp.setRequestHeader( 'Access-Control-Allow-Origin', '*');
+				// xhttp.send(send_string);
+				// console.log("info",xhttp.responseText);
+				// document.getElementById('output').innerHTML = "[{\"date\":\"2-4-1998\",\"location\":\"Chennai\",\"info\":\"haswee.com\" }]";
+				 // global_object = "[{\"date\":\"2-4-1998\",\"location\":\"Chennai\",\"info\":\"haswee.com\" }]";
+				 var global_object = "[{ \"id\":\"1\",\"date\":\"2019-01-01\",\"location\":\"Kupwara\",\"info\":\"google.com\"},{\"id\":\"2\",\"date\":\"2007-12-01\",\"location\":\"Hyderabad\",\"info\":\"fb.com\"},{\"id\":\"3\",\"date\":\"2009-09-11\",\"location\":\"Singapore\",\"info\":\"nus.com\"}]";      
+            	// var  global_object = xhttp.responseText;
+				  
+				  var myArr = JSON.parse(global_object);
+				  myArr.sort(function(a,b){
+				      var c = new Date(a["date"]);
+				      var d = new Date(b["date"]);
+				      return c-d;
+				      });
+				  // document.getElementById('output').innerHTML = JSON.stringify(myArr);
+
+				 // var url = 'Events_Map.html?object='+encodeURIComponent(JSON.stringify(myArr));
+				 var url = 'Events_Map_with_timeline_disappear.html?object='+encodeURIComponent(JSON.stringify(myArr));
+				 document.location.href = url;
+				 
+			}
+
+		</script>
+
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyLUzhyYLHaGzoI_mAi-8xACpFw0Pd62Q&callback=initMap">
+		</script>
+	</body>
+
+
+		<div id ="end">
+			<!-- to check how to remove markers from map and items from timeline-->
+			<!-- <button onclick="disappear(markers,items)">Disappear</button>
+			<button onclick="appear(markers,items)">Appear</button>
+ -->
+			<p id = "start">
+  <input type="text" id="location" placeholder="Enter new location" style="border: 0; color: #f6931f; font-weight: bold;" />
+  <input type="text" id="event" placeholder="Enter new event" style="border: 0; color: #f6931f; font-weight: bold;" />		  
+		  <!-- <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" readonly/> -->
+		  <!-- <input type="text" id="amount" style="border: 0; color: #f6931f; font-weight: bold;" readonly/> -->
+		  <input type="text" id="startdate_picker" style="border: 0; color: #f6931f; font-weight: bold;" readonly/>
+		  <input type="text" id="enddate_picker" style="border: 0; color: #f6931f; font-weight: bold;" readonly/>
+		  <!-- <input type="date" id="startdate_picker"/> -->
+		  <!-- <input type="date" id="enddate_picker"/> -->
+   <button onclick="submitFunction()" > Find Events </button>
+		</p>
+		<div id="slider-range"></div>
+
+		</div>
+
+</html>

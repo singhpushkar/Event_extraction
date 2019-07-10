@@ -1,0 +1,494 @@
+Air Wan,Kathua
+Amargarh,Kathua
+And Rot,Kathua
+Badalha,Kathua
+Badloli,Kathua
+Bagial,Kathua
+Bandrahr,Kathua
+Barmora,Kathua
+Barni,Kathua
+Barthindi,Kathua
+Barwal,Kathua
+Basant Pur,Kathua
+Bauhra,Kathua
+Bhadi Yari,Kathua
+Bhagthali,Kathua
+Bhakhrial,Kathua
+Bharariyal,Kathua
+Bharrah,Kathua
+Bharthiyal,Kathua
+Bhatoli,Kathua
+Bhed Blore,Kathua
+Bhorthain,Kathua
+Bhugat,Kathua
+Bigwan,Kathua
+Bijjat,Kathua
+Brohandahi,Kathua
+Budhi,Kathua
+Chak Aidal,Kathua
+Chak Bhaga,Kathua
+Chak Bhagta,Kathua
+Chak Charuhn,Kathua
+Chak Devia,Kathua
+Chak Drab Khan,Kathua
+Chak Gadadhar,Kathua
+Chak Gokal,Kathua
+Chak Gota,Kathua
+Chak Gusaun,Kathua
+Chak Lachhaman,Kathua
+Chak Luden,Kathua
+Chak Mansabdar,Kathua
+Chak Nanak,Kathua
+Chak Poorab,Kathua
+Chak Ramchand,Kathua
+Chak Rigu,Kathua
+Chak Sajjan,Kathua
+Chak Sardar Desa Singh,Kathua
+Chak Shehzada,Kathua
+Changrah,Kathua
+Chatha,Kathua
+Chhajiyal,Kathua
+Chhatiyal,Kathua
+Dabwal,Kathua
+Dadoli,Kathua
+Dakhnaka,Kathua
+Danna,Kathua
+Daral,Kathua
+Dhanore,Kathua
+Dhar Mori,Kathua
+Dilwan,Kathua
+Domar,Kathua
+Drallan,Kathua
+Dukhat,Kathua
+Fafal,Kathua
+Falote,Kathua
+Forlain,Kathua
+Gandial,Kathua
+Gehtar Wan,Kathua
+Gharti,Kathua
+Gownd,Kathua
+Hatli,Kathua
+Hote,Kathua
+Jagat Pur,Kathua
+Jakhale,Kathua
+Jakhbar,Kathua
+Jamal Pur,Kathua
+Jamraal,Kathua
+Jandore,Kathua
+Jandore,Kathua
+Janglote,Kathua
+Jawala Pur,Kathua
+Jhumber Mahtaba,Kathua
+Jrai,Kathua
+Jugian,Kathua
+Juthana,Kathua
+Kadyar,Kathua
+Kalna,Kathua
+Kalspur,Kathua
+Kangriyal,Kathua
+Kangriyal,Kathua
+Kanora,Kathua
+Karroh,Kathua
+Kasori,Kathua
+Kathera,Kathua
+Katlehr,Kathua
+Keerian,Kathua
+Kehnta,Kathua
+Khani Yara,Kathua
+Kharot,Kathua
+Khukhiyal,Kathua
+Kirpaal,Kathua
+Kothi Jagir,Kathua
+Kumala,Kathua
+Lakhnote,Kathua
+Logate,Kathua
+Maha,Kathua
+Mahi Chak,Kathua
+Majra,Kathua
+Makhsoos Pur,Kathua
+Mangota,Kathua
+Manjli,Kathua
+Maroli,Kathua
+Matandi,Kathua
+Matore,Kathua
+Mehtab Pur,Kathua
+Merth,Kathua
+Mir Pur Jagoo,Kathua
+Mirpur Ram,Kathua
+Muthi Jagir,Kathua
+Muthi Khurd,Kathua
+Muthi Rakh Walan,Kathua
+Nagrota,Kathua
+Nanan,Kathua
+Nangal,Kathua
+Narain Pur,Kathua
+Narolin,Kathua
+Narroha,Kathua
+Nera,Kathua
+Nihal Pura,Kathua
+Nonaal,Kathua
+Palli,Kathua
+Pamwal,Kathua
+Pandori,Kathua
+Pidri Bala,Kathua
+Pidri Pain,Kathua
+Pitho Bala,Kathua
+Pitho Pain,Kathua
+Rajiani,Kathua
+Rakh Hushiari,Kathua
+Rakh Jahfar,Kathua
+Rakh Lachipura,Kathua
+Rakheh,Kathua
+Ramnagar,Kathua
+Rasooh,Kathua
+Rer,Kathua
+Sahaar,Kathua
+Saiper Sipla,Kathua
+Sanghan,Kathua
+Sawla,Kathua
+Sher Pur,Kathua
+Sher Tambar,Kathua
+Sherkotla,Kathua
+Syed Pore,Kathua
+Tarf Bajwal,Kathua
+Tarf Bala,Kathua
+Tarf Pain,Kathua
+Tarf Sanji,Kathua
+Tarf Tajwal,Kathua
+Tarrah,Kathua
+Thandoon,Kathua
+Tridwan,Kathua
+Trihara,Kathua
+Uttri,Kathua
+Aglidhar,Billawar
+Amwala,Billawar
+Badnotta,Billawar
+Baggan,Billawar
+Barotta,Billawar
+Bathari,Billawar
+Beral,Billawar
+Bhaddu,Billawar
+Bhattodi,Billawar
+Bhattwal,Billawar
+Billawar,Billawar
+Chanera,Billawar
+Danbrah,Billawar
+Danjisdhar,Billawar
+Darung,Billawar
+Derli,Billawar
+Dewal,Billawar
+Dhamlar,Billawar
+Dhannu Parol,Billawar
+Dharalta,Billawar
+Dhardugun,Billawar
+Dharmkot,Billawar
+Dheutta,Billawar
+Dodu Falal,Billawar
+Dungara,Billawar
+Galak,Billawar
+Harnotta,Billawar
+Huttar,Billawar
+Kachhir,Billawar
+Kaha,Billawar
+Kahug,Billawar
+Kandharnu,Billawar
+Kilyal,Billawar
+Kindli,Billawar
+Kishan Pur,Billawar
+Komala,Billawar
+Kunu,Billawar
+Lahari,Billawar
+Lakhari,Billawar
+Machhedi,Billawar
+Makwal,Billawar
+Malahar,Billawar
+Malar,Billawar
+Malti,Billawar
+Mandli,Billawar
+Marhoon,Billawar
+Muni,Billawar
+Najot,Billawar
+Palehal,Billawar
+Pallan,Billawar
+Parnala,Billawar
+Rajwalta,Billawar
+Ramkot,Billawar
+Rampur,Billawar
+Sadrota,Billawar
+Salor,Billawar
+Seri,Billawar
+Siyalna,Billawar
+Sukral,Billawar
+Tehr,Billawar
+Thall,Billawar
+Thantha,Billawar
+Thara Kilwal,Billawar
+Tilla,Billawar
+Ucha Pind,Billawar
+Allu Chak,Hiranagar
+Amala,Hiranagar
+Arjan Chak,Hiranagar
+Bailiyan,Hiranagar
+Bakhrak,Hiranagar
+Balaahr,Hiranagar
+Balahn Bala,Hiranagar
+Balahn Pain,Hiranagar
+Bandhor,Hiranagar
+Bani Chak,Hiranagar
+Bann,Hiranagar
+Barmal,Hiranagar
+Barnooh,Hiranagar
+Barsoo Chak,Hiranagar
+Basi Jamwal,Hiranagar
+Bhagwal,Hiranagar
+Bhagwane Chak,Hiranagar
+Bham Barwan,Hiranagar
+Bhati Mehru,Hiranagar
+Bhatiari Brahmana,Hiranagar
+Bhayia,Hiranagar
+Bobia,Hiranagar
+Candwan,Hiranagar
+Chak Balunda,Hiranagar
+Chak Bannun,Hiranagar
+Chak Bathal,Hiranagar
+Chak Budhu,Hiranagar
+Chak Changa,Hiranagar
+Chak Charakh,Hiranagar
+Chak Chhabba,Hiranagar
+Chak Deb,Hiranagar
+Chak Desa Choudharian,Hiranagar
+Chak Dhari,Hiranagar
+Chak Dhota,Hiranagar
+Chak Diyalla,Hiranagar
+Chak Fatoo,Hiranagar
+Chak Ganga Ram,Hiranagar
+Chak Gojar,Hiranagar
+Chak Gupala,Hiranagar
+Chak Gusawn,Hiranagar
+Chak Handa,Hiranagar
+Chak Haria,Hiranagar
+Chak Jahlla,Hiranagar
+Chak Jangi,Hiranagar
+Chak Jawahir,Hiranagar
+Chak Kahna,Hiranagar
+Chak Khiloo,Hiranagar
+Chak Mahesha,Hiranagar
+Chak Nathal,Hiranagar
+Chak Prohtan,Hiranagar
+Chak Rangi,Hiranagar
+Chak Sardar Attar Singh,Hiranagar
+Chak Shama,Hiranagar
+Chak Shiba,Hiranagar
+Chak Sukhu,Hiranagar
+Chak Wazir Chand,Hiranagar
+Chak Wazir Lahbju,Hiranagar
+Chakra,Hiranagar
+Chan Tanda,Hiranagar
+Changi,Hiranagar
+Chapaki Kalan,Hiranagar
+Chapaki Khurd,Hiranagar
+Charwal,Hiranagar
+Chelak,Hiranagar
+Chhan Chhakri,Hiranagar
+Chhan Datial,Hiranagar
+Chhan Khatriyan,Hiranagar
+Chhan Lal Din,Hiranagar
+Chhan Moraan,Hiranagar
+Chhan Ranga,Hiranagar
+Chhan Rorian,Hiranagar
+Dhalli,Hiranagar
+Dhaloti,Hiranagar
+Dhalta,Hiranagar
+Dhamaal,Hiranagar
+Dhamiyal,Hiranagar
+Dhandiyari,Hiranagar
+Dhandowal,Hiranagar
+Dhangdev Pur,Hiranagar
+Dhangroli,Hiranagar
+Dinga Amb,Hiranagar
+Dohlian Jattan,Hiranagar
+Feru Chak,Hiranagar
+Gadiyal,Hiranagar
+Gangu Chak,Hiranagar
+Ganjnal,Hiranagar
+Gara,Hiranagar
+Gehr,Hiranagar
+Gota Ruha,Hiranagar
+Gurah Baildaran,Hiranagar
+Gurah Balu,Hiranagar
+Gurah Mehtian,Hiranagar
+Gurah Mondian,Hiranagar
+Gurah Sarkari,Hiranagar
+Gurah Suraj,Hiranagar
+Hamir Pur,Hiranagar
+Hari Pur Sainiyan,Hiranagar
+Haripur Barhmanan,Hiranagar
+Hiranagar,Hiranagar
+Hor,Hiranagar
+Jandi,Hiranagar
+Jarjarth,Hiranagar
+Jugial,Hiranagar
+Juwaloo Chak,Hiranagar
+Kandiyal,Hiranagar
+Kannah,Hiranagar
+Karandi Kalan,Hiranagar
+Karandi Khurd,Hiranagar
+Kariyara,Hiranagar
+Karwal,Hiranagar
+Katal Brahmanan,Hiranagar
+Katal Gujran,Hiranagar
+Katli,Hiranagar
+Khan Pur,Hiranagar
+Khanak,Hiranagar
+Khandwal,Hiranagar
+Khanwal,Hiranagar
+Khatriyal,Hiranagar
+Khurar,Hiranagar
+Kishan Pur Andhar,Hiranagar
+Kishan Pur Kandi,Hiranagar
+Koohtah,Hiranagar
+Koper,Hiranagar
+Kore Punoo,Hiranagar
+Kore Qasba,Hiranagar
+Krohl Buddu,Hiranagar
+Krohl Krishna,Hiranagar
+Krohl Matherian,Hiranagar
+Kunthal,Hiranagar
+Lachhmi Pur,Hiranagar
+Ladhwal Kalan,Hiranagar
+Ladhwal Khurd,Hiranagar
+Ladwal,Hiranagar
+Ladwal,Hiranagar
+Langriyal,Hiranagar
+Loundhi,Hiranagar
+Mada,Hiranagar
+Maharaj Pur,Hiranagar
+Maila,Hiranagar
+Malwan,Hiranagar
+Mandahla,Hiranagar
+Mandleyal,Hiranagar
+Mangloor,Hiranagar
+Maniari,Hiranagar
+Marhin,Hiranagar
+Mast Chak,Hiranagar
+Mathra Chak,Hiranagar
+Mukund Pur,Hiranagar
+Mukundpur Labanian,Hiranagar
+Murli Chak,Hiranagar
+Muthi Hardo Dunga,Hiranagar
+Muthi Hardu,Hiranagar
+Naun Chak,Hiranagar
+Padal,Hiranagar
+Pahar Pur,Hiranagar
+Panjgrain Brahmana,Hiranagar
+Pansar,Hiranagar
+Pantal,Hiranagar
+Parkh Wal,Hiranagar
+Parso Chak,Hiranagar
+Partyal,Hiranagar
+Pathwal,Hiranagar
+Patta Rasana,Hiranagar
+Qasba,Hiranagar
+Rakh Sarkar Hiranagar,Hiranagar
+Rakh Sarkar Ladwal,Hiranagar
+Rakh Sarkar Sahllan,Hiranagar
+Ramgarh,Hiranagar
+Rampur,Hiranagar
+Rathua,Hiranagar
+Rattan Chak,Hiranagar
+Rughnath Pora,Hiranagar
+Sahllan,Hiranagar
+Salal Pur,Hiranagar
+Sande Chak,Hiranagar
+Saniyal,Hiranagar
+Sanjwan,Hiranagar
+Sehswan,Hiranagar
+Sherpur Bala,Hiranagar
+Sherpur Pain,Hiranagar
+Sohaal,Hiranagar
+Spalwan,Hiranagar
+Spral Pain,Hiranagar
+Spreen,Hiranagar
+Stoora,Hiranagar
+Suba Chak,Hiranagar
+Sukhdev Pur,Hiranagar
+Sultan Pur,Hiranagar
+Thaggali,Hiranagar
+Thaka Pur Rajputan,Hiranagar
+Thakur Pur Grore,Hiranagar
+Thath,Hiranagar
+Thiraru,Hiranagar
+Thuthi Chak,Hiranagar
+Wand Manhas,Hiranagar
+Wazire Chak,Hiranagar
+Athoon,Bashohli
+Athyalta,Bashohli
+Bera,Bashohli
+Bhoond,Bashohli
+Danna,Bashohli
+Dhar Jhankar,Bashohli
+Dhar Mahanpur,Bashohli
+Dodala,Bashohli
+Draman,Bashohli
+Ghoral,Bashohli
+Hadat,Bashohli
+Hutt,Bashohli
+Jandrayali,Bashohli
+Janu,Bashohli
+Jhankar,Bashohli
+Kagrod,Bashohli
+Kailtri,Bashohli
+Khaddi,Bashohli
+Kohrdhar,Bashohli
+Kothi,Bashohli
+Mahan Pora,Bashohli
+Mandla,Bashohli
+Nagaali,Bashohli
+Nawshehra,Bashohli
+Pathi,Bashohli
+Phikar,Bashohli
+Plahi,Bashohli
+Plakh,Bashohli
+Plasi,Bashohli
+Poonda,Bashohli
+Preta,Bashohli
+Rehn,Bashohli
+Salladi,Bashohli
+Sandar,Bashohli
+Siyalag,Bashohli
+Smahn,Bashohli
+Sobar,Bashohli
+Thana,Bashohli
+Asooh,Bani
+Bani,Bani
+Banjal,Bani
+Bari,Bani
+Barmota,Bani
+Begoga,Bani
+Bhandar,Bani
+Bholri,Bani
+Chalog,Bani
+Chandal,Bani
+Chila,Bani
+Daulka,Bani
+Dhaggar,Bani
+Dhaman,Bani
+Dharor,Bani
+Duggan,Bani
+Dulangal,Bani
+Fatehpur,Bani
+Gatti,Bani
+Kachir,Bani
+Kanthal,Bani
+Kardoh,Bani
+Kilore,Bani
+Koti,Bani
+Lawang,Bani
+Madhota,Bani
+Raulka,Bani
+Sand Roohn,Bani
+Sandhi,Bani
+Sarthal,Bani
+Satti,Bani
+Siyara,Bani
+Surjan,Bani

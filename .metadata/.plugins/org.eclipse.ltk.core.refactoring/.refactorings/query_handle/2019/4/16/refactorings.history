@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Login.java&apos; to &apos;LoginServlet.java&apos;&#x0A;- Original project: &apos;query_handle&apos;&#x0A;- Original element: &apos;Login.java&apos;&#x0A;- Renamed element: &apos;LoginServlet.java&apos;" description="Rename compilation unit &apos;Login.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Login.java" name="LoginServlet.java" references="false" stamp="1555658496783" version="1.0"/>
+</session>

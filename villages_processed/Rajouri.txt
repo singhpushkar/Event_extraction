@@ -1,0 +1,375 @@
+Agrat,Rajauri
+Androla,Rajauri
+Androth,Rajauri
+Argi,Rajauri
+Ati,Rajauri
+Bagla,Rajauri
+Bahdaun,Rajauri
+Baljaralan,Rajauri
+Bathoni,Rajauri
+Bonthal,Rajauri
+Chahrol,Rajauri
+Chakli,Rajauri
+Chariahn,Rajauri
+Chattiar,Rajauri
+Chawa,Rajauri
+Cheneni Bagala,Rajauri
+Chhabardhara,Rajauri
+Chilas,Rajauri
+Chodri Nar,Rajauri
+Dabrot,Rajauri
+Dahanur Jaralan,Rajauri
+Dahrian,Rajauri
+Dalhori,Rajauri
+Danhur Gorsian,Rajauri
+Dani Dhar,Rajauri
+Dasal Gujran,Rajauri
+Dasal Jattan,Rajauri
+Dasal Serian,Rajauri
+Dehri Ralyot,Rajauri
+Dhan Loharian,Rajauri
+Dhanar Dhedian,Rajauri
+Dhangri,Rajauri
+Dhanwan,Rajauri
+Dhanwan Kot,Rajauri
+Dhara Sanwla,Rajauri
+Dhari Dhara,Rajauri
+Dongi Brahamana,Rajauri
+Dongi Manialan,Rajauri
+Drairi,Rajauri
+Erwan Kehtar,Rajauri
+Farwahale,Rajauri
+Fateh Pur,Rajauri
+Galhotti,Rajauri
+Ghambeer Muglian,Rajauri
+Godar,Rajauri
+Gonni,Rajauri
+Goverdhan Bala,Rajauri
+Goverdhan Pain,Rajauri
+Hiyat Pura,Rajauri
+Jamula,Rajauri
+Jandhi Dhara,Rajauri
+Jatiari,Rajauri
+Jatot,Rajauri
+Kadrenu,Rajauri
+Kakora,Rajauri
+Kalal Khas,Rajauri
+Kalali,Rajauri
+Kalar,Rajauri
+Kapa Kah,Rajauri
+Karaian,Rajauri
+Katarmal,Rajauri
+Keri Manialan,Rajauri
+Khan Khri,Rajauri
+Khanpur Chingas,Rajauri
+Khyora,Rajauri
+Kot Dhra,Rajauri
+Kotli Kalaban,Rajauri
+Kottari Jagir,Rajauri
+Ladot,Rajauri
+Lur Kot,Rajauri
+Makot,Rajauri
+Mangalnar,Rajauri
+Manji Dhara,Rajauri
+Marad Pur,Rajauri
+Meari Gujran,Rajauri
+Methi Dhara,Rajauri
+Miari Manialan,Rajauri
+Mubarikh Pura,Rajauri
+Munja Kot,Rajauri
+Naga Nar,Rajauri
+Naghun,Rajauri
+Nagrota,Rajauri
+Namblan,Rajauri
+Nariala,Rajauri
+Neli,Rajauri
+Palam,Rajauri
+Panj Grian,Rajauri
+Pathan Mohra,Rajauri
+Patrara,Rajauri
+Phaio Manalan,Rajauri
+Phaliana,Rajauri
+Phool Yan,Rajauri
+Phowalgah,Rajauri
+Potha Ghoralan,Rajauri
+Rachwa,Rajauri
+Rajdhani,Rajauri
+Rani Badetar,Rajauri
+Rehtal,Rajauri
+Sadhal,Rajauri
+Sagot,Rajauri
+Salhat,Rajauri
+Samian,Rajauri
+San Kari,Rajauri
+Saranu,Rajauri
+Sarola,Rajauri
+Saun Kot,Rajauri
+Sewa Jagir,Rajauri
+Shahpur Manialan,Rajauri
+Sonal Kot,Rajauri
+Swani,Rajauri
+Talwal,Rajauri
+Tara Dwal,Rajauri
+Thakrian,Rajauri
+Thandi Kassi,Rajauri
+Thodhi,Rajauri
+Thothali,Rajauri
+Tondi Tror,Rajauri
+Trala Jagir,Rajauri
+Bambel,Budhal
+Barsala,Budhal
+Behinambal,Budhal
+Bhela,Budhal
+Budhal,Budhal
+Chambi Trar,Budhal
+Dandwat,Budhal
+Darman,Budhal
+Dharsakri,Budhal
+Dhelri,Budhal
+Draj,Budhal
+Gadyog,Budhal
+Gaughroat,Budhal
+Ghondha,Budhal
+Gondha,Budhal
+Gurasarkari,Budhal
+Hangali,Budhal
+Hubbi,Budhal
+Jamola,Budhal
+Janglanoo,Budhal
+Kandi,Budhal
+Kanthol,Budhal
+Keri Narondi,Budhal
+Kewal,Budhal
+Khah,Budhal
+Khorbani,Budhal
+Khowas,Budhal
+Kot Ranka,Budhal
+Kotchalwal,Budhal
+Kurhed,Budhal
+Larkoti,Budhal
+Mohra,Budhal
+Narla,Budhal
+Owdan,Budhal
+Padhira,Budhal
+Panglar,Budhal
+Panhad,Budhal
+Panjnara,Budhal
+Parori Gujjran,Budhal
+Phalini,Budhal
+Ponda Naka,Budhal
+Rajnagar,Budhal
+Rehean,Budhal
+Sawari,Budhal
+Shapur,Budhal
+Soker,Budhal
+Somote,Budhal
+Targian,Budhal
+Tarkasi,Budhal
+Thelapera,Budhal
+Tralla Gujjran,Budhal
+Anwas Bhandar,Nowshehra
+Bagnoti,Nowshehra
+Bhajnoa,Nowshehra
+Bohani,Nowshehra
+Chak Jaralan,Nowshehra
+Chak Sarkar,Nowshehra
+Chak Sarkari,Nowshehra
+Chak Sarkari,Nowshehra
+Chovki Handan,Nowshehra
+Dabbar,Nowshehra
+Darbote,Nowshehra
+Dhanaka,Nowshehra
+Dharat,Nowshehra
+Dhing,Nowshehra
+Dohgani,Nowshehra
+Dundersar,Nowshehra
+Dura Hala,Nowshehra
+Gagrot,Nowshehra
+Ghania,Nowshehra
+Hidayat Pura,Nowshehra
+Hunjana Khanka,Nowshehra
+Hunjana Thakra,Nowshehra
+Inayat Pur,Nowshehra
+Jajot Kandu,Nowshehra
+Janjua Pogla,Nowshehra
+Kalal,Nowshehra
+Kalar,Nowshehra
+Kalsian,Nowshehra
+Kanaheat,Nowshehra
+Khambah,Nowshehra
+Kothara Jagir,Nowshehra
+Lam,Nowshehra
+Lambehri,Nowshehra
+Langar,Nowshehra
+Laroka,Nowshehra
+Man Pur,Nowshehra
+Mangal Devi,Nowshehra
+Mangote,Nowshehra
+Mohra Kampla,Nowshehra
+Narian,Nowshehra
+Nunial,Nowshehra
+Pokharni,Nowshehra
+Potha,Nowshehra
+Qila Darhal,Nowshehra
+Raj Pur Kamila,Nowshehra
+Rajal,Nowshehra
+Rajoa,Nowshehra
+Sariah,Nowshehra
+Sihal,Nowshehra
+Singh Pura,Nowshehra
+Thil Hakima,Nowshehra
+Wand Mohra,Nowshehra
+Anand,Kalakote
+Badhanu,Kalakote
+Badhog,Kalakote
+Barah,Kalakote
+Barmandal,Kalakote
+Behtra,Kalakote
+Beli Bhawan,Kalakote
+Brehvi,Kalakote
+Chak Methani,Kalakote
+Chak Mian,Kalakote
+Chak Pate,Kalakote
+Chanipur,Kalakote
+Dalhote,Kalakote
+Dali,Kalakote
+Dangot,Kalakote
+Darnghar,Kalakote
+Dayalah,Kalakote
+Deolian,Kalakote
+Dhanti,Kalakote
+Dhanwan,Kalakote
+Dharamsal,Kalakote
+Gahwan,Kalakote
+Garan Bala,Kalakote
+Garan Pain,Kalakote
+Ghalian,Kalakote
+Gharak,Kalakote
+Gharat,Kalakote
+Hari Chuma,Kalakote
+Jagni,Kalakote
+Jata Brahamana,Kalakote
+Jata Mahlian,Kalakote
+Jungerial,Kalakote
+Kahdarian,Kalakote
+Kalakote,Kalakote
+Kalar,Kalakote
+Keri,Kalakote
+Khabar,Kalakote
+Khah,Kalakote
+Kora,Kalakote
+Koral,Kalakote
+Korlian,Kalakote
+Kot Kabu,Kalakote
+Kothian,Kalakote
+Majra Nehoti,Kalakote
+Malhorin,Kalakote
+Mangrot,Kalakote
+Marhote,Kalakote
+Naramajra,Kalakote
+Narotha,Kalakote
+Narsingh Pora,Kalakote
+Owdarni,Kalakote
+Pahli Brahamana,Kalakote
+Panglot,Kalakote
+Panhar,Kalakote
+Panjah,Kalakote
+Peri,Kalakote
+Pondal,Kalakote
+Potha,Kalakote
+Punjnara,Kalakote
+Saher,Kalakote
+Salheri,Kalakote
+Sand Khattoti,Kalakote
+Sarotah,Kalakote
+Sialsui,Kalakote
+Som,Kalakote
+Sonchal,Kalakote
+Tareru,Kalakote
+Thos,Kalakote
+Alal,Thanamandi
+Azmat Abad,Thanamandi
+Barhon,Thanamandi
+Bataihli,Thanamandi
+Bharot,Thanamandi
+Bhattian,Thanamandi
+Bidha Kanna,Thanamandi
+Danna,Thanamandi
+Dara,Thanamandi
+Dhowk,Thanamandi
+Dodarsan Bala,Thanamandi
+Dodarsan Pain,Thanamandi
+Hasploot,Thanamandi
+Husyot,Thanamandi
+Kals,Thanamandi
+Karyot,Thanamandi
+Khablan,Thanamandi
+Khanyal Kote,Thanamandi
+Kot,Thanamandi
+Laha,Thanamandi
+Maharaj Pura,Thanamandi
+Majhur,Thanamandi
+Mangota,Thanamandi
+Manhal,Thanamandi
+Naili,Thanamandi
+Narojal,Thanamandi
+Palangar,Thanamandi
+Panghai,Thanamandi
+Rajdhani,Thanamandi
+Saj,Thanamandi
+Samsamat,Thanamandi
+Shahdra,Thanamandi
+Bakhar,Sunderbani
+Balchaman,Sunderbani
+Bamlia,Sunderbani
+Bandrahi,Sunderbani
+Barnara,Sunderbani
+Basant Pur,Sunderbani
+Bhajwal,Sunderbani
+Chak Nawabad,Sunderbani
+Chak Tawela,Sunderbani
+Changi Kangrial,Sunderbani
+Chehni,Sunderbani
+Deoli,Sunderbani
+Devak,Sunderbani
+Dhar,Sunderbani
+Dhok Bainar,Sunderbani
+Forest Block,Sunderbani
+Gandeh,Sunderbani
+Ghantha,Sunderbani
+Goraha Charala,Sunderbani
+Hathal,Sunderbani
+Kaldubi,Sunderbani
+Kangri,Sunderbani
+Langar,Sunderbani
+Lohara Kot,Sunderbani
+Makol,Sunderbani
+Manikah,Sunderbani
+Marchola,Sunderbani
+Mawa,Sunderbani
+Nah,Sunderbani
+Nala,Sunderbani
+Nauti,Sunderbani
+Owna,Sunderbani
+Patni,Sunderbani
+Patrara,Sunderbani
+Patrat,Sunderbani
+Peli,Sunderbani
+Phal,Sunderbani
+Sehia,Sunderbani
+Sehot,Sunderbani
+Thanda Pani,Sunderbani
+Thangrot,Sunderbani
+Thichka,Sunderbani
+Tila Tanda,Sunderbani
+Badhan,Darhal
+Chokian,Darhal
+Darhal,Darhal
+Dudaj,Darhal
+Kothra,Darhal
+Lerian,Darhal
+Malhiet,Darhal
+Nadian,Darhal
+Sagra Wat,Darhal
+Thana Nang,Darhal
+Ujjan,Darhal

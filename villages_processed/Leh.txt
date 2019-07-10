@@ -1,0 +1,111 @@
+Anlay,Leh
+Bazgoo,Leh
+Changa,Leh
+Chemrey,Leh
+Chiling Sumda,Leh
+Chuchat Yakma,Leh
+Chuchoot Gongma,Leh
+Chuchot Shama,Leh
+Chumathang,Leh
+Chushul,Leh
+Demjok,Leh
+Durbok,Leh
+Fiang,Leh
+Gia,Leh
+Hamis,Leh
+Himya,Leh
+Igoo,Leh
+Kargyam,Leh
+Karzok,Leh
+Kerey,Leh
+Kharnak,Leh
+Kharoo,Leh
+Koyul,Leh
+Kumgyam,Leh
+Langokor,Leh
+Likir,Leh
+Liktse,Leh
+Man Pangong,Leh
+Mathoo,Leh
+Matselang,Leh
+Meroo,Leh
+Mood,Leh
+Nang,Leh
+Ney,Leh
+Nimo,Leh
+Nyoma,Leh
+Phey,Leh
+Phuktse,Leh
+Rambir Por,Leh
+Rumbak,Leh
+Saboo,Leh
+Sakti,Leh
+Samad Rakchan,Leh
+Shachokol,Leh
+Shang,Leh
+Shara,Leh
+Sharnose,Leh
+Shey,Leh
+Skitmang,Leh
+Skiumarkha,Leh
+Stakna,Leh
+Stok,Leh
+Tagste,Leh
+Tarchit,Leh
+Taroo,Leh
+Teri,Leh
+Thiksey,Leh
+Tukla,Leh
+Umla,Leh
+Upshi,Leh
+Bogdang,Nubra
+Chamshan Charasa,Nubra
+Chulungkha,Nubra
+Digger,Nubra
+Diskit,Nubra
+Hundar,Nubra
+Hundar Dok,Nubra
+Hundri,Nubra
+Khalsar,Nubra
+Khardong,Nubra
+Khemakhungiu,Nubra
+Khemi,Nubra
+Kubed,Nubra
+Lakjung,Nubra
+Largiab,Nubra
+Panamic,Nubra
+Partap Pore,Nubra
+Skanpuk,Nubra
+Skuru,Nubra
+Sumoor,Nubra
+Taksi,Nubra
+Tangyar,Nubra
+Terchey,Nubra
+Thanga Chathang,Nubra
+Tiggar,Nubra
+Turtok,Nubra
+Udmaru,Nubra
+Warisfistan,Nubra
+Alchi,Khalsi
+Dah,Khalsi
+Damkhar,Khalsi
+Fotoksar,Khalsi
+Giramangu,Khalsi
+Hanoo,Khalsi
+Hemishok Pachan,Khalsi
+Kanji,Khalsi
+Khaltse,Khalsi
+Lamayouro,Khalsi
+Leido,Khalsi
+Lingshet,Khalsi
+Nurla,Khalsi
+Saspochey,Khalsi
+Skinlingyong,Khalsi
+Skur Buchan,Khalsi
+Suspol,Khalsi
+Takmachik,Khalsi
+Tarhipti,Khalsi
+Temisgam,Khalsi
+Tia,Khalsi
+Wanla,Khalsi
+Youl Chung,Khalsi

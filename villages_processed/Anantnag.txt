@@ -1,0 +1,335 @@
+Akura,Anantnag
+Anz Walla,Anantnag
+Areh Bugh,Anantnag
+Ari Gohal,Anantnag
+Arsoo,Anantnag
+Bat Pora,Anantnag
+Bomthan,Anantnag
+Bona Gund,Anantnag
+Bona Nambal,Anantnag
+Brar Ani Gandan,Anantnag
+Brenti Bat Pora,Anantnag
+Chera Hama,Anantnag
+Chichiri Pora,Anantnag
+Chithi Manzhama,Anantnag
+Devi Pora,Anantnag
+Fateh Pora,Anantnag
+Fohar,Anantnag
+Forah,Anantnag
+Ganai Gund,Anantnag
+Ganoora,Anantnag
+Gopal Pora Kalan,Anantnag
+Gopal Pora Khurad,Anantnag
+Hardu Akar,Anantnag
+Hardu Shichan,Anantnag
+Hardu Toru,Anantnag
+Hugam,Anantnag
+Hutmarah,Anantnag
+Imoh,Anantnag
+Isoo,Anantnag
+Kadeh Pora,Anantnag
+Kamar,Anantnag
+Kangan Hal,Anantnag
+Kanji Gund,Anantnag
+Karewa Chithi Singh Pora,Anantnag
+Karewa Kangan Hal,Anantnag
+Kawari Gam,Anantnag
+Kharman Ganish,Anantnag
+Kherah Bugh,Anantnag
+Krewa Rampur,Anantnag
+Lali Pora Mala Pora,Anantnag
+Lallan,Anantnag
+Laram Jangi Pora,Anantnag
+Magri Pora,Anantnag
+Manigam,Anantnag
+Mati Pora,Anantnag
+Momin Hall,Anantnag
+Moni Ward,Anantnag
+Mulsoo,Anantnag
+Mush Khasa Rasool Khandi,Anantnag
+Nanilang,Anantnag
+Naw Wathu,Anantnag
+Nipor,Anantnag
+Now Bugh,Anantnag
+Now Pora Khover Para,Anantnag
+Nun Wani,Anantnag
+Pai Bugh,Anantnag
+Pal Pora,Anantnag
+Panz Mulla,Anantnag
+Peth Bugh,Anantnag
+Peth Dial Gam,Anantnag
+Push Kriri,Anantnag
+Rakhi Tail Wani,Anantnag
+Ram Pora,Anantnag
+Ranbir Pora,Anantnag
+Rohu,Anantnag
+Salia Ponchal Pora,Anantnag
+Sar Suna Anantnag,Anantnag
+Shalwan Pora,Anantnag
+Shamsi Pora,Anantnag
+Sifan,Anantnag
+Sofi Gund Bago Gund,Anantnag
+Srundoo,Anantnag
+Tail Wani,Anantnag
+Tang Marg,Anantnag
+Thaji Wara,Anantnag
+Turka Thachloo,Anantnag
+Ugjan,Anantnag
+Vail Nag Bal,Anantnag
+Wani Hama,Anantnag
+Watari Gam,Anantnag
+Woran Hall,Anantnag
+Zodar,Anantnag
+Badhar Moona,Dooru
+Bata Gund,Dooru
+Bona Gund,Dooru
+Bragam,Dooru
+Bronthnu,Dooru
+Chak Path,Dooru
+Changoo,Dooru
+Checki Wan Gund,Dooru
+Chhohan,Dooru
+Dalwach Gagas Gund,Dooru
+Drien Drobdara,Dooru
+Forest Block,Dooru
+Gawas,Dooru
+Gochan,Dooru
+Gund Now Roze,Dooru
+Hakura Badas Gam,Dooru
+Halsidar,Dooru
+Hardu Dehrana,Dooru
+Hari Gam,Dooru
+Hengi Pora,Dooru
+Hillar Shah Abad,Dooru
+Hir Gawas,Dooru
+Irote Damjan,Dooru
+Kaprin,Dooru
+Kewah,Dooru
+Kishgund,Dooru
+Kriri Shah Abad,Dooru
+Kuchey Pora,Dooru
+Lewodra,Dooru
+Lok Bawan Larki Pora,Dooru
+Mahmoodabad,Dooru
+Mant Pora,Dooru
+Manz Moh,Dooru
+Mundah,Dooru
+Naid Pora,Dooru
+Now Gam Shah Abad,Dooru
+Now Pora Shah Abad,Dooru
+Nusoo Badra Gund,Dooru
+Omoh,Dooru
+Oojru,Dooru
+Panzat Wan Pora,Dooru
+Polia,Dooru
+Prani Gam,Dooru
+Qamar,Dooru
+Rain Cho Gund,Dooru
+Raing Mandoo,Dooru
+Sadi Wara,Dooru
+Shangran Devsar,Dooru
+Shangrin,Dooru
+Shanker Pora,Dooru
+Shaster Gam,Dooru
+Sodora,Dooru
+Sransoo Sham Pora,Dooru
+Tareh Gam,Dooru
+Thaman Kote,Dooru
+Tunjlu,Dooru
+Vesu,Dooru
+Wan Pora Choimulla,Dooru
+Yar Khushi Pora,Dooru
+Yar Kochi,Dooru
+Zal Dora,Dooru
+Addi Gam,Kokernag
+Adeh Hall,Kokernag
+Akin Gam,Kokernag
+Badhi Har,Kokernag
+Bahali,Kokernag
+Bidder Hayat Pora,Kokernag
+Bindoo Zalan Gam,Kokernag
+Booch,Kokernag
+Cheri Tanzi,Kokernag
+Dam Hall,Kokernag
+Dan Veth Pora,Kokernag
+Dandi Pora,Kokernag
+Desu Now Bugh,Kokernag
+Deval Gam,Kokernag
+Forest Block,Kokernag
+Gad Wail,Kokernag
+Gadool Ahlan,Kokernag
+Gaw Ran,Kokernag
+Gee Boom,Kokernag
+Guri Draman,Kokernag
+Hala Pora,Kokernag
+Hard Pora,Kokernag
+Hillar Arhama,Kokernag
+Iqbal Pora,Kokernag
+Irkamoo,Kokernag
+Kandi Warin,Kokernag
+Kehar Pora,Kokernag
+Khal Har,Kokernag
+Khara Pora,Kokernag
+Lar Noo,Kokernag
+Lisoo Bran Nar,Kokernag
+Lisser Chawal Gam,Kokernag
+Lohar Sanzi,Kokernag
+Mati Handoo,Kokernag
+Mohri Pora,Kokernag
+Nagam,Kokernag
+Nala Sund Brari,Kokernag
+Nar Sanger,Kokernag
+Naroo Pora,Kokernag
+Niamat Pora,Kokernag
+Now Bugh,Kokernag
+Oui Bamdoora,Kokernag
+Paniz Gam,Kokernag
+Rain Ather,Kokernag
+Rakh Lissar,Kokernag
+Sagam,Kokernag
+Soaf Shalli,Kokernag
+Takia Magam,Kokernag
+Takiya Ahamad Shah,Kokernag
+Umar Khar,Kokernag
+Watar Hall,Kokernag
+Ader,Bijbehara
+Aswara,Bijbehara
+Bander Pora,Bijbehara
+Beya Warah,Bijbehara
+Chini Gund,Bijbehara
+Chunda Pora,Bijbehara
+Dari Gund,Bijbehara
+Dupt Yar,Bijbehara
+Gadhanji Pora,Bijbehara
+Gantali Pora,Bijbehara
+Gari Seer,Bijbehara
+Gori,Bijbehara
+Gund Chel,Bijbehara
+Gund Nasir,Bijbehara
+Gund Nowroze,Bijbehara
+Hamzeh Pora,Bijbehara
+Hati Gam,Bijbehara
+Haussan Pora Bagh,Bijbehara
+Hayar,Bijbehara
+Inder Mooni,Bijbehara
+Jabli Pora,Bijbehara
+Kanalwan,Bijbehara
+Kandi Pora,Bijbehara
+Katu,Bijbehara
+Khiram,Bijbehara
+Khush Roi Kalan,Bijbehara
+Kitriteng,Bijbehara
+Krandi-Gam,Bijbehara
+Mahind,Bijbehara
+Marhama,Bijbehara
+Meera Gund,Bijbehara
+Niyana Gund Baba Khalil,Bijbehara
+Now Shehra,Bijbehara
+Opzan,Bijbehara
+Rakh Hassain Pora,Bijbehara
+Rakh Moman Dangit Pora,Bijbehara
+Sangam,Bijbehara
+Semithan.,Bijbehara
+Shala Gam,Bijbehara
+Shiti Pora,Bijbehara
+Sir Hama,Bijbehara
+Sither Satghar,Bijbehara
+Sotki Pora,Bijbehara
+Subhan Pahari,Bijbehara
+Takia Bal,Bijbehara
+Thaji War,Bijbehara
+Trubji,Bijbehara
+Tula Khan,Bijbehara
+Vedai,Bijbehara
+Veeri,Bijbehara
+Waghama,Bijbehara
+Adlash Magam,Pahalgam
+Ainu Brai,Pahalgam
+Amar Wagar,Pahalgam
+Arow,Pahalgam
+Awoora,Pahalgam
+Badaran,Pahalgam
+Bedigam,Pahalgam
+Bot Kote Gujran,Pahalgam
+Bot-Kote,Pahalgam
+Chandri Gam,Pahalgam
+Chatrasoo Badroo,Pahalgam
+Chhani Gam,Pahalgam
+Chrari Gam,Pahalgam
+Dachee Gam,Pahalgam
+Dadran Khandi Pora,Pahalgam
+Dehwathu,Pahalgam
+Diaroo,Pahalgam
+Dirhama,Pahalgam
+Forest Block,Pahalgam
+Fraslana,Pahalgam
+Gansh Pora,Pahalgam
+Grand Aish,Pahalgam
+Gundi Siligam,Pahalgam
+Hangal Pahoo,Pahalgam
+Hanoman Pora,Pahalgam
+Hapat Nar,Pahalgam
+Hardu Kichroo,Pahalgam
+Hardu Kithal Sofi Pora,Pahalgam
+Hassan Noor,Pahalgam
+Ichi Nar,Pahalgam
+Jummoh,Pahalgam
+Karshn Gam,Pahalgam
+Kathsu,Pahalgam
+Khai Yar,Pahalgam
+Kohilangoojran,Pahalgam
+Kular,Pahalgam
+Lari,Pahalgam
+Lari Pora,Pahalgam
+Lehan Dajan,Pahalgam
+Lewar,Pahalgam
+Lidroo,Pahalgam
+Logri Pora,Pahalgam
+Malik Gund,Pahalgam
+Mandlana,Pahalgam
+Manzi Gam,Pahalgam
+Mowrah,Pahalgam
+Nalla Awoora,Pahalgam
+Now Gam,Pahalgam
+Peth Nambal,Pahalgam
+Rakhi Chandi Pora,Pahalgam
+Sakhras,Pahalgam
+Salar,Pahalgam
+Shum Hall,Pahalgam
+Sili Gam,Pahalgam
+Singh Pora,Pahalgam
+Siri Gofwara,Pahalgam
+Srangsoo,Pahalgam
+Srechhan,Pahalgam
+Trail,Pahalgam
+Vir Siran,Pahalgam
+Wahdan,Pahalgam
+Wajoora,Pahalgam
+Wularama,Pahalgam
+Yal,Pahalgam
+Yanier,Pahalgam
+Aho Paisan,Shangus
+Andoora,Shangus
+Bimar Narsar,Shangus
+Brah,Shangus
+Chakil Pora,Shangus
+Chera Pora,Shangus
+Chhatar Gul,Shangus
+Chogam,Shangus
+Datho Nag Narin,Shangus
+Khul Chohar,Shangus
+Kot Hair,Shangus
+Kradi,Shangus
+Kriri,Shangus
+Nowgam Kothar,Shangus
+Ogje Balan,Shangus
+Rakhi Brah,Shangus
+Reni Pora,Shangus
+Samb Rana,Shangus
+Sheikh Gund,Shangus
+Sheikh Pora,Shangus
+Sher Gund,Shangus
+Thim Ran,Shangus
+Tunj Mulla,Shangus
+Uttarsoo,Shangus
+Van Gam,Shangus

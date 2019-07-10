@@ -1,0 +1,127 @@
+Ahdwa,Ramban
+Ashmar,Ramban
+Badhol,Ramban
+Balhote,Ramban
+Balwat,Ramban
+Bandan,Ramban
+Bandhera,Ramban
+Banera Jagir,Ramban
+Barthal,Ramban
+Batli,Ramban
+Beruni Batote,Ramban
+Beruni Ramban,Ramban
+Bhajmasta,Ramban
+Bhathan,Ramban
+Bhehimdasa,Ramban
+Chaka,Ramban
+Chakwah,Ramban
+Chander Kote,Ramban
+Chhachhwan,Ramban
+Chhampa,Ramban
+Chilla,Ramban
+Dalwah,Ramban
+Damote,Ramban
+Daramen,Ramban
+Darham,Ramban
+Dehdah,Ramban
+Deswal,Ramban
+Dhalwas Dhaino,Ramban
+Dhandla,Ramban
+Dhandnat,Ramban
+Dhar,Ramban
+Dharalta,Ramban
+Dharli,Ramban
+Dharmond,Ramban
+Dhothan Jagir,Ramban
+Digdole,Ramban
+Dukson,Ramban
+Famroot,Ramban
+Forest Block,Ramban
+Gam,Ramban
+Gandhote,Ramban
+Gandri,Ramban
+Ganote,Ramban
+Ghari,Ramban
+Gool,Ramban
+Gundi,Ramban
+Halla,Ramban
+Haroge,Ramban
+Hiller,Ramban
+Ind,Ramban
+Jawari,Ramban
+Jhat Gali,Ramban
+Kahbi Jagir,Ramban
+Kalimasta,Ramban
+Kamet,Ramban
+Kanfar,Ramban
+Kanthi,Ramban
+Karman,Ramban
+Kathri,Ramban
+Khanga,Ramban
+Kothi Jagir,Ramban
+Kundi,Ramban
+Lodhwal,Ramban
+Maha Kund,Ramban
+Marog,Ramban
+Mawalkot,Ramban
+Metra gobind Pura,Ramban
+Narthyal,Ramban
+Neghal,Ramban
+Nera,Ramban
+Papryah,Ramban
+Pari Jagir,Ramban
+Pernote,Ramban
+Raj Garh,Ramban
+Rakh Jargoh,Ramban
+Sana,Ramban
+Sanasar,Ramban
+Sancha,Ramban
+Sangaldan,Ramban
+Sarbhangni,Ramban
+Savni,Ramban
+Seldhar,Ramban
+Seri,Ramban
+Shagan,Ramban
+Sonmbar Barhog,Ramban
+Sripura,Ramban
+Tanger,Ramban
+Tatarsu,Ramban
+Teli,Ramban
+Thanger Jagir,Ramban
+Thatharka,Ramban
+Thopal,Ramban
+Tringla,Ramban
+Wanding,Ramban
+Alanbas,Banihal
+Ashar,Banihal
+Bankote,Banihal
+Bhangara,Banihal
+Bohar Dhar,Banihal
+Chachahal,Banihal
+Chak Narwah,Banihal
+Chamalwas,Banihal
+Chanchloo,Banihal
+Charel Lamber,Banihal
+Deogoal,Banihal
+Dhanmasta,Banihal
+Dolegam,Banihal
+Forest Block,Banihal
+Gund Adalkoot,Banihal
+Gund Thathar,Banihal
+Hoochak,Banihal
+Karawa,Banihal
+Kaskoot,Banihal
+Khari,Banihal
+Maho,Banihal
+Mangot,Banihal
+Nagam,Banihal
+Naugam,Banihal
+Neel,Banihal
+Panchal,Banihal
+Paristan,Banihal
+Pogal,Banihal
+Seripati,Banihal
+Sojmatna,Banihal
+Targam,Banihal
+Thathar,Banihal
+Zanhal,Banihal

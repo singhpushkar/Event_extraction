@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Events Search</title>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+</head>
+<body>
+<!-- 
+<h2>Grouping Form Data with Fieldset</h2>
+<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+ -->
+
+<!-- <form action="/action_page.php"> -->
+  <fieldset>
+    <legend>Search events:</legend>
+    Location:<br>
+    <input type="text" id="location">
+    <br>
+    Start time:<br>
+    <input type="date" name="start" id="startdate">
+    <br>
+    End time:<br>
+    <input type="date" name="end" id="enddate">
+    <br>
+    Events Keywords:<br>
+    <input type="text" id="event">
+    <h1 id="output"></h1>
+    <br>
+
+   <button onclick="loadDoc()" > Find Events </button>
+      <!-- <script type="text/javascript" src="send.js"></script> -->
+        <script>
+
+        function returnDateString(cur){
+                  // document.getElementById('output').innerHTML = cur;
+                  var dt = new Date(cur);                        
+                  var dat=dt.getDate();
+                  var mn=dt.getMonth();
+                  // mn++;
+                  var yy=dt.getFullYear();
+                  var final_mn = "";
+                  var final_date = "";
+                  var months = [ "January", "February", "March", "April", "May", "June", 
+                 "July", "August", "September", "October", "November", "December" ];
+                  if (dat<10) {
+                       final_dat = "0"+dat;  
+                  }
+                  else{
+                      final_dat = dat;
+                  }
+                  return yy+"-"+ months[mn] +"-"+final_dat;
+        }
+
+        function check(str){
+            var dt = new Date(str);                        
+            var dat=dt.getDate();
+            var mn=dt.getMonth();
+            mn++;
+            var yy=dt.getFullYear();
+            var final_mn = "";
+            var final_date = "";
+            if (mn<10) {
+                 final_mn = "0"+mn;  
+            }
+            else{
+                final_mn = mn;
+            }
+
+            if (dat<10) {
+                 final_dat = "0"+dat;  
+            }
+            else{
+                final_dat = dat;
+            }
+                  // alert(yy+"-"+ final_mn +"-"+final_dat);
+
+            return yy+"-"+final_mn+"-"+final_dat;
+        }
+        window.onload = function() {
+            
+            var cur = Date.now();
+            // document.getElementById('output').innerHTML = cur;
+            var dt = new Date(cur);                        
+            var dat=dt.getDate();
+            var mn=dt.getMonth();
+            mn++;
+            var yy=dt.getFullYear();
+            var final_mn = "";
+            var final_date = "";
+            if (mn<10) {
+                 final_mn = "0"+mn;  
+            }
+            else{
+                final_mn = mn;
+            }
+
+            if (dat<10) {
+                 final_dat = "0"+dat;  
+            }
+            else{
+                final_dat = dat;
+            }
+            // // document.getElementById('output').innerHTML = yy+"-"+final_mn+"-"+final_dat;
+            // document.getElementById("startdate").value = yy+"-"+final_mn+"-"+final_dat;
+            // document.getElementById("enddate").value = yy+"-"+final_mn+"-"+final_dat;
+
+            document.getElementById("startdate").value = check(cur);
+            document.getElementById("enddate").value = check(cur);
+
+        }
+
+        
+        function loadDoc() {
+            var location = document.getElementById('location').value;
+            var startdate = document.getElementById("startdate").value;            
+            var enddate = document.getElementById("enddate").value;
+            var event = document.getElementById('event').value;
+            var send_string = "{\
+                \"startdate\":"+startdate+",\
+                \"enddate\":"+enddate+",\
+                \"event\":"+event+",\
+                \"location\":"+location+"\
+            }";
+            
+          var xhttp = new XMLHttpRequest();          
+          // // alert("here");
+
+          xhttp.open("POST", "10.194.32.206:8080/query_handle/loginServlet", false);
+          // xhttp.oepn("GET", "http://10.194.32.206:8080/query_handle/loginServlet?info='kay'", false);
+          // xhttp.setRequestHeader( 'Access-Control-Allow-Origin', '*');
+          // xhttp.send();
+          xhttp.setRequestHeader('Content-Type', 'application/json');								
+          xhttp.send(send_string);
+          if(xhttp.status === 200){}
+      	else{
+      		alert("error");
+      	}
+          // document.getElementById('output').innerHTML = xhttp.responseText;
+
+          // console.log("info",xhttp.responseText);
+          // document.getElementById('output').innerHTML = "[{\"date\":\"2-4-1998\",\"location\":\"Chennai\",\"info\":\"haswee.com\" }]";
+           // global_object = "[{\"date\":\"2-4-1998\",\"location\":\"Chennai\",\"info\":\"haswee.com\" }]";
+            // var global_object = "[{ \"id\":\"1\",\"date\":\"2019-01-01\",\"location\":\"Kupwara\",\"info\":\"google.com\"},{\"id\":\"2\",\"date\":\"2007-12-01\",\"location\":\"Hyderabad\",\"info\":\"fb.com\"},{\"id\":\"3\",\"date\":\"2009-09-11\",\"location\":\"Singapore\",\"info\":\"nus.com\"}]";      
+            // // var  global_object = xhttp.responseText;
+            
+            // var myArr = JSON.parse(global_object);
+            // var jsonObject = [{"Event.headline":"Bloody incidents result of non-acceptance of political reality of Kashmir issue: Dr. Farooq Abdullah ? (Urdu Dailies ? Srinagar Times/Kashmir Uzma/Uqab)","Event.sentence":"Expressing concern over serious situation in South Kashmir, National Conference expressed grief and anger over the recent killings in South Kashmir.","Event.location":"south kashmir","Event.date":"2018-04-03","Node.name":"the recent killings"},{"Event.headline":"Bloody incidents result of non-acceptance of political reality of Kashmir issue: Dr. Farooq Abdullah ? (Urdu Dailies ? Srinagar Times/Kashmir Uzma/Uqab)","Event.sentence":"Expressing concern over serious situation in South Kashmir, National Conference expressed grief and anger over the recent killings in South Kashmir.","Event.location":"south kashmir","Event.date":"2018-04-03","Node.name":"the recent killings"},{"Event.headline":"Bloody incidents result of non-acceptance of political reality of Kashmir issue: Dr. Farooq Abdullah ? (Urdu Dailies ? Srinagar Times/Kashmir Uzma/Uqab)","Event.sentence":"Expressing concern over serious situation in South Kashmir, National Conference expressed grief and anger over the recent killings in South Kashmir.","Event.location":"south kashmir","Event.date":"2018-04-03","Node.name":"the recent killings"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"In a statement, Patron of Mahaz-e-Azadi, Azam Inqilabi and its President, Syed Altaf Andrabi expressed anger over the killings of innocent Kashmiris.","Event.location":"kashmir;shopian;ulfat saba;jamiat hamdania;south kashmir","Event.date":"2018-04-03","Node.name":"the killings of innocent kashmiris"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Resistance groups, Mahaz-e-Azadi, Jamiat Ahal-e-Hadees, Voice of Victims, Democratic Political Movement, Young men?s League, Tehreek Wahadat-e-Islami, Suwat-ul-Haq, Tehreek-e-Kashmir and different religious organisation, including Mosque Imams, Ulfat Saba and Jamiat Hamdania have expressed anger over bloody situation in South Kashmir, saying that genocide of Kashmiris continues under a plan in which not only youths have been made target, but residential houses are also not being spared.","Event.location":"ulfat saba;jamiat hamdania;south kashmir","Event.date":"2018-04-03","Node.name":"the killings of innocent kashmiris"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Chief of Suwat-ul-Haq, Hafiz-ul-Rehman paid tributes to militants and civilians killed in South Kashmir.","Event.location":"south kashmir","Event.date":"2018-04-03","Node.name":"killed"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Chief of Suwat-ul-Haq, Hafiz-ul-Rehman paid tributes to militants and civilians killed in South Kashmir.","Event.location":"south kashmir","Event.date":"2018-04-03","Node.name":"killed"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Chief of Suwat-ul-Haq, Hafiz-ul-Rehman paid tributes to militants and civilians killed in South Kashmir.","Event.location":"south kashmir","Event.date":"2018-04-03","Node.name":"killed"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Voice of Victims described Operation All Out as a link of genocide in Kashmir and questioned, ?Does not killing of local youth promote of militancy??","Event.location":"kashmir","Event.date":"2018-04-03","Node.name":"killing"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Voice of Victims described Operation All Out as a link of genocide in Kashmir and questioned, ?Does not killing of local youth promote of militancy??","Event.location":"kashmir","Event.date":"2018-04-03","Node.name":"killing"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Voice of Victims described Operation All Out as a link of genocide in Kashmir and questioned, ?Does not killing of local youth promote of militancy??","Event.location":"kashmir","Event.date":"2018-04-03","Node.name":"killing"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Voice of Victims described Operation All Out as a link of genocide in Kashmir and questioned, ?Does not killing of local youth promote of militancy??","Event.location":"kashmir","Event.date":"2018-04-03","Node.name":"killing"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Muhammad Imran Bhat of Democratic Political Movement and its General Secretary Khwaja Firdous expressed grief and pain over civilian killings and said that everybody has been wailing over the massacre of Kashmiris on one or the other pretext.","Event.location":"srinagar;kashmir","Event.date":"2018-04-03","Node.name":"civilian killings"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Muhammad Imran Bhat of Democratic Political Movement and its General Secretary Khwaja Firdous expressed grief and pain over civilian killings and said that everybody has been wailing over the massacre of Kashmiris on one or the other pretext.","Event.location":"srinagar;kashmir","Event.date":"2018-04-03","Node.name":"civilian killings"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Muhammad Imran Bhat of Democratic Political Movement and its General Secretary Khwaja Firdous expressed grief and pain over civilian killings and said that everybody has been wailing over the massacre of Kashmiris on one or the other pretext.","Event.location":"srinagar;kashmir","Event.date":"2018-04-03","Node.name":"civilian killings"},{"Event.headline":"Genocide of Kashmir a matter of concern: Resistance groups ? (Urdu Dailies ? Kashmir Uzma/Srinagar Times/Aftab)","Event.sentence":"Voice of Victims described Operation All Out as a link of genocide in Kashmir and questioned, ?Does not killing of local youth promote of militancy??","Event.location":"kashmir","Event.date":"2018-04-03","Node.name":"civilian killings"}];
+
+          // var jsonObject = [            
+          // {"Event.headline":"Death of 0","Event.dbid":"1","Event.date":"2010-01-10","Event.location":"Pangong Lake, Kashmir","Event.sentence":"google.com"}, 
+          // {"Event.headline":"100 die of disease","Event.dbid":"7","Event.date":"2010-09-12","Event.location":"Ramban, Kashmir","Event.sentence":"google.com"}, 
+          // {"Event.headline":"Death of 90","Event.dbid":"2","Event.date":"2010-10-10","Event.location":"Kupwara, Kashmir","Event.sentence":"google.com"},
+          // {"Event.headline":"Death of 10","Event.dbid":"4","Event.date":"2005-10-01","Event.location":"Udhampur, Kashmir","Event.sentence":"google.com"}, 
+          // {"Event.headline":"Lost 10 kids","Event.dbid":"5","Event.date":"2014-05-05","Event.location":"Katra, Kashmir","Event.sentence":"google.com"}, 
+          // {"Event.headline":"Safe return of 20","Event.dbid":"6","Event.date":"2016-08-18","Event.location":"Kargil, Kashmir","Event.sentence":"google.com"}, 
+          // {"Event.headline":"Hit and run","Event.dbid":"3","Event.date":"2019-01-10","Event.location":"Leh, Kashmir","Event.sentence":"fb.com"}, 
+          // {"Event.headline":"Fire accident","Event.dbid":"8","Event.date":"2019-04-20","Event.location":"Pulwama, Kashmir","Event.sentence":"google.com"} ];
+          // var myArr = jsonObject;                   
+          var myArr = JSON.parse(xhttp.responseText);                   
+          myArr.sort(function(a,b){
+                var c = new Date(a["Event.date"]);
+                var d = new Date(b["Event.date"]);
+                return c-d;
+                });
+
+          for (i=0 ; i<myArr.length ; i++){
+            myArr[i]["Event.index"] = (i+1);
+          }
+
+           // var url = 'Events_Map.html?object='+encodeURIComponent(JSON.stringify(myArr));
+           // var out_str = "";
+           // for (var i = myArr.length -1; i >= 0; i--) {
+           //    out_str = out_str+i+" "+ myArr[i]["Event.location"] +" - "+ geocode(myArr[i]["Event.location"]) +"|";
+           //    // alert(i);
+           // }
+            // document.getElementById('output').innerHTML = out_str;
+           var url = 'map4.html?object='+encodeURIComponent(JSON.stringify(myArr));
+           document.location.href = url;
+           
+        }
+
+            </script>
+
+  </fieldset>
+
+
+<!-- </form> -->
+
+
+</body>
+</html>

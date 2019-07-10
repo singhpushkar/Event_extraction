@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Events Search</title>
+         <meta http-equiv="Content-Type" content="application/json"/>
+     
+	  <meta content="utf-8" http-equiv="encoding">
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <script src="vis.min.js"></script>
+   <link href="vis.min.css" rel="stylesheet" type="text/css" />
+   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+   <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+   <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+   <style type="text/css">
+
+   	#mapid { 
+   		height: 87%; 
+   		top: 13%;
+   		z-index: 5;
+   	}
+   	html, body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+	#floating-panel-bottom {
+		position: absolute;
+		bottom: 0px;
+		width: 99%;
+		z-index: 10;
+		background-color: #fff;
+		padding: 5px;
+		border: 1px solid #999;
+		text-align: center;
+		font-family: 'Roboto','sans-serif';
+		line-height: 30px;
+		/*padding-left: 10px;*/
+		/*resize: vertical;*/
+		overflow: auto;
+	}
+
+
+	#start{
+		text-align: center;
+	}
+	#end {
+		position: absolute;
+		top: 0%;
+		/*padding-right: 1%;*/
+		/*padding-left: 1%;*/
+		/*bottom: 88%;*/
+		/*bottom: 0rem;*/
+		width: 100%;
+		height: 14%;
+	    background-color: #FFFFFF;
+	    background: #FFFFFF;
+	    }
+
+	/* Always set the map height explicitly to define the size of the div
+	* element that contains the map. */
+	#slider-range{
+	left: 10%;
+	width: 80%;
+	background: #FFFFFF	;				
+	}
+
+	input{
+				padding-left: 5%;
+		}
+
+
+   </style>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+
+	</head>
+
+	<body>
+
+		
+		<div id="floating-panel-bottom">
+			<div id="visualization" style="border: 1px solid black"></div>
+		</div>
+		<div id="mapid"></div>
+
+		<script type="text/javascript">
+
+			//
+			function geocode(address){
+
+          
+          var ass = encodeURIComponent(address+",Jammu,India");
+          var url = "https://nominatim.openstreetmap.org/?format=json&addressdetails=1&q={"+ass+"}&format=json&limit=1";         
+          var xhttp = new XMLHttpRequest();   
+          xhttp.open("GET",url,false);
+          xhttp.send(null);
+          // var output_str = xhttp.responseText;
+          // alert(output_str);
+        
+
+        if (xhttp.status === 200) {
+          var obj = JSON.parse(xhttp.responseText);
+          // alert(xhttp.responseText);
+          if (obj[0] == undefined) {
+            return [34.0747444,74.8204443];
+          }
+                    var lati = obj[0]["lat"];
+                    var longi = obj[0]["lon"];
+                    var out_array = [lati,longi];
+                    // alert(out_array);
+                    return out_array;
+        }        
+        else{
+          return [34.0747444,74.8204443];
+        }
+      } 
+
+			function infoTempelate (headline,place,date,info) {
+				return '<div id="content">'+
+				'<div id="info">'+
+				'</div>'+
+				'<h1 style="font-size:16px" id="firstHeading" class="firstHeading">'+ headline +'</h1>'+
+				'<div id="bodyContent">'+
+				'<p>'+ place +'</p>'+
+				'<p>'+ date +'</p>'+
+				'<p>'+ info +'</p>'+
+				// '<p a= '+info+'">'+ info +'</p>'+
+				'</div>'+
+				'</div>';
+			}
+
+			var mymap = L.map('mapid').setView([32.75,77.0], 4); //need to change
+			L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    			attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    			maxZoom: 18,
+    			id: 'mapbox.streets',
+    			accessToken: 'pk.eyJ1IjoiYW1vbDE5OTYiLCJhIjoiY2p2YXZvdDY0MHU5NDQ2bW1lbGx0c2pkOCJ9.fqDUTwHlbXn2ogkAVz2qKA'
+			}).addTo(mymap);
+
+			// var marker = L.marker([51.5, -0.09]).addTo(mymap);
+			// var out = geocode("Delhi,India");
+
+			// marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+			
+			// 
+			var temp = document.location.href;
+	        var output_str = decodeURIComponent(temp.split('=')[1]);           
+           	var events = JSON.parse(output_str);
+
+           	var markers = [];
+           	//array of [id,bool], keeps track of clicks on timeline events, used for toggling infoWindow
+			var clicked = [];
+			 
+			var uniqueLoc = [];
+
+			// DOM element where the Timeline will be attached
+			var container = document.getElementById('visualization');
+
+			// Create a DataSet (allows two way data-binding)
+			var items = createItems(events);
+
+			// Configuration for the Timeline
+			var options = {
+				stack: true,
+				height: '200px',
+				width: '100%'
+			};
+
+			// Create a Timeline
+			var timeline = new vis.Timeline(container, items, options);
+
+           	for (var i = events.length - 1; i >= 0; i--) {
+           		var loc = geocode(events[i]["Event.location"]);
+           		while(loc2str(loc) in uniqueLoc){
+           			loc = changeLoc(loc);
+           		}
+           		var marker = L.marker(loc).addTo(mymap);
+           		// marker.bindPopup("check");
+           		marker.bindPopup(infoTempelate(events[i]["Event.headline"],events[i]["Event.location"],events[i]["Event.date"],events[i]["Event.sentence"]));           		
+				/*var popup = L.popup()
+						    .setLatLng(geocode(events[i]["Event.location"]))
+						    .setContent(infoTempelate(events[i]["Event.location"],events[i]["Event.date"],events[i]["info"]));*/
+				uniqueLoc[loc2str(loc)] = events[i]["id"];
+				var markerElem = [events[i]["Event.dbid"] , marker];
+				markers.push(markerElem);
+				clicked.push([markerElem[0] , false]);
+           	}
+
+           	
+
+			timeline.on('click', function (properties) {
+				console.log(properties.item);
+				var markerElem = getMarkerByID(markers,properties.item);
+				toggleClicked(true,properties.item,clicked);
+				if (markerElem != null){
+					currMarker = markerElem[1];
+					currMarker.openPopup();
+				}
+			});
+			timeline.on('itemover', function (properties) {
+				var markerElem = getMarkerByID(markers,properties.item);
+				if (markerElem != null){
+					currMarker = markerElem[1];
+					popupElem = currMarker.getPopup();
+					if(popupElem.isOpen()) toggleClicked(true,properties.item,clicked);
+					else toggleClicked(false,properties.item,clicked);
+					currMarker.openPopup();
+				}
+			});
+			timeline.on('itemout', function (properties) {
+				var markerElem = getMarkerByID(markers,properties.item);
+				if (markerElem != null){
+					currMarker = markerElem[1];
+					popupElem = currMarker.getPopup();
+					if(!checkClicked(properties.item,clicked)) currMarker.closePopup();
+				}
+			});
+
+
+/*, type: 'point'*/
+/*content: 'event'+events[i]["Event.dbid"],
+*/
+			function loc2str(loc) {
+				loc[0] = Math.round( loc[0] * 10) / 10;
+				loc[1] = Math.round( loc[1] * 10) / 10;
+				console.log(loc[0].toString() + loc[1].toString());
+				return loc[0].toString() + loc[1].toString();
+			}
+
+			function changeLoc(loc) {
+				loc[0] = loc[0] + Math.random()/5;
+				loc[1] = loc[1] + Math.random()/5;
+				return loc;
+			}
+
+			function createItems(events) {
+				var elemArr = []
+				for (var i = 0; i < events.length; i++) {
+					console.log("i="+i);
+					var elem = {id: events[i]["Event.dbid"], content: 'Event'+events[i]["Event.index"],  start: events[i]["Event.date"], type: 'point'};
+					elemArr.push(elem);
+				}
+				return new vis.DataSet(elemArr);
+			}
+
+			function getMarkerByID(markers,id){
+				for (var i = markers.length - 1; i >= 0; i--) {
+					if(markers[i][0] == id) return markers[i];
+				}
+				return null;
+			}
+			//helper function
+			function checkClicked(id,clicked) {
+				for (var i = 0; i < clicked.length; i++) {
+					if (clicked[i][0] == id) return clicked[i][1];
+				}
+			}
+			//helper function
+			function toggleClicked(val,id,clicked) {
+				for (var i = 0; i < clicked.length; i++) {
+					if (clicked[i][0] == id) clicked[i][1] = val;
+				}
+			}
+
+
+			// 
+
+			// slider code
+			function returnDateString(cur){
+			            // document.getElementById('output').innerHTML = cur;
+			            var dt = new Date(cur);                        
+			            var dat=dt.getDate();
+			            var mn=dt.getMonth();
+			            mn++;
+			            var yy=dt.getFullYear();
+			            var final_mn = "";
+			            var final_date = "";
+			           if (mn<10) {
+			                final_mn = "0"+mn;  
+			           }
+			           else{
+			               final_mn = mn;
+			           }
+			           if (dat<10) {
+			                 final_dat = "0"+dat;  
+			            }
+			            else{
+			                final_dat = dat;
+			            }
+			            return yy+"-"+ final_mn +"-"+final_dat;
+			            // return yy+"-"+ months[mn] +"-"+final_dat;
+			}
+
+			function changeMonthToInt(str){
+			    var dt = new Date(str);                        
+			    var dat=dt.getDate();
+			    var mn=dt.getMonth();
+			    mn++;
+			    var yy=dt.getFullYear();
+			    var final_mn = "";
+			    var final_date = "";
+			    if (mn<10) {
+			         final_mn = "0"+mn;  
+			    }
+			    else{
+			        final_mn = mn;
+			    }
+
+			    if (dat<10) {
+			         final_dat = "0"+dat;  
+			    }
+			    else{
+			        final_dat = dat;
+			    }
+			    return yy+"-"+final_mn+"-"+final_dat;
+			}
+
+				function changeDates(markers,items,dt1, dt2){
+						for (var i = events.length - 1; i >= 0; i--) {
+							var d_i = new Date(dt1);
+							var d_f = new Date(dt2);
+							var itr = new Date(events[i]["Event.date"]);
+							console.log()
+
+							if( d_i<=itr && itr<=d_f ){
+								var temp_marker = getMarkerByID(markers,events[i]["Event.dbid"]);
+								//remove from map
+								temp_marker[1].setOpacity(1);
+								//remove from timeline
+
+								if( items.get(events[i]["Event.dbid"]) === null ){
+									// alert("check true");
+									var elem = {id: events[i]["Event.dbid"], content: 'Event'+events[i]["Event.index"], start: events[i]["Event.date"], type: 'point'};
+									items.add( [elem] );
+								}																
+							}
+							else{
+								var temp_marker = getMarkerByID(markers,events[i]["Event.dbid"]);
+								//remove from map
+								temp_marker[1].setOpacity(0);
+								//remove from timeline		
+								if( items.get(events[i]["Event.dbid"]) === null ){																	
+								}								
+								else {
+									items.remove(events[i]["Event.dbid"]);
+								}						
+								// items.remove(events[i]["Event.dbid"]);	
+							}
+						}
+				}
+			
+				
+					$(function() {
+				    $( "#slider-range" ).slider({
+				    //need to have dates sorted before sending t
+				      range: true,
+				      min: new Date( events[0]["Event.date"] ).getTime() / 1000,
+				      max: new Date(events[events.length -1]["Event.date"]).getTime() / 1000,
+				      step: 86400,
+				      values: [ new Date( events[0]["Event.date"] ).getTime() / 1000, new Date(events[events.length -1]["Event.date"]).getTime() / 1000],
+				      slide: function( event, ui ) {
+						if( document.getElementById("startdate_picker").value != returnDateString(ui.values[ 0 ] *1000)  ||  document.getElementById("enddate_picker").value != returnDateString(ui.values[ 1 ] *1000)){
+												changeDates(markers,items, returnDateString(ui.values[ 0 ] *1000) ,  returnDateString(ui.values[1] *1000) );
+											}
+						$( "#startdate_picker" ).val( printDateString(ui.values[ 0 ] *1000) );
+				        $( "#enddate_picker" ).val( printDateString(ui.values[ 1 ] *1000) );
+				      }
+				    });
+				     $( "#startdate_picker" ).val(printDateString($( "#slider-range" ).slider( "values", 0 )*1000) );
+				     $( "#enddate_picker" ).val(printDateString($( "#slider-range" ).slider( "values", 1 )*1000) );
+
+				  });
+
+							function printDateString(cur){
+							          // document.getElementById('output').innerHTML = cur;
+							          var dt = new Date(cur);                        
+							          var dat=dt.getDate();
+							          var mn=dt.getMonth();
+							          // mn++;
+							          var yy=dt.getFullYear();
+							          var final_mn = "";
+							          var final_date = "";
+							          var months = [ "January", "February", "March", "April", "May", "June", 
+							         "July", "August", "September", "October", "November", "December" ];
+							          if (dat<10) {
+							               final_dat = "0"+dat;  
+							          }
+							          else{
+							              final_dat = dat;
+							          }
+							          return yy+"-"+ months[mn] +"-"+final_dat;
+							}
+							
+							function changeMonthStringToInt(str){
+									var new_str = str.split("-")[1];
+									var yr = str.split("-")[0];
+									var dt = str.split("-")[2];
+									var months = [ "January", "February", "March", "April", "May", "June", 
+								         "July", "August", "September", "October", "November", "December" ];
+									var i = 0;
+									while(months[i]!=new_str){
+										i++;
+									}
+									i++;
+									var final_i = "";
+									if (i<10) {
+							               final_i = "0"+i;  
+							          }
+							          else{
+							              final_i = i;
+							          }
+									return yr+"-"+final_i+"-"+dt;
+							}
+							
+							function submitFunction() {
+								  var location = document.getElementById('location').value;
+								  var startdate = changeMonthStringToInt(document.getElementById("startdate_picker").value);            
+								  var enddate = changeMonthStringToInt(document.getElementById("enddate_picker").value);
+								  var event = document.getElementById('event').value;							  
+								  var send_string = "{\
+								      \"startdate\":"+startdate+",\
+								      \"enddate\":"+enddate+",\
+								      \"event\":"+event+",\
+								      \"location\":"+location+"\
+								  }";
+								  
+								  //alert(startdate);
+								  //alert(enddate);
+								  // document.getElementById('output').innerHTML = send_string;
+
+								var xhttp = new XMLHttpRequest();          
+								// alert("here");
+
+								xhttp.open("POST", "http://10.194.32.206:8080/query_handle/loginServlet", false);
+								xhttp.setRequestHeader('Content-Type', 'application/json');
+								// xhttp.open("GET", "http://10.194.32.206:8080/query_handle/loginServlet?info='kay'", false);
+								// xhttp.setRequestHeader( 'Access-Control-Allow-Origin', '*');
+								xhttp.send(send_string);
+								// console.log("info",xhttp.responseText);
+								// document.getElementById('output').innerHTML = "[{\"date\":\"2-4-1998\",\"location\":\"Chennai\",\"info\":\"haswee.com\" }]";
+								 // global_object = "[{\"date\":\"2-4-1998\",\"location\":\"Chennai\",\"info\":\"haswee.com\" }]";
+								 // var global_object = "[{ \"id\":\"1\",\"date\":\"2019-01-01\",\"location\":\"Kupwara\",\"info\":\"google.com\"},{\"id\":\"2\",\"date\":\"2007-12-01\",\"location\":\"Hyderabad\",\"info\":\"fb.com\"},{\"id\":\"3\",\"date\":\"2009-09-11\",\"location\":\"Singapore\",\"info\":\"nus.com\"}]";      
+				            	//var  global_object = xhttp.responseText;
+								//alert(send_string);  
+				            	//alert(xhttp.responseText);
+				            	if(xhttp.status === 200){}
+				            	else{
+				            		alert("error");
+				            	}
+								  var myArr = JSON.parse(xhttp.responseText);
+								  myArr.sort(function(a,b){
+								      var c = new Date(a["Event.date"]);
+								      var d = new Date(b["Event.date"]);
+								      return c-d;
+								      });
+
+								 for (i=0 ; i<myArr.length ; i++){
+								   myArr[i]["Event.index"] = i+1;
+								  }
+								  // document.getElementById('output').innerHTML = JSON.stringify(myArr);
+
+								 // var url = 'Events_Map.html?object='+encodeURIComponent(JSON.stringify(myArr));
+								 var url = 'map4.html?object='+encodeURIComponent(JSON.stringify(myArr));								 
+								 
+								 document.location.href = url;
+								 
+								 
+							}
+			// slider code
+		</script>
+	</body>
+			<div id ="end">
+				<p id = "start">
+	  <input type="text" id="location" placeholder="Enter new location" style="border: 0; color: #f6931f; font-weight: bold;" />
+	  <input type="text" id="event" placeholder="Enter new event" style="border: 0; color: #f6931f; font-weight: bold;" />		  
+			  <input type="text" id="startdate_picker" style="border: 0; color: #f6931f; font-weight: bold;" readonly/>
+			  <input type="text" id="enddate_picker" style="border: 0; color: #f6931f; font-weight: bold;" readonly/>			  
+	   <button onclick="submitFunction()" > Find Events </button>
+			</p>
+			<div id="slider-range"></div>
+
+			</div>
+
+</html>

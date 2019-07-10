@@ -1,0 +1,401 @@
+Abli Masri,Doda
+Ahgad,Doda
+Al,Doda
+Altu,Doda
+Arnora,Doda
+Asesi,Doda
+Assar,Doda
+Bagla,Doda
+Bajarni,Doda
+Balasu,Doda
+Banjai,Doda
+Bari,Doda
+Barshala,Doda
+Bayota,Doda
+Beoli,Doda
+Bhaboore,Doda
+Bhadra,Doda
+Bhagwa,Doda
+Bhakhna,Doda
+Bhal Wana,Doda
+Bhandas,Doda
+Bhart,Doda
+Bhasti,Doda
+Bhatri,Doda
+Bibrota,Doda
+Buland Pur,Doda
+Chaka,Doda
+Chakri,Doda
+Charote,Doda
+Charrote,Doda
+Chil,Doda
+Darondi,Doda
+Dashnan,Doda
+Desa,Doda
+Dhalkankoot,Doda
+Dhandal,Doda
+Dhar,Doda
+Dhara,Doda
+Dharara,Doda
+Dongro,Doda
+Gaddyari,Doda
+Gadetar,Doda
+Gagla,Doda
+Ganeka,Doda
+Gangalwar,Doda
+Gangatah,Doda
+Ghanhuta,Doda
+Goddi,Doda
+Goha,Doda
+Gundna,Doda
+Haleja,Doda
+Hambal,Doda
+Hamir Pur,Doda
+Hancha,Doda
+Hud,Doda
+Ibrakh,Doda
+Jagrote,Doda
+Jajote,Doda
+Jatheli,Doda
+Jathi,Doda
+Jodhpur,Doda
+Kalaya,Doda
+Kalihand,Doda
+Kaloohand,Doda
+Karmeel,Doda
+Kasti Garh,Doda
+Kehlote,Doda
+Khaleni,Doda
+Kharonti,Doda
+Khono,Doda
+Korara,Doda
+Kotahri,Doda
+Koti,Doda
+Kotla,Doda
+Kotli,Doda
+Kukrasu,Doda
+Kumarri,Doda
+Kuthiara,Doda
+Lalhote,Doda
+Lodna,Doda
+Magota,Doda
+Mahala,Doda
+Malhori,Doda
+Malwana Jagir,Doda
+Malwas,Doda
+Mandole,Doda
+Marsoh,Doda
+Masri,Doda
+Masrunda,Doda
+Mechrota Kalan,Doda
+Mechrota Khurd,Doda
+Mothi,Doda
+Mund Dhar,Doda
+Naid Angri,Doda
+Pankhar,Doda
+Par Shoola,Doda
+Parbal,Doda
+Paryote,Doda
+Phangota,Doda
+Pranu,Doda
+Rahi,Doda
+Ramgarh,Doda
+Ranka,Doda
+Rivara,Doda
+Rote,Doda
+Roti Padarna,Doda
+Sarak,Doda
+Saras,Doda
+Saronda,Doda
+Sarsi,Doda
+Sel,Doda
+Seote,Doda
+Shaerna Kalan,Doda
+Shaerna Khurd,Doda
+Shaja,Doda
+Shamti,Doda
+Shangroo,Doda
+Shavian,Doda
+Shewa,Doda
+Sohanda,Doda
+Tantna,Doda
+Tapnel,Doda
+Tarowa,Doda
+Thalsara,Doda
+Udianpur,Doda
+Balote,Bhaderwah
+Bamlakhi,Bhaderwah
+Banjala,Bhaderwah
+Barsu,Bhaderwah
+Barwa,Bhaderwah
+Barwah,Bhaderwah
+Berru,Bhaderwah
+Bhadrote,Bhaderwah
+Bhagrota,Bhaderwah
+Bhala,Bhaderwah
+Bhalra,Bhaderwah
+Bhara,Bhaderwah
+Bharhi,Bhaderwah
+Bhasti,Bhaderwah
+Bhatei,Bhaderwah
+Bhatoli,Bhaderwah
+Bheja,Bhaderwah
+Brhampuri,Bhaderwah
+Butla,Bhaderwah
+Chabri,Bhaderwah
+Chak Botha,Bhaderwah
+Chak Katoch,Bhaderwah
+Chakka,Bhaderwah
+Chakra Bhati,Bhaderwah
+Chanote,Bhaderwah
+Cheka,Bhaderwah
+Chelli,Bhaderwah
+Chenchora,Bhaderwah
+Chhani,Bhaderwah
+Chhatra,Bhaderwah
+Chhnna,Bhaderwah
+Chondri,Bhaderwah
+Dalain,Bhaderwah
+Dalha,Bhaderwah
+Danda,Bhaderwah
+Dandi,Bhaderwah
+Dandi,Bhaderwah
+Darsu,Bhaderwah
+Derka,Bhaderwah
+Dhalwali,Bhaderwah
+Dhamanda,Bhaderwah
+Dhar,Bhaderwah
+Dharan,Bhaderwah
+Dharfra,Bhaderwah
+Dige,Bhaderwah
+Dosala,Bhaderwah
+Dranga,Bhaderwah
+Drodhu,Bhaderwah
+Duga,Bhaderwah
+Dugah,Bhaderwah
+Dugli,Bhaderwah
+Gatha,Bhaderwah
+Ghuraka,Bhaderwah
+Gogothe,Bhaderwah
+Gutasa,Bhaderwah
+Hadal,Bhaderwah
+Hanga,Bhaderwah
+Himote,Bhaderwah
+Jahnana,Bhaderwah
+Jajinda,Bhaderwah
+Jalga,Bhaderwah
+Jandora,Bhaderwah
+Kahla,Bhaderwah
+Kahri,Bhaderwah
+Kandosu,Bhaderwah
+Kansar,Bhaderwah
+Karyan,Bhaderwah
+Kathiara,Bhaderwah
+Katyara,Bhaderwah
+Khalu,Bhaderwah
+Kharothi,Bhaderwah
+Khellani,Bhaderwah
+Kolra,Bhaderwah
+Kotli,Bhaderwah
+Koundra,Bhaderwah
+Kungla,Bhaderwah
+Kursari,Bhaderwah
+Lanchan,Bhaderwah
+Lelrote,Bhaderwah
+Madsoo,Bhaderwah
+Malothi,Bhaderwah
+Manawa,Bhaderwah
+Mandelah,Bhaderwah
+Manthala,Bhaderwah
+Mathola,Bhaderwah
+Mehrada,Bhaderwah
+Misratah,Bhaderwah
+Monda,Bhaderwah
+Nagar,Bhaderwah
+Nagni,Bhaderwah
+Nalthi,Bhaderwah
+Naska,Bhaderwah
+Neota,Bhaderwah
+Noori,Bhaderwah
+Paneja,Bhaderwah
+Panjgrain,Bhaderwah
+Pawara,Bhaderwah
+Pendku,Bhaderwah
+Randah,Bhaderwah
+Rehi,Bhaderwah
+Renda,Bhaderwah
+Sarna,Bhaderwah
+Sartingel,Bhaderwah
+Seeri,Bhaderwah
+Sengoi,Bhaderwah
+Shankoja,Bhaderwah
+Sharora,Bhaderwah
+Sindra,Bhaderwah
+Sohra,Bhaderwah
+Soth,Bhaderwah
+Sungli,Bhaderwah
+Tenisna,Bhaderwah
+Thalanga,Bhaderwah
+Thamli,Bhaderwah
+Thanala,Bhaderwah
+Thatha,Bhaderwah
+Tribbe,Bhaderwah
+Udrana,Bhaderwah
+Achher,Gandoh
+Almigangota,Gandoh
+Amar Singh Pora,Gandoh
+Amarsingh Pora,Gandoh
+Amrit Pora,Gandoh
+Angnol,Gandoh
+Batara,Gandoh
+Batmas,Gandoh
+Beli Chinalra,Gandoh
+Bhargi,Gandoh
+Bharti,Gandoh
+Bhatoli,Gandoh
+Bhatyas,Gandoh
+Bheja,Gandoh
+Budhli,Gandoh
+Chalri,Gandoh
+Champal,Gandoh
+Changa,Gandoh
+Chanias,Gandoh
+Chansar,Gandoh
+Chanti Bala,Gandoh
+Chanti Pain,Gandoh
+Chillebala,Gandoh
+Chillepain,Gandoh
+Chochlu,Gandoh
+Chounri,Gandoh
+Dalain,Gandoh
+Darai,Gandoh
+Dhadkahi,Gandoh
+Dharyari,Gandoh
+Dhonsa,Gandoh
+Dudwar,Gandoh
+Gando,Gandoh
+Gando,Gandoh
+Gawari,Gandoh
+Ghan Shanana,Gandoh
+Ghil,Gandoh
+Gurekra,Gandoh
+Gwalo,Gandoh
+Hadal,Gandoh
+Halor,Gandoh
+Inharra,Gandoh
+Jakias,Gandoh
+Kahal Jagesar,Gandoh
+Kako,Gandoh
+Kandolu,Gandoh
+Kharangal,Gandoh
+Kilotran,Gandoh
+Kunan,Gandoh
+Luddu,Gandoh
+Mandhan,Gandoh
+Mano,Gandoh
+Muksias,Gandoh
+Pora Bala,Gandoh
+Pora Pain,Gandoh
+Raj Pura,Gandoh
+Rela,Gandoh
+Samai,Gandoh
+Sanwara,Gandoh
+Shingni,Gandoh
+Sinoodalari,Gandoh
+Taloogarh,Gandoh
+Tantali,Gandoh
+Tendala,Gandoh
+Thaloran,Gandoh
+Trithlu,Gandoh
+Agrika,Thathri
+Amrit Garh,Thathri
+Bachhra,Thathri
+Bajah,Thathri
+Banoia,Thathri
+Barshala,Thathri
+Bathri,Thathri
+Bhalara,Thathri
+Bhatola,Thathri
+Bhatoli,Thathri
+Bhela,Thathri
+Bolian,Thathri
+Botagra,Thathri
+Budhi,Thathri
+Chagnu,Thathri
+Chegsu,Thathri
+Chira,Thathri
+Chuteri,Thathri
+Dadian,Thathri
+Daron Kerani,Thathri
+Daronjamani,Thathri
+Darori,Thathri
+Dehra,Thathri
+Deyoki,Thathri
+Dhaliah,Thathri
+Dhar Yotha,Thathri
+Dichhal,Thathri
+Fagsu,Thathri
+Galoo,Thathri
+Ghaba,Thathri
+Goela,Thathri
+Gosti,Thathri
+Grondra,Thathri
+Gugara,Thathri
+Gurekra,Thathri
+Hagona,Thathri
+Halaran,Thathri
+Hanejo,Thathri
+Herani,Thathri
+Hoja Bola,Thathri
+Indlu,Thathri
+Indrala,Thathri
+Jagota,Thathri
+Jandani,Thathri
+Jangalwar,Thathri
+Jasolah,Thathri
+Jhajka,Thathri
+Jia,Thathri
+Jora Kalan,Thathri
+Jora Khurd,Thathri
+Kahi Trankal,Thathri
+Kahla,Thathri
+Kandote,Thathri
+Kanso,Thathri
+Kathawa,Thathri
+Kawani,Thathri
+Kemega,Thathri
+Kencha,Thathri
+Kolai,Thathri
+Kothi Bala,Thathri
+Kothi Pain,Thathri
+Kundi,Thathri
+Kuthiara,Thathri
+Madren,Thathri
+Mahri,Thathri
+Malanu,Thathri
+Malota,Thathri
+Nagni,Thathri
+Nai,Thathri
+Nanadna,Thathri
+Natwas,Thathri
+Panthan,Thathri
+Parnot,Thathri
+Pemasa,Thathri
+Piykal,Thathri
+Puneja,Thathri
+Ranot,Thathri
+Renkha,Thathri
+Rukali Kalan,Thathri
+Rukali Khurd,Thathri
+Sahan,Thathri
+Shahrote,Thathri
+Shakla,Thathri
+Sham Dalain,Thathri
+Sharni,Thathri
+Shibnot,Thathri
+Sichal,Thathri
+Sunarthawa,Thathri
+Suranga,Thathri
+Tanta,Thathri
+Thalela,Thathri
+Thatri,Thathri

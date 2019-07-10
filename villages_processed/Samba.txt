@@ -1,0 +1,344 @@
+Abtal,Samba
+Abtal Katlan,Samba
+Amli,Samba
+Amwal,Samba
+Anand Pur,Samba
+Anmbala,Samba
+Badali,Samba
+Badheri,Samba
+Badhwal,Samba
+Badiyal,Samba
+Badla Brahmana,Samba
+Badla Denonion,Samba
+Badori,Samba
+Bagla,Samba
+Bagun,Samba
+Baila Samba,Samba
+Bain,Samba
+Bajawati,Samba
+Bajpur,Samba
+Baletar,Samba
+Balooni,Samba
+Balori,Samba
+Balour,Samba
+Bapanir Garh,Samba
+Bara,Samba
+Bardon,Samba
+Bari Kamlia,Samba
+Barori,Samba
+Barota,Samba
+Barri,Samba
+Basi Khurd,Samba
+Bathal,Samba
+Bebral,Samba
+Bedi,Samba
+Beli,Samba
+Bhakri,Samba
+Bhaloora,Samba
+Bhangdor,Samba
+Bhangwal,Samba
+Bharath Gar,Samba
+Bhatiari Katlan,Samba
+Bhatli,Samba
+Bhekari,Samba
+Bhoran,Samba
+Bian,Samba
+Bijeypur,Samba
+Bindral,Samba
+Budwana,Samba
+Burj Sheru,Samba
+Chachwal,Samba
+Chak Baglan,Samba
+Chak Bakain Kani,Samba
+Chak Balotriyan,Samba
+Chak Banan,Samba
+Chak Bhagta,Samba
+Chak Bhagwana,Samba
+Chak Bhimbo,Samba
+Chak Chaban Kalan,Samba
+Chak Chaban Khurd,Samba
+Chak Chataka,Samba
+Chak Daulat,Samba
+Chak Deesa Dohlian Gujran,Samba
+Chak Devli,Samba
+Chak Dulma,Samba
+Chak Dyla,Samba
+Chak Faqira,Samba
+Chak Faroza,Samba
+Chak Girdhari,Samba
+Chak Goran,Samba
+Chak Hiran,Samba
+Chak Jangi,Samba
+Chak Jasu,Samba
+Chak Jawahir,Samba
+Chak Jawahir Singh,Samba
+Chak Jhanda Singh,Samba
+Chak Khod Singh,Samba
+Chak Khokhron,Samba
+Chak Lala,Samba
+Chak Mahanga Gojar,Samba
+Chak Mahtab Singh,Samba
+Chak Manga Rakwal,Samba
+Chak Medu Basotra,Samba
+Chak Medusadralia,Samba
+Chak Nanak,Samba
+Chak Nazir,Samba
+Chak Paras,Samba
+Chak Rakwala,Samba
+Chak Sadda,Samba
+Chak Sajnu,Samba
+Chak Salarian,Samba
+Chak Salarian,Samba
+Chak Shaman,Samba
+Chan Matlani,Samba
+Chandli,Samba
+Chani Mansar,Samba
+Chanori,Samba
+Chhajwal,Samba
+Chhan Kahna,Samba
+Chhan Malagar,Samba
+Chhan Prohtan,Samba
+Chhani Jasu,Samba
+Chhani Manhassan,Samba
+Chhni Fatwal,Samba
+Dabeka,Samba
+Daboh,Samba
+Dabooj Shahzada,Samba
+Daghor,Samba
+Darui,Samba
+Deawan,Samba
+Dergarh,Samba
+Devoj Kaka,Samba
+Dhalout,Samba
+Dhantah,Samba
+Dhorah,Samba
+Dhupsaddi,Samba
+Douniyan,Samba
+Dudyal,Samba
+Dwal,Samba
+Gadwal,Samba
+Gahani Alna,Samba
+Galahad,Samba
+Galwal,Samba
+Gangith,Samba
+Gawal Chorah,Samba
+Ghagour,Samba
+Ghagwal,Samba
+Ghobarahmana,Samba
+Ghomanhassan,Samba
+Ghorakhwalan,Samba
+Gogar,Samba
+Gopwal,Samba
+Goran,Samba
+Gowal,Samba
+Gurah Jattan,Samba
+Harsaath,Samba
+Irazi Samba,Samba
+Jagwal,Samba
+Jamudah,Samba
+Jar Mutan,Samba
+Jarh Sarwa,Samba
+Jarhabtal,Samba
+Jarradawan,Samba
+Jasaath,Samba
+Jatah,Samba
+Jatwal,Samba
+Jed,Samba
+Jerdah,Samba
+Jhalyari Kalan,Samba
+Jhalyari Khurd,Samba
+Jhang,Samba
+Jhumikan,Samba
+Jrain,Samba
+Kahran Wali,Samba
+Kajiali Kalan,Samba
+Kalah,Samba
+Kali Nawi,Samba
+Kali Purani,Samba
+Kaloha,Samba
+Kalwal,Samba
+Kamala,Samba
+Kamar,Samba
+Kangwala,Samba
+Kanik,Samba
+Kanir,Samba
+Karali Kalan,Samba
+Karali Khurd,Samba
+Karandi,Samba
+Kard,Samba
+Kartholi,Samba
+Kat Walta,Samba
+Katlai,Samba
+Katli,Samba
+Kaunta,Samba
+Keso Manhasan,Samba
+Khan Pur,Samba
+Khandral,Samba
+Khanwal,Samba
+Khara Madhana,Samba
+Khathar Brahmana,Samba
+Kherdi,Samba
+Khor Salarian,Samba
+Kishenpur,Samba
+Knabal,Samba
+Kol Pur,Samba
+Kopri,Samba
+Kotera,Samba
+Kotli Markalian,Samba
+Kumi,Samba
+Labli,Samba
+Lagwal,Samba
+Langtha,Samba
+Madoon,Samba
+Madwal,Samba
+Mahal Kalandrian,Samba
+Mahal Shahan,Samba
+Maharaj Pur,Samba
+Mahur Grah,Samba
+Malaahni,Samba
+Mananun,Samba
+Mandera,Samba
+Mandhera,Samba
+Mandi Dansal,Samba
+Mandi Garh,Samba
+Mandi Ghorgalian,Samba
+Mandi Keli,Samba
+Mandi Paswalian,Samba
+Mandi Thalora,Samba
+Mandyal,Samba
+Mango Chak,Samba
+Manohar Gopala,Samba
+Marhun,Samba
+Markoli,Samba
+Mava,Samba
+Mean charkah,Samba
+Mean Sarkar,Samba
+Minaspur,Samba
+Motliyan Kalan,Samba
+Motliyan Khurd,Samba
+Mulath,Samba
+Muthi Chahru,Samba
+Muthi Kalan,Samba
+Muthi Khurd,Samba
+Nadahla,Samba
+Nagrota,Samba
+Nahran,Samba
+Najwal,Samba
+Nand,Samba
+Nandni,Samba
+Nanga,Samba
+Nangal,Samba
+Nantar,Samba
+Nathwal,Samba
+Nathwal,Samba
+Nihari,Samba
+Nonaath,Samba
+Padal,Samba
+Palai,Samba
+Palawatah,Samba
+Palli,Samba
+Palth,Samba
+Panj Grain Sainian,Samba
+Panthi,Samba
+Papar Abtara,Samba
+Papar Brahmana,Samba
+Parei,Samba
+Parthal,Samba
+Paswal,Samba
+Patiyari,Samba
+Patiyari,Samba
+Patti,Samba
+Pharri,Samba
+Phogal,Samba
+Piyor,Samba
+Ploona,Samba
+Purmandal,Samba
+Rada,Samba
+Radi,Samba
+Radiyal,Samba
+Ragaal,Samba
+Raghu Chak,Samba
+Rahian,Samba
+Raika Labanah,Samba
+Raika Mahuva,Samba
+Raipur,Samba
+Raj Pura,Samba
+Rajindarpura,Samba
+Rajli,Samba
+Rajoul,Samba
+Rajpur Jatan,Samba
+Rajpur Kuhlar,Samba
+Rakh Abtal,Samba
+Rakh Ambhtahli,Samba
+Rakh Badotein,Samba
+Rakh Barai,Samba
+Rakh Barothion,Samba
+Rakh Chidk,Samba
+Rakh Jhang,Samba
+Rakh Kangwal,Samba
+Rakh Rajpur,Samba
+Rakh Rara,Samba
+Ram Garh,Samba
+Ram Nagar,Samba
+Ramgour,Samba
+Ramluh Brahmana,Samba
+Rampur,Samba
+Randowal,Samba
+Ratan Pur,Samba
+Ratwana,Samba
+Redwan Kalan,Samba
+Redwan Khurd,Samba
+Ret,Samba
+Rewar,Samba
+Sadhu,Samba
+Sadral,Samba
+Sadwal,Samba
+Sagal,Samba
+Sah,Samba
+Sahrri,Samba
+Sajana,Samba
+Samdu,Samba
+Samilnah,Samba
+Samlah,Samba
+Samlahri,Samba
+Samotha,Samba
+Sangar,Samba
+Sangwal,Samba
+Sanoora,Samba
+Sanour,Samba
+Sapwal,Samba
+Sarain,Samba
+Sargwal,Samba
+Sarlah,Samba
+Sarna,Samba
+Sarti Kalan,Samba
+Sarti Khurd,Samba
+Sarwah,Samba
+Satah,Samba
+Shahzad Pur,Samba
+Shri Partap Singh Pora,Samba
+Shri Partap Singh Pora,Samba
+Sial,Samba
+Smail Pur,Samba
+Sodam,Samba
+Sohanda,Samba
+Sojawan,Samba
+Sombli,Samba
+Sri Partap Singh Pora,Samba
+Suchet Garh,Samba
+Suchi Pur,Samba
+Sungaali,Samba
+Surara,Samba
+Swankha,Samba
+Talhar,Samba
+Talour,Samba
+Tapiyal,Samba
+Tarapur,Samba
+Tarore,Samba
+Thandwal,Samba
+Theri Charai,Samba
+Tholori Gojran,Samba
+Tondah,Samba
+Trandi Singara,Samba
+Trandi Zanbura,Samba
+Treli,Samba

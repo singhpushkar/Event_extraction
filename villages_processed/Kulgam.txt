@@ -1,0 +1,225 @@
+Adigan Dewsar,Kulgam
+Akhal,Kulgam
+Akhran,Kulgam
+Antoo,Kulgam
+Arigutnoo,Kulgam
+Asthal,Kulgam
+Audi Pora,Kulgam
+Audora,Kulgam
+Bachroo,Kulgam
+Badru,Kulgam
+Bagh Wan Poh,Kulgam
+Baihama,Kulgam
+Balso,Kulgam
+Bani Mulla,Kulgam
+Bata Pora Anantnag,Kulgam
+Bata Pora Vailoo,Kulgam
+Bata Pora Zana Pora,Kulgam
+Batango,Kulgam
+Batsurgam,Kulgam
+Battachloo,Kulgam
+Begam,Kulgam
+Behi Bagh,Kulgam
+Beri Gam,Kulgam
+Bhan,Kulgam
+Bogund,Kulgam
+Brazlo,Kulgam
+Brazlo Jagir,Kulgam
+Brinial Lamar,Kulgam
+Bugam,Kulgam
+Bumbrath,Kulgam
+Bunigam,Kulgam
+Chak Pora Ban Dora,Kulgam
+Chak Wazoo,Kulgam
+Chaki Hanjan,Kulgam
+Challan,Kulgam
+Chamb Gund,Kulgam
+Chana Pora,Kulgam
+Chandan Pajan,Kulgam
+Chandergi,Kulgam
+Chater Gam,Kulgam
+Chatri Pora,Kulgam
+Cheneh Gam,Kulgam
+Chowgam,Kulgam
+Churath,Kulgam
+Dadi Pora Jagir,Kulgam
+Danow,Kulgam
+Dard Gund,Kulgam
+Dasen,Kulgam
+Dodar Koot,Kulgam
+Domchaku,Kulgam
+Domdolla Tanjan,Kulgam
+Gadi Hama,Kulgam
+Ganosar Gam,Kulgam
+Gasi Raina,Kulgam
+Gopal Pora,Kulgam
+Gudar,Kulgam
+Gundi Pora,Kulgam
+Hadigam,Kulgam
+Hakra Dan,Kulgam
+Hangal Boch,Kulgam
+Hanjan,Kulgam
+Hardu Hanger,Kulgam
+Hati Pora Naidgam,Kulgam
+Howoora,Kulgam
+Jadi Pora Jagir,Kulgam
+Jadi Pora Khalsa,Kulgam
+Kachohalan,Kulgam
+Kader,Kulgam
+Kahrot Jagir,Kulgam
+Kahrot Khalsa,Kulgam
+Kakran,Kulgam
+Kala Pora,Kulgam
+Kaladrang,Kulgam
+Kanchlu,Kulgam
+Kani Pora,Kulgam
+Karaloo,Kulgam
+Katrusu,Kulgam
+Khalt Pora,Kulgam
+Khar Brari,Kulgam
+Khara Gund,Kulgam
+Khrewan Lasi Pora,Kulgam
+Khulora,Kulgam
+Kojar,Kulgam
+Konthchoo,Kulgam
+Kot Brari,Kulgam
+Krewan Chader,Kulgam
+Laisoo,Kulgam
+Lanker Pambi,Kulgam
+Lirow,Kulgam
+Madergam,Kulgam
+Madi Pora,Kulgam
+Malwan,Kulgam
+Manchu,Kulgam
+Mandhool,Kulgam
+Mirhama,Kulgam
+Mogal Bagh,Kulgam
+Mohi Pora,Kulgam
+Monad Guphan,Kulgam
+Moti Pora Zeban,Kulgam
+Mukand Pora,Kulgam
+Mutalhama,Kulgam
+Nani Bugh,Kulgam
+Narseng Pora,Kulgam
+Nav Bug,Kulgam
+Nawa Bal,Kulgam
+Nawah,Kulgam
+Nigeen Pora,Kulgam
+Nilwa,Kulgam
+Now Pora Chalend,Kulgam
+Now Pora Kher Pora,Kulgam
+Now Pora Tuli Pora,Kulgam
+Nowgam Devsar,Kulgam
+Ogam,Kulgam
+Okai,Kulgam
+Orail,Kulgam
+Pach Gam,Kulgam
+Pahlu,Kulgam
+Pala Pora,Kulgam
+Palno Pandith Pora,Kulgam
+Pambi,Kulgam
+Paniwah,Kulgam
+Paranhal,Kulgam
+Parigam Check,Kulgam
+Pariwan,Kulgam
+Partab Pora,Kulgam
+Poni Pora,Kulgam
+Ramgarh,Kulgam
+Rampora,Kulgam
+Red Wana,Kulgam
+Ruzloo,Kulgam
+Sampora Derapora,Kulgam
+Sarsana,Kulgam
+Seh Pora,Kulgam
+Seh Pora Ram Pathri,Kulgam
+Shagan Pora,Kulgam
+Shahoo Shachan,Kulgam
+Shali Pora,Kulgam
+Shere Pora,Kulgam
+Shindoo Kulpora,Kulgam
+Sofi Pora,Kulgam
+Sonigam,Kulgam
+Supur,Kulgam
+Surat Jagir,Kulgam
+Surat Khalsa,Kulgam
+Tang Bal,Kulgam
+Tangdunoo,Kulgam
+Tarigam Devbugh,Kulgam
+Tarigam Devsar,Kulgam
+Tentri Pora,Kulgam
+Thathoo,Kulgam
+Waltengo,Kulgam
+Wanpora,Kulgam
+Wari Pora,Kulgam
+Wawri Pora.,Kulgam
+Wazir Pora,Kulgam
+Wedoomashi Pora,Kulgam
+Yarhool Baba Pora,Kulgam
+Yemrach,Kulgam
+Zaban Mati Pora,Kulgam
+Zazri Pora,Kulgam
+Ahmad Abad,Damhal Hanjipora
+Asnur,Damhal Hanjipora
+Autoo,Damhal Hanjipora
+Awil,Damhal Hanjipora
+Badigah Lalan,Damhal Hanjipora
+Bathi Pora,Damhal Hanjipora
+Boh,Damhal Hanjipora
+Chachmolla,Damhal Hanjipora
+Chak Rambir Pora,Damhal Hanjipora
+Chaki Samad Rather,Damhal Hanjipora
+Chimmer,Damhal Hanjipora
+Chogal Pora,Damhal Hanjipora
+Damhal Hanji Pora,Damhal Hanjipora
+Dano Kandi Marag,Damhal Hanjipora
+Durhama,Damhal Hanjipora
+Forest Block,Damhal Hanjipora
+Gaudwana,Damhal Hanjipora
+Gojri Pora Dayani Pora,Damhal Hanjipora
+Gulzarabad,Damhal Hanjipora
+Halan,Damhal Hanjipora
+Har Wath,Damhal Hanjipora
+Herdumand Gori,Damhal Hanjipora
+Khokhar Hama,Damhal Hanjipora
+Khuri Bata Pora Jagir,Damhal Hanjipora
+Khuri Bata Pora Khalsa,Damhal Hanjipora
+Koreal,Damhal Hanjipora
+Kotamarag,Damhal Hanjipora
+Kounser Bal,Damhal Hanjipora
+Largo Ramahama,Damhal Hanjipora
+Likhdi Pora,Damhal Hanjipora
+Lisar Pora,Damhal Hanjipora
+Logopora,Damhal Hanjipora
+Manzgam,Damhal Hanjipora
+Marg Bal,Damhal Hanjipora
+Mir Wani,Damhal Hanjipora
+Nagam,Damhal Hanjipora
+Nagnad,Damhal Hanjipora
+Nandimarg,Damhal Hanjipora
+Nihama,Damhal Hanjipora
+Qasba Khul,Damhal Hanjipora
+Ragi Pora,Damhal Hanjipora
+Rewtan,Damhal Hanjipora
+Ringat,Damhal Hanjipora
+Samnoo,Damhal Hanjipora
+Tang Marg,Damhal Hanjipora
+Tengam,Damhal Hanjipora
+Wari Pora,Damhal Hanjipora
+Wati Gam,Damhal Hanjipora
+Yari Khah,Damhal Hanjipora
+Yaroo,Damhal Hanjipora
+Agru,Devsar
+Ban Gheehal,Devsar
+Dantehri,Devsar
+Gund Tokipora,Devsar
+Hablshi,Devsar
+Hanji Pora,Devsar
+Kadoorah,Devsar
+Kelam Bozgam,Devsar
+Malpora Brawari,Devsar
+Mangal Pora,Devsar
+Manigam,Devsar
+Nawa Pora,Devsar
+Sopat Tangpora,Devsar
+Zeipora Devsar,Devsar
+Zongal Pora,Devsar

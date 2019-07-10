@@ -1,0 +1,125 @@
+Akchamal,Kargil
+Apati,Kargil
+Barchey,Kargil
+Batambis,Kargil
+Biambiat,Kargil
+Bodhkharbu,Kargil
+Chiktan,Kargil
+Chokial,Kargil
+Choskar,Kargil
+Chulichan,Kargil
+Chuliskambo,Kargil
+Darkiat,Kargil
+Derchiks,Kargil
+Garkon,Kargil
+Gindial,Kargil
+Goshan,Kargil
+Hagnis,Kargil
+Hardas,Kargil
+Heniskot,Kargil
+Holiyal,Kargil
+Jusgund,Kargil
+Kaksar,Kargil
+Karamba,Kargil
+Karit,Kargil
+Karkit,Kargil
+Khachey,Kargil
+Kharbu,Kargil
+Kuksho,Kargil
+Kukste,Kargil
+Lalung,Kargil
+Lamsusando,Kargil
+Lochum,Kargil
+Malbekh,Kargil
+Matayan,Kargil
+Minji,Kargil
+Murad Bagh,Kargil
+Mushku,Kargil
+Nunamchey,Kargil
+Pandras,Kargil
+Phoo,Kargil
+Phultuks,Kargil
+Poyan,Kargil
+Push Kum,Kargil
+Rambirpur,Kargil
+Safi,Kargil
+Samrah,Kargil
+Sanjak,Kargil
+Shakar,Kargil
+Shargol,Kargil
+Shilikchey,Kargil
+Shimsha,Kargil
+Silmo,Kargil
+Skambo,Kargil
+Staktse,Kargil
+Tacha,Kargil
+Thasgam,Kargil
+Thrangos,Kargil
+Tingdo,Kargil
+Toumel,Kargil
+Tronjen,Kargil
+Wakhade,Kargil
+Yalboo,Kargil
+Yogmakharbu,Kargil
+Yourbaltak,Kargil
+Achambur,Sanku
+Barsoo,Sanku
+Barto,Sanku
+Chosker Suru,Sanku
+Farona,Sanku
+Gund Mangl Pur,Sanku
+Gyaling,Sanku
+Itchoo,Sanku
+Kanor,Sanku
+KarcheY Khar,Sanku
+Kargi,Sanku
+Karpo Khar,Sanku
+Khandi,Sanku
+Khows,Sanku
+Kochik,Sanku
+Lankarchey,Sanku
+Nagmakusar,Sanku
+Namsuru,Sanku
+Panikhar,Sanku
+Parkachik,Sanku
+Pranti,Sanku
+Purtikchy,Sanku
+Rangdum,Sanku
+Saleskot,Sanku
+Sangra,Sanku
+Shergandi,Sanku
+Stakpa,Sanku
+Tai Suru,Sanku
+Tambis,Sanku
+Tangol,Sanku
+Thang Dumbur,Sanku
+Thasgam Thaine,Sanku
+Thuls Pursa,Sanku
+Tres Pone,Sanku
+Umba,Sanku
+Yuljuk,Sanku
+Abran,Zanskar
+Akshow,Zanskar
+Ating,Zanskar
+Chah,Zanskar
+Hamiling,Zanskar
+Icher,Zanskar
+Kargyak,Zanskar
+Karshah,Zanskar
+Lungmi Rezing,Zanskar
+Padam,Zanskar
+Phey,Zanskar
+Pipcha,Zanskar
+Rantaq Shah,Zanskar
+Remala Skyagam,Zanskar
+Ruru Moony,Zanskar
+Salapi Ruruk,Zanskar
+Selapigai Pak,Zanskar
+Seni,Zanskar
+Shan Shaday,Zanskar
+Tangday Kumi,Zanskar
+Techa Khasar,Zanskar
+Testa,Zanskar
+Tonrian Thagan,Zanskar
+Upti Pipiting,Zanskar
+Zangla,Zanskar

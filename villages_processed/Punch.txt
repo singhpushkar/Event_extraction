@@ -1,0 +1,170 @@
+Ari,Mendhar
+Bala Kote,Mendhar
+Balnoi,Mendhar
+Banola,Mendhar
+Basuni,Mendhar
+Bhata Dhurian,Mendhar
+Bhati Dhar,Mendhar
+Bhera,Mendhar
+Bhroti,Mendhar
+Chak Banola,Mendhar
+Chhajla,Mendhar
+Chhungan,Mendhar
+Chitral,Mendhar
+Dabsi,Mendhar
+Dahruti,Mendhar
+Datote,Mendhar
+Dharana,Mendhar
+Dharatti,Mendhar
+Dhargloon,Mendhar
+Dobraj,Mendhar
+Galhuta,Mendhar
+Ghani,Mendhar
+Gohlad,Mendhar
+Gursahi,Mendhar
+Harni,Mendhar
+Jaran Wali Gali,Mendhar
+Jugal,Mendhar
+Kala Ban,Mendhar
+Kalar Mohra,Mendhar
+Kas Balari,Mendhar
+Kotan,Mendhar
+Lanjote,Mendhar
+Maidan,Mendhar
+Mankote,Mendhar
+Nar,Mendhar
+Narol,Mendhar
+Ochhad,Mendhar
+Panjani,Mendhar
+Pathanatir,Mendhar
+Prat,Mendhar
+Ramlota,Mendhar
+Sagra,Mendhar
+Sailani,Mendhar
+Salwah,Mendhar
+Sandot,Mendhar
+Sangiot,Mendhar
+Sarhuti,Mendhar
+Sasutah,Mendhar
+Sohala,Mendhar
+Thera,Mendhar
+Topa,Mendhar
+Ajot,Haveli
+Aslam Abad,Haveli
+Bachian Wali,Haveli
+Bandi Checkiyan,Haveli
+Banpat,Haveli
+Bhenchh,Haveli
+Chaktroo,Haveli
+Chandak,Haveli
+Dalan,Haveli
+Danadoyian,Haveli
+Dara Dullian,Haveli
+Darah Bagyal,Haveli
+Degwar Maldayalan,Haveli
+Degwar Tarwan,Haveli
+Dharam Sal Khari,Haveli
+Dhokri,Haveli
+Dingla,Haveli
+Forest Block,Haveli
+Gulpur,Haveli
+Hari Budha,Haveli
+Janyar,Haveli
+Jhulas,Haveli
+Kalai,Haveli
+Kankote,Haveli
+Kanuian,Haveli
+Karmara,Haveli
+Khanetar,Haveli
+Kirni,Haveli
+Kolian,Haveli
+Kosalian,Haveli
+Maidan,Haveli
+Mandhar,Haveli
+Mangnar,Haveli
+Nabana,Haveli
+Nakarkote,Haveli
+Nangli,Haveli
+Naraian,Haveli
+Nona Bandi,Haveli
+Noorkote,Haveli
+Polas,Haveli
+Qasbah,Haveli
+Salotri,Haveli
+Saral,Haveli
+Seri Chowan,Haveli
+Serian,Haveli
+Serikhawaja,Haveli
+Shahpur,Haveli
+Shindhra,Haveli
+Timira,Haveli
+Bafliaz,Surankote
+Behrangala,Surankote
+Buni Khet,Surankote
+Chananser,Surankote
+Chandi Marh,Surankote
+Dandi Dhara,Surankote
+Daraba,Surankote
+Dhara Mohara,Surankote
+Dodi,Surankote
+Dogey,Surankote
+Dundhak,Surankote
+Fazal Abad,Surankote
+Gaunthal,Surankote
+Hari,Surankote
+Kalar Kattal,Surankote
+Lassana,Surankote
+Lathung,Surankote
+Mahara,Surankote
+Malhan,Surankote
+Marhote,Surankote
+Mohra Bachhai,Surankote
+Morha,Surankote
+Pamrote,Surankote
+Phagla,Surankote
+Poshiana,Surankote
+Potha,Surankote
+Sailan,Surankote
+Samote,Surankote
+Sanei,Surankote
+Sangla,Surankote
+Sangliani,Surankote
+Surankot,Surankote
+Traran Wali,Surankote
+Arai,Mandi
+Atoli,Mandi
+Azamabad,Mandi
+Baila,Mandi
+Bandikama Khan,Mandi
+Brachhar,Mandi
+Chak Rara,Mandi
+Chhambar Kanaria,Mandi
+Chikri Ban,Mandi
+Chilla,Mandi
+Dana Dhakran,Mandi
+Danugam,Mandi
+Dedar Balnai,Mandi
+Dhangri,Mandi
+Dhara,Mandi
+Fatehpur,Mandi
+Gagrian,Mandi
+Gali,Mandi
+Gali Nag,Mandi
+Jalian,Mandi
+Jandrola,Mandi
+Kalani,Mandi
+Kehnu,Mandi
+Lohelbelah,Mandi
+Loran,Mandi
+Mandi,Mandi
+Markote,Mandi
+Marnote,Mandi
+Pindi,Mandi
+Plera,Mandi
+Raj Pur,Mandi
+Salunian,Mandi
+Sathra,Mandi
+Sawajian,Mandi
+Seikhlu,Mandi
+Seroi,Mandi
+Trichal,Mandi

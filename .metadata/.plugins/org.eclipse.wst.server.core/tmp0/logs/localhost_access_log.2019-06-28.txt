@@ -1,0 +1,9 @@
+127.0.0.1 - - [28/Jun/2019:14:33:37 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [28/Jun/2019:14:33:37 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:33:41 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:34:04 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:34:12 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:34:12 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:34:12 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:34:13 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001
+127.0.0.1 - - [28/Jun/2019:14:35:07 +0530] "GET /query_handle/loginServlet HTTP/1.1" 404 1001

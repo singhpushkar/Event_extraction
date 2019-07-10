@@ -1,0 +1,780 @@
+Agor,Jammu
+Aitham,Jammu
+Alora,Jammu
+Ambh,Jammu
+Aqil Pur,Jammu
+Aurhak,Jammu
+Badgah,Jammu
+Badsu,Jammu
+Badwal,Jammu
+Bagani,Jammu
+Bagh Marh Sarkari,Jammu
+Bahadur Khan,Jammu
+Bain Majialta,Jammu
+Bajyal,Jammu
+Bamyal,Jammu
+Ban,Jammu
+Baran,Jammu
+Batallehar,Jammu
+Bathore,Jammu
+Batoli Brahmana,Jammu
+Batona,Jammu
+Bawaliyana,Jammu
+Beli Azmat,Jammu
+Beli Bakayan,Jammu
+Bhad Rode,Jammu
+Bhage,Jammu
+Bhagwani,Jammu
+Bhangor,Jammu
+Bhar Mali,Jammu
+Bhata,Jammu
+Bhawta,Jammu
+Bhed Gran,Jammu
+Biral,Jammu
+Blahad,Jammu
+Brahamana Dhamwal,Jammu
+Chak Alam,Jammu
+Chak Asran,Jammu
+Chak Bathali,Jammu
+Chak Bhalwal,Jammu
+Chak Bhopat,Jammu
+Chak Bhula,Jammu
+Chak Bindrali,Jammu
+Chak Budhu,Jammu
+Chak Burah,Jammu
+Chak Chanu,Jammu
+Chak Chiban,Jammu
+Chak Chilah,Jammu
+Chak Chuhan,Jammu
+Chak Dai,Jammu
+Chak Dali,Jammu
+Chak Dina,Jammu
+Chak Doulat,Jammu
+Chak Durga,Jammu
+Chak Galwade,Jammu
+Chak Gandu,Jammu
+Chak Ganeshu,Jammu
+Chak Gangoo,Jammu
+Chak Gasian,Jammu
+Chak Habib,Jammu
+Chak Hira,Jammu
+Chak Jafar,Jammu
+Chak Jagir,Jammu
+Chak Jogi,Jammu
+Chak Kahna,Jammu
+Chak Kalasa,Jammu
+Chak Koulan,Jammu
+Chak Lahori,Jammu
+Chak Lala,Jammu
+Chak Laldin,Jammu
+Chak Lalushah,Jammu
+Chak Lodgam,Jammu
+Chak Magna,Jammu
+Chak Mahani,Jammu
+Chak Malikhan,Jammu
+Chak Mangao,Jammu
+Chak Nawade,Jammu
+Chak Panotra,Jammu
+Chak Pouni Wand,Jammu
+Chak Puniwan Wazirian,Jammu
+Chak Rakwalan,Jammu
+Chak Sardar Attar Singh,Jammu
+Chak Sardar Desa Singh,Jammu
+Chak Shaman,Jammu
+Chak Sheru,Jammu
+Chak Singha,Jammu
+Chak Singha,Jammu
+Chak Surhe,Jammu
+Chak Taru,Jammu
+Chalanah,Jammu
+Chanore,Jammu
+Chappar,Jammu
+Charangal,Jammu
+Chhadali,Jammu
+Chhani Mamalian,Jammu
+Chhani Nanak,Jammu
+Chhatha Jagir,Jammu
+Chhuha,Jammu
+Chhurta,Jammu
+Chilah,Jammu
+Dab Karamdin,Jammu
+Dab Sudan,Jammu
+Dahani,Jammu
+Dangah,Jammu
+Dansal,Jammu
+Darap,Jammu
+Deode Napu,Jammu
+Deodi Kabe,Jammu
+Dhabad,Jammu
+Dhami,Jammu
+Dhami,Jammu
+Dhan,Jammu
+Dhanoon,Jammu
+Dhanso,Jammu
+Dhar Dhrochan,Jammu
+Dhatriyal,Jammu
+Dhmoni Jagir,Jammu
+Dhung,Jammu
+Domi,Jammu
+Dond Pur,Jammu
+Dong,Jammu
+Dongiyan,Jammu
+Drabi,Jammu
+Dub Dita,Jammu
+Dwara,Jammu
+Gajansu,Jammu
+Gaje Singh Pora,Jammu
+Galali,Jammu
+Gangwan,Jammu
+Gasit Pur,Jammu
+Gharota,Jammu
+Ghatlah,Jammu
+Gho Manhasan,Jammu
+Gidar Galiyan,Jammu
+Golpatan,Jammu
+Gorah Patan,Jammu
+Gorah Singno,Jammu
+Gordah,Jammu
+Gurah Brahmana,Jammu
+Hakal,Jammu
+Halqa,Jammu
+Handwal,Jammu
+Hari Pur Manhasan,Jammu
+Harseh Tokriyan,Jammu
+Hurlani,Jammu
+Ismail Pur,Jammu
+Ismail Pur,Jammu
+Jagti,Jammu
+Jamil,Jammu
+Janakh,Jammu
+Jandli,Jammu
+Jandrah,Jammu
+Jandyal,Jammu
+Jaswan,Jammu
+Jhakar,Jammu
+Jhalar,Jammu
+Jib,Jammu
+Jwala Pur,Jammu
+Kah,Jammu
+Kahliyan,Jammu
+Kainkh,Jammu
+Kalyan,Jammu
+Kalyan Pur,Jammu
+Kanalah,Jammu
+Kangarial,Jammu
+Kanhal,Jammu
+Karal,Jammu
+Karlup,Jammu
+Karpal Pur Charkan,Jammu
+Karwal,Jammu
+Katal Batal,Jammu
+Kengdel,Jammu
+Keri,Jammu
+Khade,Jammu
+Khadta,Jammu
+Khana Chorgol,Jammu
+Khandwal,Jammu
+Khanpur Bhawan,Jammu
+Khar Bujuh,Jammu
+Kheri,Jammu
+Kheri Dadyal,Jammu
+Khiyarian,Jammu
+Khwas Khan,Jammu
+Kokdiyan,Jammu
+Kopar,Jammu
+Korgasal,Jammu
+Korjagir,Jammu
+Kot,Jammu
+Kothar,Jammu
+Kotli Charkan,Jammu
+Kotli Jhajjar,Jammu
+Krapalpur Jatan,Jammu
+Lachman Pur,Jammu
+Ladoori,Jammu
+Lador,Jammu
+Lahsoo,Jammu
+Laliyal,Jammu
+Laliyal Jagir,Jammu
+Leyi Pera,Jammu
+Machhial,Jammu
+Machliyan,Jammu
+Majhin,Jammu
+Majra Kotli,Jammu
+Makhyal,Jammu
+Makwal,Jammu
+Malhori Jagir,Jammu
+Malpur,Jammu
+Mandal,Jammu
+Manihal Brahmana,Jammu
+Manyal Brahmana,Jammu
+Marar Pur,Jammu
+Marh,Jammu
+Marh,Jammu
+Mathin,Jammu
+Mathwoor,Jammu
+Mokhra,Jammu
+Nagola,Jammu
+Nagrada,Jammu
+Nand Pur Gojran,Jammu
+Nandni,Jammu
+Nandor,Jammu
+Nandpur Rakwalan,Jammu
+Nandwal,Jammu
+Nanon Chak,Jammu
+Narain,Jammu
+Nougaran,Jammu
+Padmi,Jammu
+Pahlad Pur,Jammu
+Pahli,Jammu
+Pangali,Jammu
+Panj Garain,Jammu
+Panjana,Jammu
+Panjoa,Jammu
+Panjod,Jammu
+Par Galta,Jammu
+Parwah,Jammu
+Paryal,Jammu
+Pathwad,Jammu
+Patniyal,Jammu
+Patyadi,Jammu
+Phalora Harmakund,Jammu
+Phalora Nagbani,Jammu
+Ponthal,Jammu
+Prithipur,Jammu
+Raipur Jagir,Jammu
+Raj Pora,Jammu
+Rakh Chatha,Jammu
+Rakh Magbani,Jammu
+Ram Bagh,Jammu
+Ramgarh,Jammu
+Rangora,Jammu
+Ranjan,Jammu
+Ranjit Pur,Jammu
+Rathua,Jammu
+Rattan Pur Gordiyal,Jammu
+Rattan Pur Paras,Jammu
+Rawta,Jammu
+Reka,Jammu
+Ringal,Jammu
+Rotore Dhok,Jammu
+Sagon,Jammu
+Sahal Jagir,Jammu
+Sahan,Jammu
+Saharan,Jammu
+Sair Rakwalan,Jammu
+Salal Pur,Jammu
+Salehe,Jammu
+Samral,Jammu
+Sandrot,Jammu
+Sandwan,Jammu
+Sangad,Jammu
+Sangram Pur,Jammu
+Sapuran Pur,Jammu
+Sari Kalan,Jammu
+Sari Khurd,Jammu
+Saroda,Jammu
+Saroinsar,Jammu
+Sarot,Jammu
+Seri Kalan,Jammu
+Seri Khurd,Jammu
+Seri Panditian,Jammu
+Shahzad Pur Bhopa Ganaya,Jammu
+Shehjad Pur Marhata,Jammu
+Shehzad Pur Gojran,Jammu
+Shiba,Jammu
+Sikander Pur,Jammu
+Simbli,Jammu
+Soi,Jammu
+Suha Wada,Jammu
+Suhagni,Jammu
+Suhanjina,Jammu
+Suhawada,Jammu
+Suhawda,Jammu
+Sukheter,Jammu
+Sultan Pur,Jammu
+Sum,Jammu
+Tahra,Jammu
+Taraf Khiarian,Jammu
+Thalwal,Jammu
+Thana,Jammu
+Thathar,Jammu
+Thera,Jammu
+Tiko Teda,Jammu
+Tikri Dayalan,Jammu
+Tikri Kehni,Jammu
+Tikri Rakawalan,Jammu
+Top Manhasan,Jammu
+Trijiad,Jammu
+Trilok Pur,Jammu
+Wand Gahi,Jammu
+Adgan,Akhnoor
+Anmbaran,Akhnoor
+Ardhan,Akhnoor
+Badhan,Akhnoor
+Badwal,Akhnoor
+Baho Pur,Akhnoor
+Bain Lehar,Akhnoor
+Bakor,Akhnoor
+Balgara,Akhnoor
+Bali,Akhnoor
+Balsaro,Akhnoor
+Bamhal,Akhnoor
+Bandral Kalan,Akhnoor
+Bandral Khurd,Akhnoor
+Bandwal,Akhnoor
+Bardiyal,Akhnoor
+Bargal Kalan,Akhnoor
+Bargal Khurd,Akhnoor
+Barola,Akhnoor
+Barroh,Akhnoor
+Barui,Akhnoor
+Basiara,Akhnoor
+Batal,Akhnoor
+Bhagwan Chak,Akhnoor
+Bhalwal Bharath,Akhnoor
+Bhalwal Brahmana,Akhnoor
+Bhalwal Moolo,Akhnoor
+Bhardah Kalan,Akhnoor
+Bhardah Khurd,Akhnoor
+Bhatiare,Akhnoor
+Bhiry Tarrie,Akhnoor
+Bhor,Akhnoor
+Budhy,Akhnoor
+Chahjar,Akhnoor
+Chajwal,Akhnoor
+Chak Badialan,Akhnoor
+Chak Bhagwan,Akhnoor
+Chak Biasa,Akhnoor
+Chak Kora,Akhnoor
+Chak Krapal Pur,Akhnoor
+Chak Malal,Akhnoor
+Chak Nazala,Akhnoor
+Chak Phagwari,Akhnoor
+Chak Raja,Akhnoor
+Chak Rama,Akhnoor
+Chak Skandar,Akhnoor
+Chaprial,Akhnoor
+Chariae,Akhnoor
+Chhani Diwanan,Akhnoor
+Chhani Thana,Akhnoor
+Chigial,Akhnoor
+Chohara,Akhnoor
+Choki,Akhnoor
+Dadora,Akhnoor
+Dagir,Akhnoor
+Dahara,Akhnoor
+Dahok Khalsa,Akhnoor
+Dahoke Jagir,Akhnoor
+Dahou Chak,Akhnoor
+Dal Pat,Akhnoor
+Dana,Akhnoor
+Danpour,Akhnoor
+Danwal,Akhnoor
+Dar,Akhnoor
+Dasgal,Akhnoor
+Datial,Akhnoor
+Dehargaha,Akhnoor
+Dehrian,Akhnoor
+Devi Pur,Akhnoor
+Dhakhar,Akhnoor
+Dhalan,Akhnoor
+Dhangar,Akhnoor
+Diawrah,Akhnoor
+Dohal,Akhnoor
+Doian,Akhnoor
+Dori,Akhnoor
+Dub,Akhnoor
+Fatwal,Akhnoor
+Gakhral,Akhnoor
+Gandharwan,Akhnoor
+Gangal,Akhnoor
+Garar,Akhnoor
+Garatal,Akhnoor
+Gargal,Akhnoor
+Garh,Akhnoor
+Gari Bishna,Akhnoor
+Gari Nanda,Akhnoor
+Gawar,Akhnoor
+Gee Garial,Akhnoor
+Ghar,Akhnoor
+Giur,Akhnoor
+Godhan,Akhnoor
+Gosian,Akhnoor
+Gour Bajorian,Akhnoor
+Gujral,Akhnoor
+Gurah Brahmana,Akhnoor
+Gurah Jagir,Akhnoor
+Gurah Manhasan,Akhnoor
+Hamir Pur Kohna,Akhnoor
+Hamir Pur Nawan,Akhnoor
+Hardo Malwara,Akhnoor
+Indri,Akhnoor
+Jad,Akhnoor
+Jagial,Akhnoor
+Jakh,Akhnoor
+Jogiani,Akhnoor
+Jogwan,Akhnoor
+Jomotian,Akhnoor
+Jothal,Akhnoor
+Jowana Bela,Akhnoor
+Kachrial,Akhnoor
+Kaha,Akhnoor
+Kainkh Jagir,Akhnoor
+Kalah,Akhnoor
+Kaleeth,Akhnoor
+Kanchri,Akhnoor
+Kandi,Akhnoor
+Kandial,Akhnoor
+Kangral Sangral,Akhnoor
+Karial,Akhnoor
+Kathar,Akhnoor
+Khakhial,Akhnoor
+Kharah,Akhnoor
+Kharota,Akhnoor
+Khohara,Akhnoor
+Khore,Akhnoor
+Khunda,Akhnoor
+Kitial Simbal,Akhnoor
+Kot,Akhnoor
+Kot Maira,Akhnoor
+Kotli,Akhnoor
+Laham,Akhnoor
+Lahar,Akhnoor
+Lahrian,Akhnoor
+Lathery,Akhnoor
+Lohara,Akhnoor
+Magial Abtara,Akhnoor
+Magial Lalu,Akhnoor
+Maira,Akhnoor
+Majhoor,Akhnoor
+Mala,Akhnoor
+Malal Ahgal,Akhnoor
+Man Chak,Akhnoor
+Manani,Akhnoor
+Manda,Akhnoor
+Mandrian,Akhnoor
+Manoh,Akhnoor
+Manoha,Akhnoor
+Marchanji,Akhnoor
+Matoo,Akhnoor
+Mawa Brahmana,Akhnoor
+Mera Jagir,Akhnoor
+Mewa Karora,Akhnoor
+Mund,Akhnoor
+Muthi,Akhnoor
+Nad,Akhnoor
+Najwal,Akhnoor
+Nandwal,Akhnoor
+Nara,Akhnoor
+Nardi,Akhnoor
+Nathal,Akhnoor
+Nikian,Akhnoor
+Nikowal,Akhnoor
+Nore,Akhnoor
+Pahari Wala,Akhnoor
+Pail,Akhnoor
+Pallan Wala,Akhnoor
+Palwan,Akhnoor
+Pangali,Akhnoor
+Panj Toot,Akhnoor
+Pargawal,Akhnoor
+Phagal,Akhnoor
+Phagwari,Akhnoor
+Pian,Akhnoor
+Pindi,Akhnoor
+Pingiari,Akhnoor
+Platan,Akhnoor
+Potha Kandial,Akhnoor
+Pukharni,Akhnoor
+Rah,Akhnoor
+Rahani Jagwal,Akhnoor
+Rajpora,Akhnoor
+Rajwal,Akhnoor
+Rakh Dhok,Akhnoor
+Rakh Kharoon,Akhnoor
+Rakh Muthi,Akhnoor
+Rameen Makhian,Akhnoor
+Rathan Pur,Akhnoor
+Sahamuna,Akhnoor
+Sahar,Akhnoor
+Sainth,Akhnoor
+Sajwal,Akhnoor
+Saliohat,Akhnoor
+Sandel,Akhnoor
+Sanehal,Akhnoor
+Sangani,Akhnoor
+Sangranpur,Akhnoor
+Sarwal,Akhnoor
+Seetriala,Akhnoor
+Seri Palai,Akhnoor
+Sungal,Akhnoor
+Tagwal,Akhnoor
+Targwal,Akhnoor
+Taroti,Akhnoor
+Thandi Choi,Akhnoor
+Tila,Akhnoor
+Tulgaru,Akhnoor
+Abdal,Ranbir Singh Pora
+Agwan,Ranbir Singh Pora
+Amin Pur,Ranbir Singh Pora
+Badhyal Brahamana,Ranbir Singh Pora
+Bagamarh,Ranbir Singh Pora
+Bagazina,Ranbir Singh Pora
+Baina Garh,Ranbir Singh Pora
+Balah,Ranbir Singh Pora
+Bansultan,Ranbir Singh Pora
+Barley,Ranbir Singh Pora
+Barsal Pur,Ranbir Singh Pora
+Baspur,Ranbir Singh Pora
+Bega,Ranbir Singh Pora
+Berah,Ranbir Singh Pora
+Bhadyal Qazian,Ranbir Singh Pora
+Bhalser,Ranbir Singh Pora
+Bhaw,Ranbir Singh Pora
+Bhoj Pur,Ranbir Singh Pora
+Bhoman,Ranbir Singh Pora
+Biaspur,Ranbir Singh Pora
+Bidi Pur Jatan,Ranbir Singh Pora
+Bokari,Ranbir Singh Pora
+Brota,Ranbir Singh Pora
+Chak Agra,Ranbir Singh Pora
+Chak Alawal,Ranbir Singh Pora
+Chak Aslam,Ranbir Singh Pora
+Chak Baja,Ranbir Singh Pora
+Chak Bala,Ranbir Singh Pora
+Chak Bhula,Ranbir Singh Pora
+Chak Bukhtawar,Ranbir Singh Pora
+Chak Chandu,Ranbir Singh Pora
+Chak Fatu,Ranbir Singh Pora
+Chak Harni,Ranbir Singh Pora
+Chak Jagtoo,Ranbir Singh Pora
+Chak Jajua,Ranbir Singh Pora
+Chak Khana,Ranbir Singh Pora
+Chak Mohdyar,Ranbir Singh Pora
+Chak Musa,Ranbir Singh Pora
+Chak Nank,Ranbir Singh Pora
+Chak Preman,Ranbir Singh Pora
+Chak Roi,Ranbir Singh Pora
+Chak Shera,Ranbir Singh Pora
+Chak Shian,Ranbir Singh Pora
+Chak Tahir,Ranbir Singh Pora
+Chak Talab,Ranbir Singh Pora
+Chak Wahab Din,Ranbir Singh Pora
+Choga,Ranbir Singh Pora
+Chohala,Ranbir Singh Pora
+Dablehar,Ranbir Singh Pora
+Dangre,Ranbir Singh Pora
+Darsopur,Ranbir Singh Pora
+Dher,Ranbir Singh Pora
+Dillon,Ranbir Singh Pora
+Diwan Garh,Ranbir Singh Pora
+Drawatey,Ranbir Singh Pora
+Fatehpur Brahmana,Ranbir Singh Pora
+Fatehpur Shekhan,Ranbir Singh Pora
+Fatehpur Slaharian,Ranbir Singh Pora
+Gagian,Ranbir Singh Pora
+Ganda,Ranbir Singh Pora
+Gandli,Ranbir Singh Pora
+Gazia,Ranbir Singh Pora
+Gazipur,Ranbir Singh Pora
+Gharana,Ranbir Singh Pora
+Gharani,Ranbir Singh Pora
+Ghodey Bhains,Ranbir Singh Pora
+Gondla,Ranbir Singh Pora
+Hansa,Ranbir Singh Pora
+Haripur,Ranbir Singh Pora
+Jaindhar,Ranbir Singh Pora
+Jajowal,Ranbir Singh Pora
+Jangwal,Ranbir Singh Pora
+Jasour,Ranbir Singh Pora
+Jindhar Kalan,Ranbir Singh Pora
+Jora,Ranbir Singh Pora
+Kadyal,Ranbir Singh Pora
+Kalas,Ranbir Singh Pora
+Kaloye,Ranbir Singh Pora
+Kalyana,Ranbir Singh Pora
+Kang,Ranbir Singh Pora
+Kapur Pur,Ranbir Singh Pora
+Khamb,Ranbir Singh Pora
+Kharian,Ranbir Singh Pora
+Khaur Deonian,Ranbir Singh Pora
+Kheper,Ranbir Singh Pora
+Khotian,Ranbir Singh Pora
+Khushal Pur,Ranbir Singh Pora
+Kirpind,Ranbir Singh Pora
+Kolan,Ranbir Singh Pora
+Korutana Kalan,Ranbir Singh Pora
+Korutana Khurd,Ranbir Singh Pora
+Kotli Araiyan,Ranbir Singh Pora
+Kotli Arjan Singh,Ranbir Singh Pora
+Kotli Ditta,Ranbir Singh Pora
+Kotli Galabana,Ranbir Singh Pora
+Kotli Kukan,Ranbir Singh Pora
+Kotli Mafi,Ranbir Singh Pora
+Kotli Mian Bagwan Singh,Ranbir Singh Pora
+Kotli Mian Fateh,Ranbir Singh Pora
+Kotli Mirdian,Ranbir Singh Pora
+Kotli Shah Dola,Ranbir Singh Pora
+Kutub Nizam,Ranbir Singh Pora
+Langotian,Ranbir Singh Pora
+Langrial,Ranbir Singh Pora
+Layan,Ranbir Singh Pora
+Magowali,Ranbir Singh Pora
+Magral,Ranbir Singh Pora
+Makhan Pur Gojran,Ranbir Singh Pora
+Makhdum,Ranbir Singh Pora
+Malik Pur,Ranbir Singh Pora
+Mamka,Ranbir Singh Pora
+Mana,Ranbir Singh Pora
+Mehlu,Ranbir Singh Pora
+Mehsian,Ranbir Singh Pora
+Meluwal,Ranbir Singh Pora
+Mohan Pur,Ranbir Singh Pora
+Mokhey,Ranbir Singh Pora
+Molu Chak,Ranbir Singh Pora
+Motha,Ranbir Singh Pora
+Nanoagali,Ranbir Singh Pora
+Nari,Ranbir Singh Pora
+Nijabat Pur,Ranbir Singh Pora
+Nikowal,Ranbir Singh Pora
+Panj Graian,Ranbir Singh Pora
+Parlah,Ranbir Singh Pora
+Phalora,Ranbir Singh Pora
+Phin Dhar,Ranbir Singh Pora
+Pindi Sarochan Kalan,Ranbir Singh Pora
+Purana Pind,Ranbir Singh Pora
+Puro Bhan,Ranbir Singh Pora
+Qadar Pur,Ranbir Singh Pora
+Raipur Gojran,Ranbir Singh Pora
+Raipur Syedan,Ranbir Singh Pora
+Rakh Haripur,Ranbir Singh Pora
+Rakh Jeora,Ranbir Singh Pora
+Rakh Phalora,Ranbir Singh Pora
+Rakh Sheikh Fateh Mohmad Pur,Ranbir Singh Pora
+Rangpur Malanian,Ranbir Singh Pora
+Rangpur Sadre,Ranbir Singh Pora
+Rathana,Ranbir Singh Pora
+Ratian,Ranbir Singh Pora
+Rattan Shahab,Ranbir Singh Pora
+Sadre,Ranbir Singh Pora
+Sai Kalan,Ranbir Singh Pora
+Sai Khurd,Ranbir Singh Pora
+Salaher,Ranbir Singh Pora
+Samka,Ranbir Singh Pora
+Sandeh,Ranbir Singh Pora
+Satowali,Ranbir Singh Pora
+Satrayan Kalan,Ranbir Singh Pora
+Satrayan Khurd,Ranbir Singh Pora
+Seer,Ranbir Singh Pora
+Shahpur Taukanwali,Ranbir Singh Pora
+Sidhar,Ranbir Singh Pora
+Suchet Garh,Ranbir Singh Pora
+Sunder Pur,Ranbir Singh Pora
+Talhar,Ranbir Singh Pora
+Talia,Ranbir Singh Pora
+Tanda,Ranbir Singh Pora
+Thikrian,Ranbir Singh Pora
+Tiba Bhian,Ranbir Singh Pora
+Tohama,Ranbir Singh Pora
+Tutray,Ranbir Singh Pora
+Adlehar,Bishnah
+Allah,Bishnah
+Atma Pur,Bishnah
+Bag Jogian,Bishnah
+Bahadur Pur,Bishnah
+Bamnal,Bishnah
+Bhatiyari,Bishnah
+Bidipur Salarian,Bishnah
+Chak Abtara,Bishnah
+Chak Bana Brahamana,Bishnah
+Chak Bhagwana,Bishnah
+Chak Bhana Jatan,Bishnah
+Chak Chamman,Bishnah
+Chak Chuha,Bishnah
+Chak Fateh Khan,Bishnah
+Chak Goriyan,Bishnah
+Chak Hasal,Bishnah
+Chak Jandran,Bishnah
+Chak Jaralan,Bishnah
+Chak Jawahir Singh,Bishnah
+Chak Keeman,Bishnah
+Chak Keshab,Bishnah
+Chak Majra,Bishnah
+Chak Mian Sahib Singh,Bishnah
+Chak Mian Sukha Singh,Bishnah
+Chak Murar,Bishnah
+Chak Patyari,Bishnah
+Chak Qader,Bishnah
+Chak Ramdass,Bishnah
+Chak Shivo,Bishnah
+Chak Suba,Bishnah
+Chak Umra,Bishnah
+Chak Waziro Brahmana,Bishnah
+Changiya,Bishnah
+Channana,Bishnah
+Chorli,Bishnah
+Deoli,Bishnah
+Dhende Khurd,Bishnah
+Dulehan,Bishnah
+Fatwal,Bishnah
+Godwal,Bishnah
+Harseh Dabar,Bishnah
+Jabowal Khurd,Bishnah
+Jhumian Brahmana,Bishnah
+Jhumian Jatan,Bishnah
+Jindor Khurd,Bishnah
+Kalwal,Bishnah
+Kanhal,Bishnah
+Karel Manhasan,Bishnah
+Karyal Brahamana,Bishnah
+Karyal Kalan,Bishnah
+Karyal Khurd,Bishnah
+Kathar,Bishnah
+Kheri,Bishnah
+Khoji Pur,Bishnah
+Khwas Pur,Bishnah
+Kilich Pur,Bishnah
+Kotha,Bishnah
+Kothay Sainia,Bishnah
+Kotla,Bishnah
+Kotli Bagbana,Bishnah
+Kotli Kuzian,Bishnah
+Kudwal,Bishnah
+Kuhal Kalan,Bishnah
+Kuhal Khurd,Bishnah
+Laliyan,Bishnah
+Lalu Pur,Bishnah
+Laswara,Bishnah
+Makhan Purcharkan,Bishnah
+Mangal,Bishnah
+Marhol,Bishnah
+Mohmud Pur,Bishnah
+Mojoa Uttami,Bishnah
+Morecha Pur,Bishnah
+Mujua Lakhmi,Bishnah
+Muzaffar Pur,Bishnah
+Najwal,Bishnah
+Nandpur,Bishnah
+Nandrol,Bishnah
+Pachel,Bishnah
+Pandiri Brahamana,Bishnah
+Pandori Manhasan,Bishnah
+Pasgal,Bishnah
+Pindi Charkan Kalan,Bishnah
+Pindi Charkan Khurd,Bishnah
+Puwal,Bishnah
+Rakh Arnia,Bishnah
+Rakh Mangal,Bishnah
+Rang Pur Trera,Bishnah
+Ranjit Pur,Bishnah
+Ratnal,Bishnah
+Rehal Dhamalian,Bishnah
+Rehal Kalandrian,Bishnah
+Sangli,Bishnah
+Saror,Bishnah
+Shahpur Brahamana,Bishnah
+Sheikh Pura,Bishnah
+Sohag Pur,Bishnah
+Syed Garh,Bishnah
+Traf Brahmana,Bishnah
+Trera,Bishnah

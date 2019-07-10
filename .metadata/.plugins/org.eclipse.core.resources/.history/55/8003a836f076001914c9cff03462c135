@@ -1,0 +1,185 @@
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import static org.neo4j.driver.v1.Values.parameters;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.security.KeyStore.Entry;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.*;
+
+import org.neo4j.driver.v1.AuthTokens;
+import org.neo4j.driver.v1.Driver;
+import org.neo4j.driver.v1.GraphDatabase;
+import org.neo4j.driver.v1.Record;
+import org.neo4j.driver.v1.Session;
+import org.neo4j.driver.v1.StatementResult;
+import org.neo4j.driver.v1.Transaction;
+
+
+public class QueryDB {
+
+	static Driver driver;
+	
+	public static String getresults (String startdate,String enddate, String event, String location) throws JsonProcessingException
+	{
+		
+		String[] keywords = event.split(",");
+		String query="";
+		for(String keyword:keywords) {
+			query += "Node.lemma contains '"+ keyword + "' OR ";
+		}
+		query = query.substring(0,query.length()-3);
+		String date_constraint = " and date(Event.date) >= date('"+startdate+"') and date(Event.date) <= date('"+enddate+"')"; 
+		String query_final = "OPTIONAL MATCH (Node) where ("+query+") " + "with Node " + "MATCH (Event)--(Node) where Event.location contains '"+location+"' " + date_constraint+ " return Event.dbid,Event.headline, Event.sentence, Event.location, Event.date, Node.name";
+		ArrayList<Map<String, Object>> dataMap = tryQuery(query_final);
+		System.out.println(dataMap.size());
+		
+		for(int eventNo = 0; eventNo < dataMap.size();eventNo++)
+		{
+			String sentence = dataMap.get(eventNo).get("Event.sentence").toString();
+			String date = dataMap.get(eventNo).get("Event.date").toString();
+			String Location = dataMap.get(eventNo).get("Event.location").toString();
+			String headline = dataMap.get(eventNo).get("Event.headline").toString();
+			for(int j = eventNo+1; j< dataMap.size(); j++)
+			{
+				if(sentence.equalsIgnoreCase(dataMap.get(j).get("Event.sentence").toString())) {
+					System.out.println(sentence+"----found");
+					dataMap.remove(j);
+					j--;
+				}
+				else if(Location.equalsIgnoreCase(dataMap.get(j).get("Event.location").toString()) && date.equals(dataMap.get(j).get("Event.date").toString())) {
+					if(headline.equalsIgnoreCase(dataMap.get(j).get("Event.headline").toString())){
+						JSONObject json_obj = dataMap.get(eventNo);
+						json_obj.
+					}
+					System.out.println("hello");
+					dataMap.remove(j);		
+					j--;
+				}
+				
+			}
+		}
+		
+		System.out.println(dataMap.size());
+		System.out.println(query_final);
+		ObjectMapper objectMapper = new ObjectMapper();
+		String json = objectMapper.writeValueAsString(dataMap);
+		System.out.println(json);
+		
+		closeDatabase();
+		return json;
+	}
+	
+	
+	 public static void main(String args[]) throws JsonProcessingException {
+		 QueryDB.AccessDatabase("bolt://localhost:7687", "neo4j", "singh@123");
+			
+			
+			String query_final = "OPTIONAL MATCH (Node) where (Node.lemma contains 'strike' OR Node.lemma contains 'strike') " + "with Node " + "MATCH (Event)--(Node) where Event.location contains 'kashmir' " + "return Event.headline, Event.sentence, Event.location, Event.date, Node.name";
+			
+			
+			ArrayList<Map<String, Object>> dataMap = tryQuery(query_final);
+			System.out.println(dataMap.size());
+			for(int event = 0; event < dataMap.size();event++)
+			{
+				String sentence = dataMap.get(event).get("Event.sentence").toString().trim();
+				String date = dataMap.get(event).get("Event.date").toString();
+				String location = dataMap.get(event).get("Event.location").toString();
+//				String headline = dataMap.get(event).get("Event.headline").toString();
+				for(int j = event+1; j< dataMap.size(); j++)
+				{
+					if(sentence.equalsIgnoreCase(dataMap.get(j).get("Event.sentence").toString().trim())) {
+						dataMap.remove(j);
+						System.out.println(sentence+":matched");
+					}
+						
+					else if(location.equals(dataMap.get(j).get("Event.location").toString()) && date.equals(dataMap.get(j).get("Event.date").toString()))
+						dataMap.remove(j);		
+							
+				}
+			}
+			
+			
+			System.out.println(dataMap.size());
+			ObjectMapper objectMapper = new ObjectMapper();
+			String json = objectMapper.writeValueAsString(dataMap);
+			//System.out.println(json);
+			
+			closeDatabase();
+	 }
+	
+	 public static void AccessDatabase(String uri, String user, String password){
+	        driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
+	 }
+	 
+	 public static ArrayList<Map<String, Object>> tryQuery(String query) {
+		 String query_result = "";
+		 Map<String,Object> map = null;
+		 ArrayList<Map<String, Object>> dataMap = new ArrayList<Map<String, Object>>();
+		 try (Session session = driver.session())
+	        {
+	             
+	    			StatementResult result = session.run(query);
+	    	        while (result.hasNext()){
+	    	        	Record record = result.next();
+	    	        	map = record.asMap();
+	    	        	///////////replace ? marks with space./////////
+//	    	        	for (Map.Entry<String, Object> entry : map.entrySet())
+//	    	        	{
+//	    	        		String key = entry.getKey();
+//	    	        		String value = entry.getValue();
+//	    	        		
+//	    	        	}
+//	    	        	
+	    	        	////////////////
+	    	        	
+	    	        	
+	    	        	
+	    	        	/*for (Map.Entry<String,Object> entry : map.entrySet())  
+	    	                System.out.println("Key: " + entry.getKey() + 
+	    	                                 ", Value: " + entry.getValue());*/ 
+	    	        	dataMap.add(map);
+	    	        	//System.out.println("\n\n");
+	    	        	//write_to_file(map);
+	    	        	//query_result = record.toString();
+		    	        //System.out.println(query_result);
+	    	        }
+	                    	    	        
+	    		session.close();
+	        }
+		 return dataMap;
+	 }
+	 
+	 public static void write_to_file(Map<String,Object> map) {
+			
+		
+		 	String file = "C:\\Users\\Reen\\Desktop\\output1.txt";
+	        // If the file doesn't exists, create and write to it
+			// If the file exists, truncate (remove all content) and write to it
+	        try (FileWriter writer = new FileWriter(file,true);
+	             BufferedWriter bw = new BufferedWriter(writer)) {
+	        	for (Map.Entry<String,Object> entry : map.entrySet())  
+	                bw.write("Key: " + entry.getKey() + 
+	                                 ", Value: " + entry.getValue() + "\n"); 
+	        		bw.write("**\n");
+	            bw.write("\n\n");
+	            bw.close();
+	        } catch (IOException e) {
+	            System.err.format("IOException: %s%n", e);
+	        }
+
+	        
+		 
+	 }
+	 
+    public static void closeDatabase(){
+        // Closing a driver immediately shuts down all open connections.
+        driver.close();
+    }
+	
+}

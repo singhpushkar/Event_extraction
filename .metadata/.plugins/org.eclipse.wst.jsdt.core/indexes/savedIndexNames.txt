@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/pushkar/Desktop/stuffie_new/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+394627047.index
+4275280676.index
+79388048.index
+1696632617.index
+632233171.index
+3790025870.index

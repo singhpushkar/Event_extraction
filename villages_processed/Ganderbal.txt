@@ -1,0 +1,113 @@
+Akhal,Kangan
+Anderwan,Kangan
+Ara Hama,Kangan
+Arigori Pora,Kangan
+Bamlina,Kangan
+Barwalah,Kangan
+Berna Bugh,Kangan
+Chater Gul,Kangan
+Cheerwan,Kangan
+Chiner,Kangan
+Daraduder,Kangan
+Drag Tanga,Kangan
+Forest Block,Kangan
+Fraw Haknar,Kangan
+Gund Ari,Kangan
+Gund Sarsingh,Kangan
+Hardo Panzin,Kangan
+Hari Ganiwan,Kangan
+Hari Pora,Kangan
+Hayan Palpora,Kangan
+Kacha Nambal,Kangan
+Kangan,Kangan
+Khanan,Kangan
+Kij Parah,Kangan
+Kolan,Kangan
+Lari,Kangan
+Mamer,Kangan
+Mar Gund,Kangan
+Najwan Nilah,Kangan
+Nilagrar,Kangan
+Palang,Kangan
+Porajat Gagangir,Kangan
+Rayil,Kangan
+Satrina,Kangan
+Sonamarg,Kangan
+Soraf Raw,Kangan
+Sumbal Bala,Kangan
+Tangchatir,Kangan
+Thune,Kangan
+Wangat,Kangan
+Wossan,Kangan
+Yechi Hama,Kangan
+Ahan,Lar
+Badam Pora,Lar
+Bagh Mahanand,Lar
+Bagh Zaman Ganai,Lar
+Baghi Dab,Lar
+Bardala,Lar
+Barsoo,Lar
+Bat Pora,Lar
+Batvena,Lar
+Bena Hama,Lar
+Chanthan Gulab Pora,Lar
+Chashma Manasbal,Lar
+Chunt Valiwar,Lar
+Dab,Lar
+Danger Pora,Lar
+Forest Block,Lar
+Gamwara,Lar
+Goza Hama,Lar
+Gulab Bagh,Lar
+Khan Pora,Lar
+Khar Bagh,Lar
+Khrani Hama,Lar
+Kur Hama,Lar
+Latiwaza,Lar
+Mani Gam,Lar
+Narayan Bagh,Lar
+Nawab Bag,Lar
+Pahli Pora,Lar
+Qasba Lar,Lar
+Rakh Rabitar,Lar
+Rapore,Lar
+Sheikh Zoo,Lar
+Thuru,Lar
+Wahid Pora,Lar
+Wakura,Lar
+Was Kora,Lar
+Wata Lar,Lar
+Watal Bag,Lar
+Wond Hama,Lar
+Yan Goora,Lar
+Zari Gund,Lar
+Zazna,Lar
+Arch,Ganderbal
+Baba Dariya Din,Ganderbal
+Babosi Pora,Ganderbal
+Badhra Kund,Ganderbal
+Chandna Deh Now Abad,Ganderbal
+Chapper Gund,Ganderbal
+Dev Pora,Ganderbal
+Gadoora,Ganderbal
+Gogji Gund,Ganderbal
+Gotli Bagh,Ganderbal
+Gund Momin,Ganderbal
+Gund Rahman,Ganderbal
+Hakim Gund,Ganderbal
+Hardo Mardabagh Abad,Ganderbal
+Harran,Ganderbal
+Hat Barah,Ganderbal
+Kastori Pora,Ganderbal
+Koka Gund,Ganderbal
+Koreg Domarag,Ganderbal
+Nuner,Ganderbal
+Rabitar Gund Roshan Ghat,Ganderbal
+Rabtar Gundi Roshan,Ganderbal
+Rakh Harran,Ganderbal
+Sadra Bagh,Ganderbal
+Sarich Chodri Bagh,Ganderbal
+Seh Pora,Ganderbal
+Shalla Bug,Ganderbal
+Tulmulla,Ganderbal
+Urpash,Ganderbal

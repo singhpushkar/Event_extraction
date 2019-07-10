@@ -1,0 +1,462 @@
+Auli Pora,Chadoora
+Auwan Pora,Chadoora
+Badi Pora,Chadoora
+Bagati Kani Pora,Chadoora
+Bagh Buchroo,Chadoora
+Bagh Shokr Shah,Chadoora
+Baghi Hyder,Chadoora
+Bani Gund,Chadoora
+Barwah,Chadoora
+Behram Pora,Chadoora
+Bogam Bat Pora,Chadoora
+Bonen,Chadoora
+Brari Gund,Chadoora
+Brenwar,Chadoora
+Buchroo,Chadoora
+Bul Bul Pora,Chadoora
+Chan Gund,Chadoora
+Chatar Gam,Chadoora
+Check Dumjoo Ganjoo,Chadoora
+Check Fati Din,Chadoora
+Check No.1,Chadoora
+Check No.2,Chadoora
+Check Pora Kalan,Chadoora
+Cheke Mahand Joo Dhar,Chadoora
+Chinar Bagh,Chadoora
+Chodri Gund,Chadoora
+Dadom Pora,Chadoora
+Dharm Sala Singhan,Chadoora
+Dooni Wari,Chadoora
+Dowlet Pora,Chadoora
+Farhad Pora,Chadoora
+Gangi Pora,Chadoora
+Ganji Bagh,Chadoora
+Gawher Pora,Chadoora
+Gogi Bagh,Chadoora
+Gogji Pathri,Chadoora
+Goniwar,Chadoora
+Gopal Saif,Chadoora
+Gul Moor,Chadoora
+Gulab Bagh,Chadoora
+Gulab Pora,Chadoora
+Gulnaz,Chadoora
+Gund Check Pora,Chadoora
+Gund Maksood,Chadoora
+Gund Wali,Chadoora
+Hanji Gund,Chadoora
+Hanjura,Chadoora
+Hayat Pora,Chadoora
+Hushroo,Chadoora
+Husi Pora,Chadoora
+Jawahar Pora,Chadoora
+Kani Hama,Chadoora
+Kani Koat,Chadoora
+Kani Pora Kali Dar,Chadoora
+Khanda,Chadoora
+Khuthi Pora,Chadoora
+Koti Bal,Chadoora
+Kozweara,Chadoora
+Kralwari,Chadoora
+Kuther Gund,Chadoora
+Lalpora,Chadoora
+Loli Pora Hum Pora,Chadoora
+Mahnoor,Chadoora
+Malik Gund,Chadoora
+Namthal Pora,Chadoora
+Now Bugh,Chadoora
+Now Pora,Chadoora
+Nowhar,Chadoora
+Patri Gam,Chadoora
+Porwar,Chadoora
+Qaisarmulla,Chadoora
+Qanungo Pora,Chadoora
+Qasim Bagh,Chadoora
+Qazi Pora,Chadoora
+Qumer Pora,Chadoora
+Rakh Shalina,Chadoora
+Rangeen,Chadoora
+Ranger,Chadoora
+Reshi Pora,Chadoora
+Sear Bagh,Chadoora
+Shahzab Pora,Chadoora
+Shalina,Chadoora
+Shandar Pora,Chadoora
+Shereen Pora,Chadoora
+Shew Pora,Chadoora
+Shoukat Pora,Chadoora
+Shum Nag,Chadoora
+Sogam,Chadoora
+Sona Bugh,Chadoora
+Sonzi Pora,Chadoora
+Sulmat Pora,Chadoora
+Sumer Bogh,Chadoora
+Sursyar,Chadoora
+Suthoo Kalan,Chadoora
+Wadi Pora,Chadoora
+Wagam,Chadoora
+Wagora,Chadoora
+Wangi Pora,Chadoora
+Wanpora Nagam,Chadoora
+Yar Kalan,Chadoora
+Zalwah,Chadoora
+Zoohama,Chadoora
+Zooni Pora,Chadoora
+Zooni Pora,Chadoora
+Adina,Beerwah
+Alam Guchoo,Beerwah
+Aqil Pora,Beerwah
+Ari Panthan,Beerwah
+Arwah,Beerwah
+Atinu,Beerwah
+Bandagam,Beerwah
+Bata Pora Kanihama,Beerwah
+Bonahama,Beerwah
+Bun Meke Hama,Beerwah
+Buna Zanigam,Beerwah
+Bupat,Beerwah
+Chair Giun,Beerwah
+Chak Danas,Beerwah
+Chak Dewan Lakhimandass,Beerwah
+Chak Paharthan,Beerwah
+Chanthan Chak Pora,Beerwah
+Charan Gam,Beerwah
+Chare Khan,Beerwah
+Chere Har,Beerwah
+Chewdara,Beerwah
+Churu Mujru,Beerwah
+Dachan,Beerwah
+Daji Malik Gund,Beerwah
+Danash,Beerwah
+Dragar,Beerwah
+Gagar Pora,Beerwah
+Gam Pora,Beerwah
+Gamboora,Beerwah
+Gori Pora,Beerwah
+Gund Khalil,Beerwah
+Gund Mumadar,Beerwah
+Gundi Pora,Beerwah
+Gunj Lal Pora,Beerwah
+Hanji BuJ,Beerwah
+Hanji Laway Pora,Beerwah
+Haranj Garoo,Beerwah
+Hardu Latinu,Beerwah
+Hardu Mala Pora,Beerwah
+Hayat Pora,Beerwah
+Hurdu Waminu,Beerwah
+Kali Pora,Beerwah
+Kanda Hama,Beerwah
+Kandoora,Beerwah
+Kanih Gund,Beerwah
+Kanihama,Beerwah
+Kanth Bagh,Beerwah
+Kawsa Jagir,Beerwah
+Kawsa Khalisa,Beerwah
+Lalpora Beeru,Beerwah
+Larabal,Beerwah
+Lasi Pora,Beerwah
+Lohar Chak,Beerwah
+Malpora Sehkanaw,Beerwah
+Mamgund,Beerwah
+Mani Hama,Beerwah
+Mashun,Beerwah
+Mati Pora,Beerwah
+Mazehama,Beerwah
+Miri Pora,Beerwah
+Mulashulla,Beerwah
+Mulemanchi Hama,Beerwah
+Najan,Beerwah
+Nar Bal,Beerwah
+Narawarah,Beerwah
+Narsing Pora,Beerwah
+Nassoo,Beerwah
+Nijlu,Beerwah
+Now Pora Pain,Beerwah
+Ohangam,Beerwah
+Otilgam,Beerwah
+Otter Pora,Beerwah
+Paharthan,Beerwah
+Pakhar Pora,Beerwah
+Panchas,Beerwah
+Pandow Pora,Beerwah
+Pari Pora,Beerwah
+Path Zani Gam,Beerwah
+Peth Kanihama,Beerwah
+Peth Mekehama,Beerwah
+Pethkoot,Beerwah
+Poonch Gund,Beerwah
+Rani Pora,Beerwah
+Rassoo,Beerwah
+Rathsun,Beerwah
+Rede Bug,Beerwah
+Renki Pora,Beerwah
+Roshan Abad,Beerwah
+Saihama,Beerwah
+Sail,Beerwah
+Sechin Banet,Beerwah
+Sehpora,Beerwah
+Ship Pora,Beerwah
+Shuli Gund,Beerwah
+Snoor Kali Pora,Beerwah
+Sone Pah,Beerwah
+Sozeth Gori Pora,Beerwah
+Wani Hama,Beerwah
+Wata Magam,Beerwah
+Watal Pora Banda Pora,Beerwah
+Yaru Gund,Beerwah
+Zabgala,Beerwah
+Alaw Pora,Budgam
+Arath,Budgam
+Bagh Sahib Ram,Budgam
+Banday Bagh,Budgam
+Bata Bagh,Budgam
+Bata Pora,Budgam
+Bodan,Budgam
+Chak Kali Khan,Budgam
+Chak Wazir Punu,Budgam
+Chanda Pora,Budgam
+Chata Bug,Budgam
+Chewa,Budgam
+Chitru Danger Pora,Budgam
+Choon,Budgam
+Chowderi Bagh,Budgam
+Dadna,Budgam
+Dandusa,Budgam
+Dard Pora,Budgam
+Dehramana,Budgam
+Dof Pora,Budgam
+Doru,Budgam
+Dunsunar,Budgam
+Gagoo,Budgam
+Galwan Pora,Budgam
+Garand Kalan,Budgam
+Garand Khurd,Budgam
+Gojra Jagir,Budgam
+Gota Pora,Budgam
+Guda Sathu,Budgam
+Gund Hanjik,Budgam
+Guzer Gund,Budgam
+Haker Mula,Budgam
+Handajin,Budgam
+Hari Pora,Budgam
+Harji Gund,Budgam
+Hayat Pora,Budgam
+Heudar,Budgam
+Hooru,Budgam
+Ich Kot,Budgam
+Jahama,Budgam
+Jawal Pora,Budgam
+Kadi Pora,Budgam
+Kakan Maran,Budgam
+Kamaho Pora,Budgam
+Kargam Palachithf,Budgam
+Karhama,Budgam
+Kishtwar,Budgam
+Labertal,Budgam
+Lakhri Pora,Budgam
+Lal Gam,Budgam
+Lal Gund,Budgam
+Mahwara,Budgam
+Mamat,Budgam
+Mira Gund,Budgam
+Muni Popy,Budgam
+Nadi Wan Pora,Budgam
+Nadigam,Budgam
+Nagrad Khah,Budgam
+Naru,Budgam
+Nasirullah Pora,Budgam
+Odru,Budgam
+Paimas,Budgam
+Palar,Budgam
+Parisabad Pora,Budgam
+Patawaw,Budgam
+Putli Bagh,Budgam
+Rakh Arath,Budgam
+Rakh Haker Mulla,Budgam
+Razwan Jagir,Budgam
+Reshi Pora,Budgam
+Retni Pora,Budgam
+Sabdan,Budgam
+Sarad,Budgam
+Sarat Pora,Budgam
+Shah Pora,Budgam
+Sheikh Pora,Budgam
+Shoga Pora,Budgam
+Sholi Pora,Budgam
+Shopri Bagh,Budgam
+Soi Bug,Budgam
+Soofi Pora,Budgam
+Sunar Gund,Budgam
+Sundi Pora,Budgam
+Suran Har,Budgam
+Teki Pora,Budgam
+Thakar Pora Jagir,Budgam
+Tilan Pora,Budgam
+Wadwan Jagir,Budgam
+Wahab Pora,Budgam
+Wara Pora,Budgam
+Wara Sangam,Budgam
+Watra Wani,Budgam
+Zazah Bug,Budgam
+Zori Bagh,Budgam
+Zori Gund,Budgam
+Arigam,Khansahib
+Arizal,Khansahib
+Baba Pora,Khansahib
+Bala Pora,Khansahib
+Bander Pora,Khansahib
+Bata Pora,Khansahib
+Brari Pora,Khansahib
+Bras,Khansahib
+Brel,Khansahib
+Bugchal,Khansahib
+Bugru,Khansahib
+Chak Hokalatri,Khansahib
+Chak Qadus,Khansahib
+Chak Shera,Khansahib
+Chana Now Pora,Khansahib
+Chertu,Khansahib
+Chil,Khansahib
+Dabi Pora,Khansahib
+Danger Pora,Khansahib
+Doru,Khansahib
+Dregam Khasi Pora,Khansahib
+Faja Pora,Khansahib
+Fala Chala,Khansahib
+Forest Block,Khansahib
+Frasta War,Khansahib
+Gam Galla,Khansahib
+Goja Thaji,Khansahib
+Goti Pora,Khansahib
+Gund Ali Naik,Khansahib
+Gund Arjan,Khansahib
+Gund Dervesh Harawanian,Khansahib
+Gund Panah,Khansahib
+Gund Shoga Taploo,Khansahib
+Gurweth Kalan,Khansahib
+Gurweth Khurd,Khansahib
+Gutli Pora,Khansahib
+Hardu Panjoo,Khansahib
+Hardu Wail,Khansahib
+Harnow,Khansahib
+Hokalatri,Khansahib
+Howru,Khansahib
+Jagu Kharen,Khansahib
+Kachi Porn,Khansahib
+Kachwari,Khansahib
+Kalshi Pora,Khansahib
+Kanora,Khansahib
+Kech Razgir,Khansahib
+Khai Pora,Khansahib
+Khara Pora,Khansahib
+Khari Pora,Khansahib
+Khod Rawat Pora,Khansahib
+Khosa Pora,Khansahib
+Khuda Pora,Khansahib
+Krala Pathri,Khansahib
+Krale New,Khansahib
+Kramsher,Khansahib
+Kula Bug,Khansahib
+Kule Hama,Khansahib
+Lainilab,Khansahib
+Lanura,Khansahib
+Machi Pora,Khansahib
+Mula Naru,Khansahib
+Nambalhar,Khansahib
+Nande Pora,Khansahib
+Nari Gund,Khansahib
+Nuch Gam,Khansahib
+Nunar,Khansahib
+Para Pora Saifulla,Khansahib
+Parnewa Jagir,Khansahib
+Qumroo,Khansahib
+Raithan,Khansahib
+Raiyar Beruwa,Khansahib
+Raiyarich,Khansahib
+Rakh Ketra Jagir,Khansahib
+Rakh Wacho,Khansahib
+Rawal Pora Beerua,Khansahib
+Rehkhayi,Khansahib
+Ring Zabal,Khansahib
+Sahni Pora,Khansahib
+Shala Nar,Khansahib
+Shamas Abad,Khansahib
+Shekhawari Pora,Khansahib
+Shuru Jagir,Khansahib
+Sozni Pora,Khansahib
+Takia Farook Shah,Khansahib
+Tala Pora,Khansahib
+Traja Khal,Khansahib
+Utra Dalabal,Khansahib
+Wachoo,Khansahib
+Wager,Khansahib
+Warahgam,Khansahib
+Watra Hail,Khansahib
+Yaga Bug,Khansahib
+Yari Khah,Khansahib
+Yari Satru,Khansahib
+Zim Pora,Khansahib
+Abandar,Khag
+Alam Nag,Khag
+Awan Pora,Khag
+Badran,Khag
+Bamurad,Khag
+Bata Pora Drang,Khag
+Buna Sharan,Khag
+Bunagund,Khag
+Chaker Pora,Khag
+Chere Haroo,Khag
+Dalwach Khored,Khag
+Drang,Khag
+Forest Block,Khag
+Habar Daradlasi Pora,Khag
+Hamchi Pora,Khag
+Hardu Surash,Khag
+Ichehama,Khag
+Iskineder Pora,Khag
+Kanchati Pora,Khag
+Kangri Pora,Khag
+Khag,Khag
+Khahi Pora,Khag
+Khan Pora,Khag
+Khanday Pora,Khag
+Khawja Gund,Khag
+Koker Bagh,Khag
+Lachman Pora,Khag
+Larik Pora,Khag
+Looki Pora,Khag
+Lowahi Pora,Khag
+Mala Pora Khag,Khag
+Nagabal,Khag
+Nasar Pora,Khag
+Pala Pora,Khag
+Parapora,Khag
+Peth Saharan,Khag
+Poshker,Khag
+Punj Yari,Khag
+Raihan Bag,Khag
+Ramdar Chakpora,Khag
+Rawat Pora,Khag
+Shungli Pora,Khag
+Sita Haran,Khag
+Sochal Pora,Khag
+Sugin Yarinar,Khag
+Trapay,Khag
+Udar Khodlasi Pora,Khag
+Zagi Pora,Khag
+Zahid Bag,Khag
+Alamdar Pora,Charar- E- Shrief
+Azad Pora,Charar- E- Shrief
+Brenpathri,Charar- E- Shrief
+Charri Pora Khanpora,Charar- E- Shrief
+Charri Sharif,Charar- E- Shrief
+Chelen Chunt Nar,Charar- E- Shrief
+Darwan Nowgam,Charar- E- Shrief
+Forest Block,Charar- E- Shrief
+Gund Shamus,Charar- E- Shrief
+Kar Pora,Charar- E- Shrief
+Mal Pora Dard Pora,Charar- E- Shrief
+Mehind Pora,Charar- E- Shrief
+Noor Abad,Charar- E- Shrief
+Pukher Pora,Charar- E- Shrief
+Shankar Pora,Charar- E- Shrief
+Telsur,Charar- E- Shrief

@@ -1,0 +1,468 @@
+Agar Kallan,Pattan
+Aglar,Pattan
+Aram Pora,Pattan
+Archander Hama,Pattan
+Baba Khi Pora,Pattan
+Bahram Pora,Pattan
+Bali Haran,Pattan
+Behram Pora Kun Gandara,Pattan
+Biyawa,Pattan
+Bochu,Pattan
+Bodi Bug,Pattan
+Burzala,Pattan
+Chack Charat Ram,Pattan
+Chaku,Pattan
+Chana Bal,Pattan
+Chander Hama,Pattan
+Chandera Seer,Pattan
+Chukar,Pattan
+Daragam,Pattan
+Dard Pora,Pattan
+Dewarya Khman Pora,Pattan
+Dildar Pora,Pattan
+Dilshad Pora,Pattan
+Dusli Pora,Pattan
+Gadwani,Pattan
+Goigam,Pattan
+Goom Ahmad Pora,Pattan
+Gosha Bugh,Pattan
+Gund Chander Hama,Pattan
+Gund Ibrahim,Pattan
+Gund Khawja Kasim,Pattan
+Gundari Pora,Pattan
+Habaq Tangoo,Pattan
+Hamray,Pattan
+Hanji Wera,Pattan
+Hara Treth,Pattan
+Harhand Pora,Pattan
+Harnara,Pattan
+Hussan Abad,Pattan
+Indir Gam,Pattan
+Kanlu,Pattan
+Kati Bug,Pattan
+Khamsiyar,Pattan
+Khanpeth,Pattan
+Khargam,Pattan
+Khushal Pora,Pattan
+Khusrag Pora,Pattan
+Krishama,Pattan
+Loli Pora,Pattan
+Maharaj Pora,Pattan
+Mala Buchan,Pattan
+Malik Pora,Pattan
+Mamoosa,Pattan
+Mati Pora,Pattan
+Merchamer,Pattan
+Mira Gund,Pattan
+Mohammad Pora,Pattan
+Nangir Pora Mughama,Pattan
+Nelopher,Pattan
+Nihal Pora,Pattan
+Nowlari,Pattan
+Ochli Pora,Pattan
+Paki Pora,Pattan
+Pal Pora,Pattan
+Palhallan,Pattan
+Pattan,Pattan
+Pochanag,Pattan
+Qasba Malmoh,Pattan
+Rakh Dosli Pora,Pattan
+Rasri Pora,Pattan
+Rawan Pora,Pattan
+Roshan Abad,Pattan
+Seriguo Danger Pora,Pattan
+Sheer Abad,Pattan
+Sheer Pora Bangil,Pattan
+Shuch Pal Pora,Pattan
+Singh Pora,Pattan
+Siri Wara Pora,Pattan
+Sonim,Pattan
+Sudrabal,Pattan
+Sultan Pora Khai,Pattan
+Tantry Pora,Pattan
+Taper Wari Pora,Pattan
+Tara Hama,Pattan
+Tilagam,Pattan
+Tunj Haran,Pattan
+Usan Khai,Pattan
+Utikoo,Pattan
+Wahi Gund,Pattan
+Wailu Kral Pora,Pattan
+Wani Gam Pain,Pattan
+Wanigam Bala,Pattan
+Wari Pora Bangil,Pattan
+Yal,Pattan
+Adi Pora,Sopore
+Bohri Pora,Sopore
+Botingu,Sopore
+Brat,Sopore
+Bulagam,Sopore
+Bumai,Sopore
+Chak Haigam,Sopore
+Chera Har,Sopore
+Chhuru,Sopore
+Danger Pora,Sopore
+Dara Nambal,Sopore
+Doru,Sopore
+Gori Pora Dara Pora,Sopore
+Gund Bakir,Sopore
+Gund Brat,Sopore
+Haigam,Sopore
+Hardushuo,Sopore
+Harwan,Sopore
+Hasmat Pora,Sopore
+Idi Pora,Sopore
+Janwara,Sopore
+Krank Shivan,Sopore
+Lalad,Sopore
+Lathi Shath,Sopore
+Logri Pora,Sopore
+Magri Pora,Sopore
+Mala Mapan Pora,Sopore
+Mala Pora Panditan,Sopore
+Mandji,Sopore
+Maz Bug,Sopore
+Muqam Shaheed Mir,Sopore
+Nathi Pora,Sopore
+Nawpora Tujar,Sopore
+Panji Pora,Sopore
+Path Bug,Sopore
+Pathu Kah Muqam,Sopore
+Rakh Haigam,Sopore
+Rampora Rajpur,Sopore
+Rashid Aabad,Sopore
+Renji,Sopore
+Sagi Pora,Sopore
+Said Pora,Sopore
+Sangrama,Sopore
+Seelo,Sopore
+Seer Jagir,Sopore
+Sem Pora,Sopore
+Takia Khan Mohammad,Sopore
+Tarazuea,Sopore
+Tramba Gund,Sopore
+Tujar Pahle Har,Sopore
+Wadura,Sopore
+Wagul,Sopore
+Wara Pora,Sopore
+Watlab,Sopore
+Yamberzal Wari,Sopore
+Zalura,Sopore
+Zooni Pora,Sopore
+Bada Mulla,Baramulla
+Bulbul Abad,Baramulla
+Chaklu,Baramulla
+Danger Pora,Baramulla
+Dilna,Baramulla
+Fatehgadh,Baramulla
+Gantamulla Bala,Baramulla
+Gantamulla Pain,Baramulla
+Gohan Lari Jungle,Baramulla
+Gulistan,Baramulla
+Haji Bal,Baramulla
+Heewen,Baramulla
+Jagiyar,Baramulla
+Jahama,Baramulla
+Jalsheri,Baramulla
+Kalander Pora,Baramulla
+Katian Wali,Baramulla
+Khadaniar,Baramulla
+Khai Tangan,Baramulla
+Khusual Pora,Baramulla
+Kitcha Hama,Baramulla
+Lal Pora,Baramulla
+Latifabad,Baramulla
+Mala Pora,Baramulla
+Maqbool Abad,Baramulla
+Mirher,Baramulla
+Naid Hal,Baramulla
+Nambalan,Baramulla
+Nawgam,Baramulla
+Nowpora Jagir,Baramulla
+Nowrang,Baramulla
+Odura,Baramulla
+Puna Cheter,Baramulla
+Sadi Pora,Baramulla
+Sheern Abad,Baramulla
+Sherwani Abad,Baramulla
+Shitlu,Baramulla
+Singh Pora Kalan,Baramulla
+Tari Pora Wansaran,Baramulla
+Wahdat Pora,Baramulla
+Weri Nar,Baramulla
+Zamzam Pora,Baramulla
+Ati Pora Zikar,Tangmarg
+Badi Pora,Tangmarg
+Badra Kot,Tangmarg
+Baharestan,Tangmarg
+Bassni Pora,Tangmarg
+Bata Pora Sagri,Tangmarg
+Batu,Tangmarg
+Buna Gam,Tangmarg
+Chak Mirza Jamadar,Tangmarg
+Chak Than Chana Pora,Tangmarg
+Chandi Lura,Tangmarg
+Chandil,Tangmarg
+Dara Hama,Tangmarg
+Darweshpora,Tangmarg
+Dewa Bug,Tangmarg
+Dewa Dragar,Tangmarg
+Dewa Pora,Tangmarg
+Dhobiwan,Tangmarg
+Feroz Pora,Tangmarg
+Forest Block,Tangmarg
+Goni Pora,Tangmarg
+Gound Magsud,Tangmarg
+Gul Afshan,Tangmarg
+Gul Badan,Tangmarg
+Gul Jafar,Tangmarg
+Gul Neelofar,Tangmarg
+Gul Nore,Tangmarg
+Gul Sawam,Tangmarg
+Gulab Bagh,Tangmarg
+Gulbakawali,Tangmarg
+Gulbrag,Tangmarg
+Gulfam,Tangmarg
+Gulkhandan,Tangmarg
+Gulnar,Tangmarg
+Gulrang,Tangmarg
+Gulrez,Tangmarg
+Gulrow,Tangmarg
+Gulshan,Tangmarg
+Haipara,Tangmarg
+Hajibal,Tangmarg
+Hardu Bani,Tangmarg
+Hardu Madam,Tangmarg
+Hardu Shuru,Tangmarg
+Hari Utnu,Tangmarg
+Haripora,Tangmarg
+Harnow Kawachak,Tangmarg
+Hayat Pora,Tangmarg
+Hea Bag,Tangmarg
+Hoom,Tangmarg
+Imbarzal Bag,Tangmarg
+Kamu Pora,Tangmarg
+Kanhama,Tangmarg
+Kanwal Bag,Tangmarg
+Kata Pora,Tangmarg
+Kech Mati Pora,Tangmarg
+Khai Pora Bala,Tangmarg
+Khai Pora Payin,Tangmarg
+Khamander Pora,Tangmarg
+Kharnipora,Tangmarg
+Kohlar,Tangmarg
+Kulhama,Tangmarg
+Lal Pora,Tangmarg
+Mala Pora Sangrama,Tangmarg
+Mang Lara,Tangmarg
+Marchi Pora,Tangmarg
+Meri Pora,Tangmarg
+Mughal Pora,Tangmarg
+Nadir Gund,Tangmarg
+Nargis Bag,Tangmarg
+Ogmuna,Tangmarg
+Pajwal Pora,Tangmarg
+Pandit Pora Bala,Tangmarg
+Pariswani,Tangmarg
+Posh Bag,Tangmarg
+Qasam Bag,Tangmarg
+Raj Pora,Tangmarg
+Ranbir Pora,Tangmarg
+Ratni Pora Bala,Tangmarg
+Ratni Pora Payin,Tangmarg
+Rawat Pora,Tangmarg
+Shah Pora,Tangmarg
+Sharai,Tangmarg
+Sher Bag,Tangmarg
+Shera Pora Telagam,Tangmarg
+Solinda,Tangmarg
+Sonli Pora,Tangmarg
+Sumbal Bag,Tangmarg
+Taj Pora,Tangmarg
+Takia Bata Pora,Tangmarg
+Tantripora,Tangmarg
+Tokal Pora,Tangmarg
+Treran,Tangmarg
+Turka Batapora,Tangmarg
+Wahipora,Tangmarg
+Wara Pora,Tangmarg
+Zasapora,Tangmarg
+Achha Bal,Rafiabad
+Ahanger Pora,Rafiabad
+Balhama Thakan Pora,Rafiabad
+Bata Pora Najar,Rafiabad
+Behram Pora,Rafiabad
+Braman,Rafiabad
+Brana Dab,Rafiabad
+Chatusa,Rafiabad
+Chij Hama,Rafiabad
+Chipdeji,Rafiabad
+Chitlora,Rafiabad
+Choti Pora,Rafiabad
+Chrali Gund,Rafiabad
+Dachan Pora,Rafiabad
+Dalri,Rafiabad
+Dangi Wachha,Rafiabad
+Dazna,Rafiabad
+Drusu Jagir,Rafiabad
+Dugri Pora,Rafiabad
+Duli Gund,Rafiabad
+Dundusa,Rafiabad
+Duni Wari,Rafiabad
+Dursu Khalsa,Rafiabad
+Fagi Pora,Rafiabad
+Feroz Pora,Rafiabad
+Fider Pora,Rafiabad
+Forest Block,Rafiabad
+Gali Bal,Rafiabad
+Hachivi Pora,Rafiabad
+Hadi Pora,Rafiabad
+Hamam,Rafiabad
+Hardu Chanam,Rafiabad
+Hib Danger Pora,Rafiabad
+Huma Dub,Rafiabad
+Hunru,Rafiabad
+Kartar Garh,Rafiabad
+Khah Moh,Rafiabad
+Khushi Pora,Rafiabad
+Kitar Daji,Rafiabad
+Kitru Nari Bal,Rafiabad
+Kungrusa,Rafiabad
+Ladi Angan,Rafiabad
+Laisar,Rafiabad
+Logriwal Pora,Rafiabad
+Ludhu Lodura,Rafiabad
+Ludura,Rafiabad
+Magray Pora Bala,Rafiabad
+Magray Pora Pain,Rafiabad
+Mala Guni Pora,Rafiabad
+Manchan Pora,Rafiabad
+Mandinu Hachinar,Rafiabad
+Markote,Rafiabad
+Nakhi Pora Bata Pora,Rafiabad
+Now Pora Hamal,Rafiabad
+Pakhwara,Rafiabad
+Panzala Gund Bal,Rafiabad
+Pari Pora,Rafiabad
+Patusa,Rafiabad
+Pazwal Pora,Rafiabad
+Raban Ranahama,Rafiabad
+Rawchha,Rafiabad
+Ruhama,Rafiabad
+Sangram Pora,Rafiabad
+Sare Para Budan,Rafiabad
+Satrina,Rafiabad
+Seen,Rafiabad
+Sheka Pora,Rafiabad
+Shoga Pora,Rafiabad
+Sonian Saidnar,Rafiabad
+Syal Kot,Rafiabad
+Tanga Mula,Rafiabad
+Trega Pora,Rafiabad
+Vedipora Lurhama,Rafiabad
+Wan Pora,Rafiabad
+Wari Pora,Rafiabad
+Yar Bug,Rafiabad
+Zethan,Rafiabad
+Aithshm Pora,Boniyar
+Azad Pora,Boniyar
+Bagnah Noor Khah,Boniyar
+Banali,Boniyar
+Bandi Brahmanan,Boniyar
+Bardian,Boniyar
+Batangi,Boniyar
+Bernate,Boniyar
+Bichi,Boniyar
+Biji Hama,Boniyar
+Bila Salamabad,Boniyar
+Bimyar,Boniyar
+Boniyar,Boniyar
+Brari Pora,Boniyar
+Chahal,Boniyar
+Chotali,Boniyar
+Dara Kujan,Boniyar
+Dudaran,Boniyar
+Forest Block,Boniyar
+Gagar Hal,Boniyar
+Girda Nawah,Boniyar
+Hilad Peernian,Boniyar
+Hundi Noweshera,Boniyar
+Ijara,Boniyar
+Jabdi,Boniyar
+Javind,Boniyar
+Kathal Hil Patribal,Boniyar
+Kenchan,Boniyar
+Ladi,Boniyar
+Limber,Boniyar
+Mahura,Boniyar
+Maidanan,Boniyar
+Manchi Krand,Boniyar
+Manj Gram,Boniyar
+Mayan,Boniyar
+Muqam Piran,Boniyar
+Nagnari,Boniyar
+Niloosa,Boniyar
+Now Gram,Boniyar
+Pahli Pora,Boniyar
+Peernian,Boniyar
+Pran Kutran,Boniyar
+Pringal,Boniyar
+Ram Poor,Boniyar
+Salamabad Dachhna,Boniyar
+Salasan,Boniyar
+Shala Dajan,Boniyar
+Sheerwani Pora,Boniyar
+Tirkanjan,Boniyar
+Uranbowa,Boniyar
+Wari Khah,Boniyar
+Zehem Pora,Boniyar
+Bandi Bala,Kreeri
+Bandi Pain,Kreeri
+Burza Washan,Kreeri
+Chanda Kot,Kreeri
+Chandusa,Kreeri
+Darahu Frasta Wari,Kreeri
+Dawlat Pora,Kreeri
+Doli Pora,Kreeri
+Duda Bug,Kreeri
+Dundamoh,Kreeri
+Durahama,Kreeri
+Forest Block,Kreeri
+Frasta Har Tillagam,Kreeri
+Hafiz Abad,Kreeri
+Hail Jagir,Kreeri
+Jahangir Pora,Kreeri
+Kachumuqam,Kreeri
+Kakuthal,Kreeri
+Kalantra Bala,Kreeri
+Kalantra Pain,Kreeri
+Karewa Kreri,Kreeri
+Khise Pora,Kreeri
+Kohlina,Kreeri
+Kreri,Kreeri
+Mahmood Abad,Kreeri
+Mana Gam,Kreeri
+Murantanguari,Kreeri
+Nagbal,Kreeri
+Naji But,Kreeri
+Nalasar,Kreeri
+Nowgam Kandi,Kreeri
+Raj Pora Thandakasi,Kreeri
+Reshi Pora,Kreeri
+Sachi Pora,Kreeri
+Salusa,Kreeri
+Sheikh Pora,Kreeri
+Shera Pora Gugaran,Kreeri
+Shumlaran,Kreeri
+Sulta Pora Kandi,Kreeri
+Takia Yousuf Shah,Kreeri
+Tangwari Bala,Kreeri
+Tangwari Pain,Kreeri
+Thindama,Kreeri
+Wagura,Kreeri
+Wahidana,Kreeri
+Wari Pora Bala,Kreeri
+Wari Pora Pain,Kreeri
+Watra Gam,Kreeri
+Wizar,Kreeri
+Wulraman,Kreeri

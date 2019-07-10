@@ -1,0 +1,253 @@
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+import static org.neo4j.driver.v1.Values.parameters;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.security.KeyStore.Entry;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.*;
+
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVPrinter;
+import org.apache.commons.csv.CSVRecord;
+import org.neo4j.driver.v1.AuthTokens;
+import org.neo4j.driver.v1.Driver;
+import org.neo4j.driver.v1.GraphDatabase;
+import org.neo4j.driver.v1.Record;
+import org.neo4j.driver.v1.Session;
+import org.neo4j.driver.v1.StatementResult;
+import org.neo4j.driver.v1.Transaction;
+
+
+public class QueryDB {
+
+	static Driver driver;
+	
+	public static String getresults (String startdate,String enddate, String event, String location) throws JsonProcessingException
+	{
+		
+		String[] keywords = event.split(" ");
+		location = location.toLowerCase();
+		String query="";
+		for(String keyword:keywords) {
+			query += "Node.lemma contains '"+ keyword + "' OR ";
+		}
+		query = query.substring(0,query.length()-3);
+		String date_constraint = " and date(Event.date) >= date('"+startdate+"') and date(Event.date) <= date('"+enddate+"')"; 
+		String query_final = "OPTIONAL MATCH (Node) where ("+query+") " + "with Node " + "MATCH (Event)--(Node) where Event.location contains '"+location+"' " + date_constraint+ " return Event.dbid,Event.headline, Event.sentence, Event.location, Event.date, Node.name";
+		ArrayList<Map<String, Object>> dataMap = tryQuery(query_final);
+		System.out.println(dataMap.size());
+		
+		for(int eventNo = 0; eventNo < dataMap.size();eventNo++)
+		{
+			System.out.println(eventNo);
+			String sentence = dataMap.get(eventNo).get("Event.sentence").toString().toLowerCase();
+			String date = dataMap.get(eventNo).get("Event.date").toString().toLowerCase();
+			String Location = dataMap.get(eventNo).get("Event.location").toString().toLowerCase();
+			String headline = dataMap.get(eventNo).get("Event.headline").toString().toLowerCase();
+			System.out.println(sentence+" "+Location);
+			for(int j = eventNo+1; j< dataMap.size(); j++)
+			{
+				if(sentence.equalsIgnoreCase(dataMap.get(j).get("Event.sentence").toString())) {
+//					System.out.println(dataMap.get(j).get("Event.sentence").toString()+"----found,sentence match");
+					dataMap.remove(j);
+					j--;
+				}
+				else if((Location.contains(dataMap.get(j).get("Event.location").toString().toLowerCase()) || dataMap.get(j).get("Event.location").toString().toLowerCase().contains(Location) ) && date.equals(dataMap.get(j).get("Event.date").toString())) {
+//					System.out.println(dataMap.get(j).get("Event.sentence").toString()+"----found,location match");
+					
+					if(headline.equalsIgnoreCase(dataMap.get(j).get("Event.headline").toString())){
+//						System.out.println(dataMap.get(j).get("Event.sentence").toString()+"----found,headline match");
+						
+						Map<String,Object> json_obj = dataMap.get(eventNo);
+						Map<String,Object> cloned_obj = new HashMap<String,Object>(json_obj);
+						
+				
+					String value = sentence + " "+ dataMap.get(j).get("Event.sentence").toString();
+					cloned_obj.put("Event.sentence",value);
+					dataMap.set(eventNo, cloned_obj);
+//					dataMap.remove(json_obj);
+//					dataMap.add(cloned_obj);
+					}
+					dataMap.remove(j);		
+					j--;
+				}
+				
+			}
+		}
+		
+		
+		ArrayList<Map<String,Object>> updatedMap = new ArrayList<Map<String,Object>>();
+		int count = 0;
+		for(Map<String,Object> map : dataMap) {
+			if(count<6 ) {
+				updatedMap.add(map);
+			}
+			count+=1;
+		}
+//		System.out.println(dataMap.size());
+//		System.out.println(query_final);
+		ObjectMapper objectMapper = new ObjectMapper();
+		String json = objectMapper.writeValueAsString(updatedMap);
+		
+		json=json.replace("valley", "");
+		json=json.replace("lok sabha", "");
+		json=json.replace("tehsildar pattan", "");
+		json=json.replace("press enclave", "");
+		json=json.replace("new delhi", "");
+//		System.out.println(json);
+		
+		//write_to_file(dataMap);
+		
+		closeDatabase();
+		return json;
+	}
+	
+	
+	 public static void main(String args[]) throws JsonProcessingException {
+		 QueryDB.AccessDatabase("bolt://localhost:7687", "neo4j", "singh@123");
+		 	
+			String query_final = "OPTIONAL MATCH (Node) where (Node.lemma contains 'strike' OR Node.lemma contains 'strike') " + "with Node " + "MATCH (Event)--(Node) where Event.location contains 'kashmir' " + "return Event.headline, Event.sentence, Event.location, Event.date, Node.name";
+			
+			
+			ArrayList<Map<String, Object>> dataMap = tryQuery(query_final);
+			System.out.println(dataMap.size());
+			for(int event = 0; event < dataMap.size();event++)
+			{
+				String sentence = dataMap.get(event).get("Event.sentence").toString().trim();
+				String date = dataMap.get(event).get("Event.date").toString();
+				String location = dataMap.get(event).get("Event.location").toString();
+//				String headline = dataMap.get(event).get("Event.headline").toString();
+				for(int j = event+1; j< dataMap.size(); j++)
+				{
+					if(sentence.equalsIgnoreCase(dataMap.get(j).get("Event.sentence").toString().trim())) {
+						dataMap.remove(j);
+						System.out.println(sentence+":matched");
+					}
+						
+					else if(location.equals(dataMap.get(j).get("Event.location").toString()) && date.equals(dataMap.get(j).get("Event.date").toString()))
+						dataMap.remove(j);		
+							
+				}
+			}
+			
+			
+			System.out.println(dataMap.size());
+			ObjectMapper objectMapper = new ObjectMapper();
+			String json = objectMapper.writeValueAsString(dataMap);
+			
+			
+			
+			//System.out.println(json);
+			//write_to_file(dataMap);
+			closeDatabase();
+	 }
+	
+	 public static void AccessDatabase(String uri, String user, String password){
+	        driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
+	 }
+	 
+	 public static ArrayList<Map<String, Object>> tryQuery(String query) {
+		 String query_result = "";
+		 Map<String,Object> map = null;
+		 ArrayList<Map<String, Object>> dataMap = new ArrayList<Map<String, Object>>();
+		 try (Session session = driver.session())
+	        {
+	             
+	    			StatementResult result = session.run(query);
+	    	        while (result.hasNext()){
+	    	        	Record record = result.next();
+	    	        	map = record.asMap();
+	    	        	dataMap.add(map);
+	    	        }
+	                    	    	        
+	    		session.close();
+	        }
+		 return dataMap;
+	 }
+	 
+	 public static void write_to_file(ArrayList<Map<String,Object>> dataMap) {
+		
+		 
+			String filePath = "/home/pushkar/Desktop/results_zakir_musa.csv"; 
+        // If the file doesn't exists, create and write to it
+			// If the file exists, truncate (remove all content) and write to it
+	        
+			File file = new File(filePath); 
+		    try { 
+		    	
+		    	FileWriter out = new FileWriter(filePath);
+				 
+				 
+		        // create FileWriter object with file as parameter 
+		        
+		        // create CSVWriter object filewriter object as parameter 
+		        
+		        // adding header to csv 
+		        String[] header = { "Event.location", "Event.date", "Event.headline", "Event.sentence" }; 
+		        CSVPrinter csvPrinter = new CSVPrinter(out, CSVFormat.DEFAULT.withHeader(header));  
+		        
+				
+		        
+		        List<String> data = new ArrayList<String>();
+		        
+		        for(Map<String,Object> map: dataMap) {
+					for (Map.Entry<String,Object> entry : map.entrySet()) { 
+						if(entry.getKey().contentEquals("Event.location")) {
+							String location = entry.getValue().toString();
+							location.replace("lok sabha", "");
+							data.add(entry.getValue().toString());
+						}
+						if(entry.getKey().contentEquals("Event.date")) {
+							data.add(entry.getValue().toString());
+						}
+						if(entry.getKey().contentEquals("Event.headline")) {
+							data.add(entry.getValue().toString());
+						}
+						if(entry.getKey().contentEquals("Event.sentence")) {
+							data.add(entry.getValue().toString());
+						}
+				            
+					}
+			     
+		        
+		        System.out.println(data.size());
+		        
+		        String[] data_to_add = new String[data.size()];
+		        data.toArray(data_to_add);
+		        
+		        /*for(String add: data) {
+		        	System.out.println(data);
+		        }*/
+		        
+		        // add data to csv 
+		        csvPrinter.printRecord(data_to_add); 
+		        csvPrinter.flush(); 
+		        
+		       } // for loop map
+		        // closing writer connection 
+
+		    } 
+		    catch (IOException e) { 
+		        // TODO Auto-generated catch block 
+		        e.printStackTrace(); 
+		    } 
+			
+			
+				 
+	}
+	 
+    public static void closeDatabase(){
+        // Closing a driver immediately shuts down all open connections.
+        driver.close();
+    }
+	
+}

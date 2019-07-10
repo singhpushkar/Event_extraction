@@ -1,0 +1,155 @@
+Agral,Kishtwar
+Ajna,Kishtwar
+Akerhang,Kishtwar
+Anjol,Kishtwar
+Badhat,Kishtwar
+Balgran,Kishtwar
+Baroti,Kishtwar
+Bat Koot,Kishtwar
+Benun,Kishtwar
+Bershala,Kishtwar
+Bhagna,Kishtwar
+Bhander Koot,Kishtwar
+Bhandera,Kishtwar
+Bhatan,Kishtwar
+Bhugrana,Kishtwar
+Bhutna,Kishtwar
+Chalasu,Kishtwar
+Chamoti,Kishtwar
+Chandali,Kishtwar
+Chandna,Kishtwar
+Chbicha Nagsain,Kishtwar
+Cher Jee,Kishtwar
+Chingnana,Kishtwar
+Dachla,Kishtwar
+Damji,Kishtwar
+Darab,Kishtwar
+Dhar,Kishtwar
+Dharbadan,Kishtwar
+Dool,Kishtwar
+Duga,Kishtwar
+Filler,Kishtwar
+Gahan,Kishtwar
+Galhar Bhata,Kishtwar
+Gudh,Kishtwar
+Hadar,Kishtwar
+Halor,Kishtwar
+Hariyal,Kishtwar
+Janwas,Kishtwar
+Jawalla Pur,Kishtwar
+Jirwar,Kishtwar
+Jushana,Kishtwar
+Kalchanda,Kishtwar
+Karool,Kishtwar
+Kawartanji,Kishtwar
+Keshwan,Kishtwar
+Kewah,Kishtwar
+Kishtwar,Kishtwar
+Kither,Kishtwar
+Knwarthara,Kishtwar
+Kohri,Kishtwar
+Kukarwas,Kishtwar
+Kutal,Kishtwar
+Lach Dayaram,Kishtwar
+Lach Khazana,Kishtwar
+Lass,Kishtwar
+Lawa,Kishtwar
+Loondri,Kishtwar
+Magh Batna,Kishtwar
+Malie,Kishtwar
+Mandar,Kishtwar
+Matta,Kishtwar
+Mori,Kishtwar
+Nali,Kishtwar
+Neejo,Kishtwar
+Ohli,Kishtwar
+Pakalan,Kishtwar
+Palmar,Kishtwar
+Patnazi,Kishtwar
+Piyas,Kishtwar
+Poochal,Kishtwar
+Pora,Kishtwar
+Prishmula,Kishtwar
+Salna,Kishtwar
+Samna Bhata,Kishtwar
+Sangna,Kishtwar
+Saranwan,Kishtwar
+Seergwar,Kishtwar
+Shandri,Kishtwar
+Sharoti,Kishtwar
+Tatani,Kishtwar
+Tipri,Kishtwar
+Trigam,Kishtwar
+Bhata,Chhatroo
+Chhatroo,Chhatroo
+Chingam,Chhatroo
+Darbeel,Chhatroo
+Dhar,Chhatroo
+Dichar,Chhatroo
+Haorna,Chhatroo
+Indarwal,Chhatroo
+Kuchal,Chhatroo
+Mool Chetar,Chhatroo
+Rahalthal,Chhatroo
+Sigdee,Chhatroo
+Tagood,Chhatroo
+Udil Gojran,Chhatroo
+Aftee,Marwah
+Barayan,Marwah
+Busmina,Marwah
+Chanjer,Marwah
+Chicha Dachhan,Marwah
+Choye Draman,Marwah
+Deharna,Marwah
+Dharie,Marwah
+Gumri,Marwah
+Hanzal,Marwah
+Inshan,Marwah
+Janak Pur,Marwah
+Lohrna,Marwah
+Lopara,Marwah
+Margi,Marwah
+Mulwarwan,Marwah
+Mungli,Marwah
+Nopachi,Marwah
+Nowgam,Marwah
+Pathgam,Marwah
+Qaderna,Marwah
+Rekenwas,Marwah
+Rinaie,Marwah
+Sonder,Marwah
+Sukhnai,Marwah
+Tiller,Marwah
+Yeerdu,Marwah
+Afani,Atholi (Paddar)
+Atholi,Atholi (Paddar)
+Batwas,Atholi (Paddar)
+Chashoti,Atholi (Paddar)
+Cheto,Atholi (Paddar)
+Chug,Atholi (Paddar)
+Garh Padder,Atholi (Paddar)
+Gulab Garh,Atholi (Paddar)
+Hamori,Atholi (Paddar)
+Hangu,Atholi (Paddar)
+Ishtahari,Atholi (Paddar)
+Jar,Atholi (Paddar)
+Kaban,Atholi (Paddar)
+Kadail,Atholi (Paddar)
+Kidru,Atholi (Paddar)
+Kundal,Atholi (Paddar)
+Layee,Atholi (Paddar)
+Leoundi,Atholi (Paddar)
+Ligri,Atholi (Paddar)
+Losain,Atholi (Paddar)
+Luder,Atholi (Paddar)
+Machail,Atholi (Paddar)
+Massu,Atholi (Paddar)
+Mati,Atholi (Paddar)
+Muthal,Atholi (Paddar)
+Ongayee,Atholi (Paddar)
+Palali,Atholi (Paddar)
+Pandail,Atholi (Paddar)
+Sazar,Atholi (Paddar)
+Sohal,Atholi (Paddar)
+Tun,Atholi (Paddar)
+Tyari,Atholi (Paddar)
